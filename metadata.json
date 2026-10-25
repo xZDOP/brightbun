@@ -1,0 +1,8 @@
+{
+  "name": "Remix BRIGHT Dutch Language Exam Prep",
+  "description": "Interactive Dutch language exam preparation app with Practice & Learn and Timed Exam modes, featuring all 120 official questions (Reading & Grammar and Listening Comprehension with authentic original voice recordings).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,215 @@
+[
+  {
+    "id": 31,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Laten we vanavond pannenkoeken maken. Ik lust geen pannenkoeken. We hebben geen meel meer, maar er zijn eieren en spek en We kunnen een omelet maken.",
+    "englishAudioTranslation": "Let's make pancakes tonight. I don't like pancakes. We have no flour left, but there are eggs and bacon and We can make an omelet.",
+    "options": [
+      "De vrouw wil geen omelet maken.",
+      "De man wil een omelet maken.",
+      "De vrouw lust pannenkoeken.",
+      "De man lust pannenkoeken."
+    ],
+    "correctIndex": 1,
+    "explanation": "The man suggests making pancakes, but the woman says she doesn't like them. She then suggests making an omelet because they have eggs and bacon. Therefore, the man (or the couple) wants to make an omelet."
+  },
+  {
+    "id": 32,
+    "dutchQuestion": "Hoe gaat het ermee?",
+    "englishQuestionTranslation": "How is it going?",
+    "audioTranscript": "Hoe gaat het ermee? Alles goed, en met jou? Ook alles goed, maar zeg, heb jij het dossier van die nieuwe architect gezien? Je weet wel, die daar midden in de stad het hotel moet ombouwen tot een rusthuis. Ja, dat dossier is vanmorgen weer opgedoken. Iemand heeft het bij de collega's op de derde verdieping laten liggen.",
+    "englishAudioTranslation": "How is it going? Everything is fine, and with you? Everything is fine too, but tell me, have you seen the file of that new architect? You know, the one who has to convert the hotel into a nursing home in the middle of the city. Yes, that file turned up again this morning. Someone left it with the colleagues on the third floor.",
+    "options": [
+      "De vrouw heeft het dossier naar de derde verdieping gebracht.",
+      "Het dossier ligt in het rusthuis.",
+      "De man vraagt of het dossier dat kwijtgeraakt was, weer is opgedoken."
+    ],
+    "correctIndex": 2,
+    "explanation": "The man asks if the file has turned up again, and the woman confirms it, explaining that it was found on the third floor."
+  },
+  {
+    "id": 33,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What have you understood?",
+    "audioTranscript": "Er is geen enkele balpen die schrijft. Dat kan echt niet. Ik heb gisteren nog een heel pakje nieuwe pennen gekocht.",
+    "englishAudioTranslation": "There is not a single ballpoint pen that writes. That really can't be. I bought a whole pack of new pens yesterday.",
+    "options": [
+      "De balpennen van de vrouw doen het niet.",
+      "De man heeft gisteren nog pas met een balpen geschreven.",
+      "De man is op zoek naar een balpen.",
+      "De vrouw heeft balpennen gekocht."
+    ],
+    "correctIndex": 3,
+    "explanation": "The woman complains that none of the pens work, and she mentions that she bought a new pack yesterday. Therefore, the woman bought the pens."
+  },
+  {
+    "id": 34,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What have you understood?",
+    "audioTranscript": "Met dit appartement hebben we echt een goede keuze gemaakt. De kamers zijn allemaal groot en op het zuiden gericht. Maar het balkon ligt op het westen.",
+    "englishAudioTranslation": "We really made a good choice with this apartment. The rooms are all large and face south. But the balcony faces west.",
+    "options": [
+      "De vrouw wil geen bad in de badkamer.",
+      "De man vindt het appartement best wel in orde.",
+      "De vrouw wil een appartement met een balkon dat westelijk gericht is."
+    ],
+    "correctIndex": 1,
+    "explanation": "The man says they made a good choice with the apartment, implying he is satisfied with it."
+  },
+  {
+    "id": 35,
+    "dutchQuestion": "Wat maakt deze machine zo bijzonder?",
+    "englishQuestionTranslation": "What makes this machine so special?",
+    "audioTranscript": "Met deze koffiemachine heeft u een echt voordeel. Ze produceert niet alleen hele goede koffie, maar ook warme melk zonder dat de machine voortdurend hoeft te worden schoongemaakt.",
+    "englishAudioTranslation": "With this coffee machine you have a real advantage. It produces not only very good coffee, but also warm milk without the machine having to be cleaned constantly.",
+    "options": [
+      "Ze is goedkoop.",
+      "Zij maakt betere koffie.",
+      "Men hoeft ze niet zo vaak schoon te maken."
+    ],
+    "correctIndex": 2,
+    "explanation": "The speaker highlights that the machine produces warm milk without needing constant cleaning."
+  },
+  {
+    "id": 36,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What have you understood?",
+    "audioTranscript": "Uw vliegtickets heb ik in uw tas gestopt, maar de envelop met documenten voor het contract heeft u. Nee, ik heb mijn vliegticket bij mij, maar ik heb geen contract, dat heeft de baas.",
+    "englishAudioTranslation": "I put your flight tickets in your bag, but you have the envelope with documents for the contract. No, I have my flight ticket with me, but I don't have a contract, the boss has that.",
+    "options": [
+      "De baas krijgt een envelop met een contract.",
+      "De man krijgt een envelop met een contract.",
+      "De vrouw krijgt een envelop met een contract."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man clarifies that he does not have the contract and that the boss has it."
+  },
+  {
+    "id": 37,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What have you understood?",
+    "audioTranscript": "Ik voel me niet lekker. Dan kun je beter naar huis gaan en rust je even uit. Maar ik moet dat nu eerst nog even afmaken, want het is dringend.",
+    "englishAudioTranslation": "I don't feel well. Then you'd better go home and rest for a while. But I have to finish that now, because it's urgent.",
+    "options": [
+      "De vrouw is ziek.",
+      "De man wil het werk van de vrouw niet doen.",
+      "De vrouw vraagt haar collega of hij al haar werk kan doen."
+    ],
+    "correctIndex": 0,
+    "explanation": "The woman says she doesn't feel well, which means she is sick."
+  },
+  {
+    "id": 38,
+    "dutchQuestion": "Wat drinkt de huisgenoot bij zijn ontbijt?",
+    "englishQuestionTranslation": "What does the housemate drink with his breakfast?",
+    "audioTranscript": "Bij het ontbijt zegt een huisgenoot: Wie heeft de laatste koffie gebruikt? Er is geen koffie meer. Nu moet ik melk of thee gaan drinken. Ik verdraag geen melk, dan maar thee.",
+    "englishAudioTranslation": "At breakfast a housemate says: Who used the last coffee? There is no more coffee. Now I have to drink milk or tea. I don't tolerate milk, so tea it is.",
+    "options": [
+      "koffie",
+      "melk",
+      "thee"
+    ],
+    "correctIndex": 2,
+    "explanation": "The housemate says he cannot drink milk, so he chooses tea."
+  },
+  {
+    "id": 39,
+    "dutchQuestion": "Waarvoor verontschuldigt de persoon achter de balie zich?",
+    "englishQuestionTranslation": "What does the person behind the counter apologize for?",
+    "audioTranscript": "Goedendag mevrouw, u wenst de rekening? Komt zo. Oh nee, het spijt me. U komt vanwege de baan. Ik herken u van de foto's op uw CV.",
+    "englishAudioTranslation": "Good day madam, you want the bill? Coming right up. Oh no, I'm sorry. You are here because of the job. I recognize you from the photos on your CV.",
+    "options": [
+      "Zij heeft de persoon nog lang laten wachten.",
+      "Zij heeft de brief met de foto niet bij de hand.",
+      "Zij begrijpt niet waarvoor de persoon kwam."
+    ],
+    "correctIndex": 2,
+    "explanation": "The person behind the counter apologizes because they initially thought the woman wanted the bill, but then realized she was there for a job interview."
+  },
+  {
+    "id": 40,
+    "dutchQuestion": "Wat gebeurt er?",
+    "englishQuestionTranslation": "What is happening?",
+    "audioTranscript": "Oké meneer, u kunt uw wagen hier neerzetten. Zet u de motor uit alstublieft. Zet u even de richtingaanwijzer rechts aan. Oké, nu links. Oké, nu even de lichten. Oh, om door de keuring te komen, moet u uw rechterlicht laten repareren.",
+    "englishAudioTranslation": "Okay sir, you can park your car here. Turn off the engine please. Turn on the right turn signal for a moment. Okay, now left. Okay, now the lights for a moment. Oh, to pass the inspection, you have to have your right light repaired.",
+    "options": [
+      "De richtingaanwijzers van de auto doen het niet.",
+      "De man moet zijn kapotte lichten vervangen.",
+      "De wagen komt zonder problemen door de keuring."
+    ],
+    "correctIndex": 1,
+    "explanation": "The inspector tells the man that he needs to have his right light repaired to pass the inspection."
+  },
+  {
+    "id": 41,
+    "dutchQuestion": "Wanneer vindt de vergadering plaats?",
+    "englishQuestionTranslation": "When does the meeting take place?",
+    "audioTranscript": "Zullen we de vergadering op maandag 4 uur zetten? Maandag kan ik niet. Kunnen we hem niet op donderdag om 5 uur doen? Of op vrijdag om 10 uur? Laten we maar vrijdag doen, want op donderdag kan ik niet.",
+    "englishAudioTranslation": "Shall we schedule the meeting for Monday at 4 o'clock? I can't do Monday. Can't we do it on Thursday at 5 o'clock? Or on Friday at 10 o'clock? Let's do Friday, because I can't do Thursday.",
+    "options": [
+      "vrijdag",
+      "donderdag",
+      "maandag"
+    ],
+    "correctIndex": 0,
+    "explanation": "The man suggests Friday because he cannot do Thursday, and the woman agrees."
+  },
+  {
+    "id": 42,
+    "dutchQuestion": "Wat voor weer is het tijdens dit gesprek?",
+    "englishQuestionTranslation": "What is the weather like during this conversation?",
+    "audioTranscript": "Het is echt rotweer. Ja, dat kan je wel zeggen. En het houdt maar niet op. We kunnen er niets aan doen.",
+    "englishAudioTranslation": "It's really bad weather. Yes, you can say that. And it just won't stop. We can't do anything about it.",
+    "options": [
+      "Het is heel mooi weer.",
+      "Het regent en het is nat.",
+      "Dat kunnen we niet weten."
+    ],
+    "correctIndex": 2,
+    "explanation": "The speakers say it is 'bad weather' and that it 'won't stop', but they do not specify if it is raining or just cold/windy, so we cannot know for sure."
+  },
+  {
+    "id": 43,
+    "dutchQuestion": "Wat wordt apart afgerekend?",
+    "englishQuestionTranslation": "What is billed separately?",
+    "audioTranscript": "Er zijn verschillende vruchtensappen. Lokaal bier en wijn zijn in de prijs inbegrepen. Als u geïmporteerde alcoholische dranken wilt drinken, worden deze gewoon op de rekening van uw kamer gezet.",
+    "englishAudioTranslation": "There are various fruit juices. Local beer and wine are included in the price. If you want to drink imported alcoholic drinks, these are simply added to your room bill.",
+    "options": [
+      "bier en wijn",
+      "alles uit de koelkast, behalve bier",
+      "geïmporteerde alcoholische dranken"
+    ],
+    "correctIndex": 2,
+    "explanation": "The speaker states that local beer and wine are included, but imported alcoholic drinks are added to the room bill."
+  },
+  {
+    "id": 44,
+    "dutchQuestion": "Wat bestelt de vrouw?",
+    "englishQuestionTranslation": "What does the woman order?",
+    "audioTranscript": "Deze keer neem ik mosselen. Kunt u de salade die daarbij hoort door frietjes vervangen?",
+    "englishAudioTranslation": "This time I'll have mussels. Can you replace the salad that comes with it with fries?",
+    "options": [
+      "mosselen met salade",
+      "mosselen met frietjes",
+      "mosselen met salade en frietjes",
+      "groentesoep"
+    ],
+    "correctIndex": 1,
+    "explanation": "The woman orders mussels and asks to replace the salad with fries."
+  },
+  {
+    "id": 45,
+    "dutchQuestion": "Wat moet je 's morgens doen?",
+    "englishQuestionTranslation": "What do you have to do in the morning?",
+    "audioTranscript": "Je krijgt aanwijzingen. 's Morgens moet je eerst alle mails beantwoorden. Daarna moeten er berichten voor de baas worden getikt.",
+    "englishAudioTranslation": "You get instructions. In the morning you must first answer all emails. Then messages for the boss must be typed.",
+    "options": [
+      "koffie bestellen",
+      "vragen beantwoorden",
+      "mails beantwoorden en berichten tikken."
+    ],
+    "correctIndex": 2,
+    "explanation": "The instructions are to answer emails first, then type messages for the boss."
+  }
+]

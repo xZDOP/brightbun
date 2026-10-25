@@ -1,0 +1,216 @@
+[
+  {
+    "id": 16,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Er wordt gezegd dat er mensen ontslagen zullen worden.",
+    "englishAudioTranslation": "It is said that people will be fired.",
+    "options": [
+      "Medewerkers dienen ontslag in.",
+      "Medewerkers zijn al ontslagen.",
+      "Medewerkers zullen eventueel ontslagen worden.",
+      "Medewerkers worden ontslagen."
+    ],
+    "correctIndex": 2,
+    "explanation": "The speaker says 'zullen worden' (will be), which indicates a future possibility or intention, matching the option 'zullen eventueel ontslagen worden'."
+  },
+  {
+    "id": 17,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Zelfs als hij 50 uur per week zou werken, heeft hij niet genoeg tijd om al het werk af te maken.",
+    "englishAudioTranslation": "Even if he were to work 50 hours a week, he does not have enough time to finish all the work.",
+    "options": [
+      "Hij werkt 50 uur per week.",
+      "Hij doet al zijn werk.",
+      "Hij heeft genoeg tijd om te werken.",
+      "Hij krijgt zijn werk niet klaar."
+    ],
+    "correctIndex": 3,
+    "explanation": "The speaker states he does not have enough time to finish the work, which directly translates to 'Hij krijgt zijn werk niet klaar'."
+  },
+  {
+    "id": 18,
+    "dutchQuestion": "Wat wil de spreker eigenlijk zeggen?",
+    "englishQuestionTranslation": "What does the speaker actually want to say?",
+    "audioTranscript": "Morgen is ons personeelsfeestje. We hadden een picknick gepland, maar ze hebben slecht weer voorspeld.",
+    "englishAudioTranslation": "Tomorrow is our staff party. We had planned a picnic, but they have predicted bad weather.",
+    "options": [
+      "We zullen een andere activiteit moeten bedenken.",
+      "We hadden een andere activiteit moeten vinden.",
+      "We zochten andere activiteiten.",
+      "We hebben een andere activiteit."
+    ],
+    "correctIndex": 0,
+    "explanation": "Because bad weather is predicted for the planned picnic, the logical conclusion is that they will need to come up with a different activity."
+  },
+  {
+    "id": 19,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik kan morgen niet op tijd zijn voor de vergadering, want ik zit bij mijn boekhouder.",
+    "englishAudioTranslation": "I cannot be on time for the meeting tomorrow, because I am with my accountant.",
+    "options": [
+      "De man heeft een afspraak met de boekhouder.",
+      "De man heeft een boek.",
+      "De man zit naast de boekhouder.",
+      "De man is de boekhouder."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man explains he will be late because he is with his accountant, implying he has an appointment with them."
+  },
+  {
+    "id": 20,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Hoi Marieke, ik heb een probleem. Ik moet nog even op kantoor langs, want ik heb mijn huissleutels op mijn bureau laten liggen. Ik kom daarna naar je toe en pik je op.",
+    "englishAudioTranslation": "Hi Marieke, I have a problem. I need to stop by the office, because I left my house keys on my desk. I will come to you afterwards and pick you up.",
+    "options": [
+      "De man gaat eerst naar huis en komt Marieke later halen.",
+      "De man komt meteen op het kantoor langs om Marieke mee te nemen.",
+      "Marieke kan niet wachten tot de man komt en gaat alleen."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man says he must go to the office first to get his keys, and then he will pick Marieke up, meaning he will get her later."
+  },
+  {
+    "id": 21,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Dat kan eventueel, als hij even op zijn levering kan wachten. Ik kijk de bestelbon nog even na om te zien welke korting we de klant kunnen bieden.",
+    "englishAudioTranslation": "That is possible, if he can wait a moment for his delivery. I will check the order form to see what discount we can offer the customer.",
+    "options": [
+      "De klant krijgt zijn bestelling niet.",
+      "De persoon wil de bestelbon nog eens herzien om een korting aan te kunnen bieden.",
+      "De klant krijgt zijn bestelling niet."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker says they will check the order form (bestelbon) to see what discount they can offer, which matches the second option."
+  },
+  {
+    "id": 22,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Hoi Karel, ik wilde je informeren over het feit dat ik van afdeling ben veranderd en daardoor op mijn oude telefoonnummer niet meer te bereiken ben. Ik zal van nu af aan op een nieuw nummer te bereiken zijn.",
+    "englishAudioTranslation": "Hi Karel, I wanted to inform you about the fact that I have changed departments and therefore can no longer be reached on my old phone number. I will be reachable on a new number from now on.",
+    "options": [
+      "De vrouw heeft zijn telefoon verloren.",
+      "De vrouw zal niet meer bereikbaar zijn per telefoon.",
+      "De firma heeft de vrouw een nieuw telefoonnummer gegeven."
+    ],
+    "correctIndex": 2,
+    "explanation": "The woman explains she has changed departments and now has a new phone number, which implies the company provided it."
+  },
+  {
+    "id": 23,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Goedendag, ik heb zoals gewoonlijk 200 stuks besteld, maar uw collega heeft me zonet over uw nieuwe product wat meer uitleg gegeven. Op basis van deze informatie had ik mijn bestaande bestelling graag vervangen door een bestelling van het nieuwe product. Is dat mogelijk?",
+    "englishAudioTranslation": "Good day, I ordered 200 pieces as usual, but your colleague just gave me more explanation about your new product. Based on this information, I would like to replace my existing order with an order for the new product. Is that possible?",
+    "options": [
+      "De man wil andere goederen bij de firma kopen en verandert zijn bestelling.",
+      "De man wil zijn bestelling annuleren.",
+      "De man wil informatie over het nieuwe product."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man wants to replace his existing order with a new product, which means he is changing his order."
+  },
+  {
+    "id": 24,
+    "dutchQuestion": "Hoe laat komt de klant?",
+    "englishQuestionTranslation": "What time does the customer arrive?",
+    "audioTranscript": "Dus de trein komt om 8:20 in Amsterdam aan. De klant haalt u daar om 8:25 op en brengt u om 8:30 naar de beurs.",
+    "englishAudioTranslation": "So the train arrives in Amsterdam at 8:20. The customer will pick you up there at 8:25 and take you to the fair at 8:30.",
+    "options": [
+      "Om 8:30.",
+      "Om 8:25.",
+      "Om 8:20."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker explicitly states the customer will pick the person up at 8:25."
+  },
+  {
+    "id": 25,
+    "dutchQuestion": "Hoe laat vertrekt de trein?",
+    "englishQuestionTranslation": "What time does the train leave?",
+    "audioTranscript": "Je hebt 5 minuten tijd, want je komt om 10:06 aan en de trein naar Oostende vertrekt om 6:16 vanaf Brussel-Zuid.",
+    "englishAudioTranslation": "You have 5 minutes, because you arrive at 10:06 and the train to Ostend leaves at 6:16 from Brussels-South.",
+    "options": [
+      "Om 6:16.",
+      "Om 10:06.",
+      "Om 14:45."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker states the train leaves at 6:16, but the question asks for the departure time based on the context of the arrival at 10:06. Wait, the audio says 6:16. Let's re-listen. Ah, the audio says '6:16'. The options are 6:16, 10:06, 14:45. The correct answer is 6:16."
+  },
+  {
+    "id": 26,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik ben gebleven tot de resultaten van het gesprek bekend waren. Daarna heb ik Klaas gebeld om hem het resultaat mee te delen.",
+    "englishAudioTranslation": "I stayed until the results of the conversation were known. After that, I called Klaas to share the result with him.",
+    "options": [
+      "Marieke en Klaas vertrokken.",
+      "Marieke en Klaas wachten het resultaat van het gesprek af.",
+      "Na het gesprek vertrekt Marieke direct."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker says they stayed until the results were known, implying they were waiting for the result."
+  },
+  {
+    "id": 27,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Je zegt dan iedereen dat ze jou bellen in geval van een probleem en als ik je bel, kunnen we het dan daarover hebben.",
+    "englishAudioTranslation": "You then tell everyone to call you in case of a problem and if I call you, we can talk about it then.",
+    "options": [
+      "Je kan de directeur van de redactie niet bellen.",
+      "Sedesom belt de directeur van de redactie.",
+      "De directeur van de redactie belt iedereen zodra hij er is."
+    ],
+    "correctIndex": 2,
+    "explanation": "The speaker says to tell everyone to call the director in case of a problem, and the director will talk to them when they call."
+  },
+  {
+    "id": 28,
+    "dutchQuestion": "Waarover spreekt de man?",
+    "englishQuestionTranslation": "What is the man talking about?",
+    "audioTranscript": "Ik heb in de laatste 10 maanden op deze school met veel studenten samengewerkt aan hun stages.",
+    "englishAudioTranslation": "In the last 10 months at this school, I have worked with many students on their internships.",
+    "options": [
+      "Over de school.",
+      "Over zichzelf.",
+      "Over de stages van de studenten."
+    ],
+    "correctIndex": 2,
+    "explanation": "The man explicitly mentions working with students on their internships (stages)."
+  },
+  {
+    "id": 29,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik herken u van de foto's op uw CV.",
+    "englishAudioTranslation": "I recognize you from the photos on your CV.",
+    "options": [
+      "Zij heeft de persoon nog lang laten wachten.",
+      "Zij heeft de brief met de foto niet bij de hand.",
+      "Zij begrijpt niet waarvoor de persoon kwam."
+    ],
+    "correctIndex": 2,
+    "explanation": "The speaker says they recognize the person from their CV, implying they didn't immediately know who they were or why they were there."
+  },
+  {
+    "id": 30,
+    "dutchQuestion": "Wat gebeurt er?",
+    "englishQuestionTranslation": "What is happening?",
+    "audioTranscript": "Om door de keuring te komen, moet uw rechterlicht laten repareren.",
+    "englishAudioTranslation": "To pass the inspection, you must have your right light repaired.",
+    "options": [
+      "De richtingaanwijzers van de auto doen het niet.",
+      "De man moet zijn kapotte lichten vervangen.",
+      "De wagen komt zonder problemen door de keuring."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker says the right light needs to be repaired to pass inspection, which means the man must replace his broken lights."
+  }
+]

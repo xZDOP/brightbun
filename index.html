@@ -1,0 +1,4513 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BRIGHT Dutch Language Exam Prep</title>
+  <meta name="description" content="Master all 120 official Dutch business & language exam questions: Reading & Grammar and Listening Comprehension (Luistervaardigheid) with authentic original exam voice recordings." />
+  <meta property="og:title" content="BRIGHT Dutch Language Exam Prep" />
+  <meta property="og:description" content="Master all 120 official Dutch business & language exam questions: Reading & Grammar and Listening Comprehension (Luistervaardigheid) with authentic original exam voice recordings." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & Design Tokens */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg-dark: #090d16;
+      --bg-base: #0f172a;
+      --bg-surface: #1e293b;
+      --bg-surface-hover: #273549;
+      --bg-surface-elevated: #243044;
+      --border-subtle: #334155;
+      --border-focus: #6366f1;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --accent-primary: #6366f1;
+      --accent-primary-hover: #4f46e5;
+      --accent-primary-glow: rgba(99, 102, 241, 0.25);
+      --accent-success: #10b981;
+      --accent-success-hover: #059669;
+      --accent-success-glow: rgba(16, 185, 129, 0.25);
+      --accent-danger: #ef4444;
+      --accent-danger-glow: rgba(239, 68, 68, 0.25);
+      --accent-warning: #f59e0b;
+      --accent-cyan: #06b6d4;
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Ambient background gradient */
+    .bg-mesh {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background: 
+        radial-gradient(circle at 15% 15%, rgba(99, 102, 241, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 85% 80%, rgba(16, 185, 129, 0.08) 0%, transparent 45%),
+        radial-gradient(circle at 50% 50%, rgba(15, 23, 42, 0.95) 0%, var(--bg-dark) 100%);
+    }
+
+    /* App container */
+    #app {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Top Navigation Header */
+    header {
+      border-bottom: 1px solid var(--border-subtle);
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1.5rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #6366f1, #3b82f6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: white;
+      box-shadow: 0 0 18px var(--accent-primary-glow);
+    }
+
+    .brand-title {
+      font-weight: 700;
+      font-size: 1.05rem;
+      letter-spacing: -0.02em;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .badge-pill {
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.15rem 0.55rem;
+      border-radius: 9999px;
+      background: rgba(99, 102, 241, 0.15);
+      color: #818cf8;
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .icon-btn {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      width: 38px;
+      height: 38px;
+      border-radius: 9px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .icon-btn:hover {
+      background: var(--bg-surface-hover);
+      color: var(--text-main);
+      border-color: #475569;
+    }
+
+    .icon-btn.active {
+      color: var(--accent-primary);
+      border-color: var(--accent-primary);
+      background: rgba(99, 102, 241, 0.12);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-weight: 600;
+      font-size: 0.875rem;
+      padding: 0.55rem 1.15rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      border: 1px solid transparent;
+      user-select: none;
+      text-decoration: none;
+      font-family: inherit;
+    }
+
+    .btn-secondary {
+      background: var(--bg-surface);
+      border-color: var(--border-subtle);
+      color: var(--text-main);
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg-surface-hover);
+      border-color: #475569;
+    }
+
+    .btn-primary {
+      background: var(--accent-primary);
+      color: white;
+      box-shadow: 0 4px 14px var(--accent-primary-glow);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-primary-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(99, 102, 241, 0.35);
+    }
+
+    .btn-success {
+      background: var(--accent-success);
+      color: white;
+      box-shadow: 0 4px 14px var(--accent-success-glow);
+    }
+
+    .btn-success:hover {
+      background: var(--accent-success-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
+    }
+
+    .btn-cyan {
+      background: #0891b2;
+      color: white;
+      box-shadow: 0 4px 14px rgba(6, 182, 212, 0.25);
+    }
+
+    .btn-cyan:hover {
+      background: #0e7490;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(6, 182, 212, 0.35);
+    }
+
+    /* Main Container */
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1.25rem 1.25rem 2rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Views */
+    .view-screen {
+      display: none;
+      animation: fadeIn 0.3s ease-out forwards;
+    }
+
+    .view-screen.active {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-6px); }
+      40%, 80% { transform: translateX(6px); }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 12px rgba(239, 68, 68, 0.4); transform: scale(1); }
+      50% { box-shadow: 0 0 24px rgba(239, 68, 68, 0.8); transform: scale(1.02); }
+    }
+
+    @keyframes soundwave {
+      0%, 100% { height: 6px; }
+      50% { height: 18px; }
+    }
+
+    @keyframes scaleSuccess {
+      0% { transform: scale(0.98); }
+      50% { transform: scale(1.01); }
+      100% { transform: scale(1); }
+    }
+
+    /* CENTRAL HUB (LANDING) */
+    .hero-section {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.35rem 0.9rem;
+      border-radius: 9999px;
+      background: rgba(99, 102, 241, 0.12);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      color: #a5b4fc;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-title {
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 0.75rem;
+      background: linear-gradient(135deg, #ffffff 40%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 640px;
+      margin: 0 auto 1.5rem;
+      line-height: 1.6;
+    }
+
+    /* SECTION SELECTOR (Central Hub) */
+    .hub-section-container {
+      margin-bottom: 2rem;
+    }
+
+    .hub-section-label {
+      text-align: center;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-cyan);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .hub-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .hub-card {
+      background: var(--bg-surface);
+      border: 2px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 1.5rem;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hub-card:hover {
+      border-color: #6366f1;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .hub-card.active {
+      border-color: #6366f1;
+      background: linear-gradient(180deg, rgba(99, 102, 241, 0.08) 0%, var(--bg-surface) 100%);
+      box-shadow: 0 0 0 1px #6366f1, 0 12px 30px var(--accent-primary-glow);
+    }
+
+    .hub-card.listening.active {
+      border-color: #06b6d4;
+      background: linear-gradient(180deg, rgba(6, 182, 212, 0.08) 0%, var(--bg-surface) 100%);
+      box-shadow: 0 0 0 1px #06b6d4, 0 12px 30px rgba(6, 182, 212, 0.2);
+    }
+
+    .hub-icon-wrapper {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .hub-icon-wrapper.reading {
+      background: rgba(99, 102, 241, 0.15);
+      color: #818cf8;
+      border: 1px solid rgba(99, 102, 241, 0.3);
+    }
+
+    .hub-icon-wrapper.listening {
+      background: rgba(6, 182, 212, 0.15);
+      color: #22d3ee;
+      border: 1px solid rgba(6, 182, 212, 0.3);
+    }
+
+    .hub-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.35rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .hub-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+
+    .hub-footer-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 0.75rem;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      font-weight: 600;
+    }
+
+    .active-indicator-tag {
+      display: none;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 0.15rem 0.5rem;
+      border-radius: 9999px;
+      background: #6366f1;
+      color: white;
+    }
+
+    .hub-card.active .active-indicator-tag {
+      display: inline-block;
+    }
+
+    .hub-card.listening.active .active-indicator-tag {
+      background: #0891b2;
+    }
+
+    /* Active section banner */
+    .active-section-banner {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 0.75rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .active-section-title {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    /* Mode Selection Cards */
+    .modes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .mode-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 1.5rem;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .mode-card:hover {
+      border-color: #6366f1;
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3), 0 0 20px var(--accent-primary-glow);
+    }
+
+    .mode-card.exam-mode-card:hover {
+      border-color: #f59e0b;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3), 0 0 20px rgba(245, 158, 11, 0.2);
+    }
+
+    .mode-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .mode-icon.practice {
+      background: rgba(99, 102, 241, 0.15);
+      color: #818cf8;
+      border: 1px solid rgba(99, 102, 241, 0.3);
+    }
+
+    .mode-icon.exam {
+      background: rgba(245, 158, 11, 0.15);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+
+    .mode-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.4rem;
+    }
+
+    .mode-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+
+    .mode-features {
+      list-style: none;
+      margin-bottom: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+
+    .mode-features li {
+      font-size: 0.8rem;
+      color: #cbd5e1;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .mode-features li svg {
+      color: var(--accent-success);
+      flex-shrink: 0;
+    }
+
+    /* Jump Selector drawer/card */
+    .jump-drawer {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .jump-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .jump-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .jump-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+      gap: 0.45rem;
+      max-height: 200px;
+      overflow-y: auto;
+      padding-right: 0.25rem;
+    }
+
+    .jump-chip {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      font-weight: 600;
+      height: 38px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .jump-chip:hover {
+      border-color: var(--accent-primary);
+      color: var(--text-main);
+      background: var(--bg-surface-hover);
+    }
+
+    .jump-chip.answered-correct {
+      border-color: var(--accent-success);
+      color: #34d399;
+      background: rgba(16, 185, 129, 0.15);
+    }
+
+    .jump-chip.answered-wrong {
+      border-color: var(--accent-danger);
+      color: #f87171;
+      background: rgba(239, 68, 68, 0.15);
+    }
+
+    .jump-chip.current {
+      border-color: var(--accent-primary);
+      box-shadow: 0 0 0 2px var(--accent-primary);
+      color: white;
+    }
+
+    /* QUIZ VIEW */
+    .quiz-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 18px;
+      padding: 1.25rem 1.5rem;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+      position: relative;
+      margin-bottom: 1.25rem;
+    }
+
+    .quiz-top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.85rem;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .quiz-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .category-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      background: rgba(99, 102, 241, 0.15);
+      color: #a5b4fc;
+      border: 1px solid rgba(99, 102, 241, 0.3);
+    }
+
+    .category-tag.audio-tag {
+      background: rgba(6, 182, 212, 0.15);
+      color: #67e8f9;
+      border-color: rgba(6, 182, 212, 0.3);
+    }
+
+    .question-counter {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    /* Timer Widget */
+    .timer-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      font-family: var(--font-mono);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fbbf24;
+      transition: all 0.25s ease;
+    }
+
+    .timer-badge.warning {
+      border-color: #f59e0b;
+      color: #fbbf24;
+      background: rgba(245, 158, 11, 0.15);
+    }
+
+    .timer-badge.danger {
+      border-color: #ef4444;
+      color: #f87171;
+      background: rgba(239, 68, 68, 0.2);
+      animation: pulseGlow 1s infinite alternate;
+    }
+
+    /* Progress bar */
+    .progress-bar-container {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 9999px;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #6366f1, #10b981);
+      border-radius: 9999px;
+      transition: width 0.3s ease;
+    }
+
+    /* Timer countdown bar for exam mode */
+    .timer-bar-container {
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 9999px;
+      margin-top: -1.25rem;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+    }
+
+    .timer-bar-fill {
+      height: 100%;
+      background: #10b981;
+      width: 100%;
+      transition: width 1s linear, background-color 0.5s ease;
+    }
+
+    .timer-bar-fill.warning {
+      background: #f59e0b;
+    }
+
+    .timer-bar-fill.danger {
+      background: #ef4444;
+    }
+
+    /* AUDIO PLAYER WIDGET (For Listening Comprehension) */
+    .audio-player-box {
+      background: linear-gradient(135deg, rgba(6, 182, 212, 0.1) 0%, rgba(30, 41, 59, 0.8) 100%);
+      border: 1px solid rgba(6, 182, 212, 0.3);
+      border-radius: 12px;
+      padding: 0.85rem 1.15rem;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .audio-player-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .audio-play-btn {
+      background: linear-gradient(135deg, #0891b2, #0284c7);
+      color: white;
+      border: none;
+      padding: 0.65rem 1.35rem;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(6, 182, 212, 0.3);
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .audio-play-btn:hover:not(:disabled) {
+      background: linear-gradient(135deg, #0e7490, #0369a1);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(6, 182, 212, 0.4);
+    }
+
+    .audio-play-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+
+    .audio-play-btn.playing {
+      background: #0284c7;
+      animation: pulseGlow 1.5s infinite alternate;
+    }
+
+    /* Sound wave animation */
+    .soundwave-container {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      height: 18px;
+    }
+
+    .soundwave-bar {
+      width: 3px;
+      background: white;
+      border-radius: 2px;
+      height: 6px;
+    }
+
+    .audio-play-btn.playing .soundwave-bar:nth-child(1) { animation: soundwave 0.8s infinite ease-in-out; }
+    .audio-play-btn.playing .soundwave-bar:nth-child(2) { animation: soundwave 0.8s infinite ease-in-out 0.2s; }
+    .audio-play-btn.playing .soundwave-bar:nth-child(3) { animation: soundwave 0.8s infinite ease-in-out 0.4s; }
+
+    .audio-meta-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .speed-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #e2e8f0;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.35rem 0.65rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .speed-btn:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: #38bdf8;
+      color: white;
+    }
+
+    .replay-counter-badge {
+      font-size: 0.75rem;
+      font-family: var(--font-mono);
+      font-weight: 600;
+      padding: 0.35rem 0.65rem;
+      border-radius: 8px;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #cbd5e1;
+    }
+
+    /* Listening transcript toggle & box */
+    .transcript-box {
+      margin-top: 0.5rem;
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px dashed rgba(6, 182, 212, 0.4);
+      border-radius: 10px;
+      padding: 0.85rem 1rem;
+      display: none;
+      animation: fadeIn 0.25s ease-out forwards;
+    }
+
+    .transcript-box.visible {
+      display: block;
+    }
+
+    .transcript-dutch {
+      font-size: 0.92rem;
+      color: #f1f5f9;
+      margin-bottom: 0.4rem;
+      font-style: italic;
+    }
+
+    .transcript-english {
+      font-size: 0.82rem;
+      color: #94a3b8;
+    }
+
+    /* Question content */
+    .question-prompt {
+      margin-bottom: 1.25rem;
+    }
+
+    .dutch-text {
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.4;
+      color: var(--text-main);
+      letter-spacing: -0.01em;
+    }
+
+    /* Translation toggle & card */
+    .translation-container {
+      margin-top: 0.75rem;
+    }
+
+    .toggle-translation-btn {
+      background: transparent;
+      border: 1px dashed var(--border-subtle);
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.35rem 0.75rem;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: all 0.15s ease;
+    }
+
+    .toggle-translation-btn:hover {
+      border-color: #818cf8;
+      color: #c7d2fe;
+      background: rgba(99, 102, 241, 0.08);
+    }
+
+    .translation-card {
+      margin-top: 0.65rem;
+      background: rgba(99, 102, 241, 0.08);
+      border-left: 3px solid var(--accent-primary);
+      padding: 0.65rem 1rem;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.95rem;
+      color: #c7d2fe;
+      display: none;
+      animation: fadeIn 0.2s ease-out forwards;
+    }
+
+    .translation-card.visible {
+      display: block;
+    }
+
+    /* Options List */
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      margin: 1rem 0;
+    }
+
+    .option-card {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 0.75rem 1.15rem;
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      cursor: pointer;
+      transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+      user-select: none;
+      position: relative;
+    }
+
+    .option-card:hover:not(.locked) {
+      background: var(--bg-surface-hover);
+      border-color: #6366f1;
+      transform: translateX(3px);
+    }
+
+    .option-letter {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-mono);
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      flex-shrink: 0;
+      transition: all 0.15s ease;
+    }
+
+    .option-text {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-main);
+      flex-grow: 1;
+    }
+
+    .option-feedback-icon {
+      margin-left: auto;
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    /* Selected states */
+    .option-card.correct {
+      background: rgba(16, 185, 129, 0.12) !important;
+      border-color: var(--accent-success) !important;
+      animation: scaleSuccess 0.25s ease-out;
+      box-shadow: 0 0 16px var(--accent-success-glow);
+    }
+
+    .option-card.correct .option-letter {
+      background: var(--accent-success);
+      border-color: var(--accent-success);
+      color: white;
+    }
+
+    .option-card.correct .option-feedback-icon {
+      opacity: 1;
+      color: var(--accent-success);
+    }
+
+    .option-card.incorrect {
+      background: rgba(239, 68, 68, 0.12) !important;
+      border-color: var(--accent-danger) !important;
+      animation: shake 0.4s ease-in-out;
+      box-shadow: 0 0 16px var(--accent-danger-glow);
+    }
+
+    .option-card.incorrect .option-letter {
+      background: var(--accent-danger);
+      border-color: var(--accent-danger);
+      color: white;
+    }
+
+    .option-card.incorrect .option-feedback-icon {
+      opacity: 1;
+      color: var(--accent-danger);
+    }
+
+    .option-card.locked {
+      cursor: default;
+    }
+
+    /* Explanation Card */
+    .explanation-panel {
+      display: none;
+      margin-top: 1.25rem;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 1.15rem 1.35rem;
+      animation: fadeIn 0.3s ease-out forwards;
+    }
+
+    .explanation-panel.visible {
+      display: block;
+    }
+
+    .explanation-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #38bdf8;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .explanation-text {
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      line-height: 1.55;
+    }
+
+    /* Quiz Action Bar */
+    .quiz-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 0.85rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.07);
+      gap: 1rem;
+    }
+
+    .shortcut-hint {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+    }
+
+    /* RESULTS SCREEN */
+    .results-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      text-align: center;
+    }
+
+    .score-circle-wrapper {
+      position: relative;
+      width: 160px;
+      height: 160px;
+      margin: 0 auto 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .score-circle-svg {
+      width: 100%;
+      height: 100%;
+      transform: rotate(-90deg);
+    }
+
+    .circle-bg {
+      fill: none;
+      stroke: rgba(255, 255, 255, 0.08);
+      stroke-width: 8;
+    }
+
+    .circle-progress {
+      fill: none;
+      stroke: var(--accent-primary);
+      stroke-width: 8;
+      stroke-linecap: round;
+      stroke-dasharray: 440;
+      stroke-dashoffset: 440;
+      transition: stroke-dashoffset 1s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.5s ease;
+    }
+
+    .score-inner-text {
+      position: absolute;
+      text-align: center;
+    }
+
+    .score-percentage {
+      font-family: var(--font-mono);
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: white;
+    }
+
+    .score-fraction {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .results-title {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 0.5rem;
+    }
+
+    .results-subtext {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      max-width: 500px;
+      margin: 0 auto 2rem;
+    }
+
+    .results-stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .results-stat-box {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 1rem;
+    }
+
+    .results-actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+    }
+
+    /* Review section */
+    .review-section {
+      text-align: left;
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 2rem;
+    }
+
+    .review-filter-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .filter-pills {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .filter-btn {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .filter-btn.active {
+      background: var(--accent-primary);
+      border-color: var(--accent-primary);
+      color: white;
+    }
+
+    .review-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-height: 500px;
+      overflow-y: auto;
+      padding-right: 0.5rem;
+    }
+
+    .review-item {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 1.25rem;
+      position: relative;
+    }
+
+    .review-item.is-correct {
+      border-left: 4px solid var(--accent-success);
+    }
+
+    .review-item.is-incorrect {
+      border-left: 4px solid var(--accent-danger);
+    }
+
+    .review-item-q {
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--text-main);
+      margin-bottom: 0.4rem;
+    }
+
+    .review-answers {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      margin: 0.6rem 0;
+      font-size: 0.85rem;
+    }
+
+    .review-user-ans {
+      color: #f87171;
+    }
+
+    .review-correct-ans {
+      color: #34d399;
+      font-weight: 600;
+    }
+
+    .review-exp {
+      font-size: 0.82rem;
+      color: #94a3b8;
+      line-height: 1.5;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 0.6rem 0.85rem;
+      border-radius: 8px;
+      margin-top: 0.5rem;
+    }
+
+    /* Modal dialog */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-box {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 1.75rem;
+      max-width: 440px;
+      width: 100%;
+      box-shadow: 0 24px 48px rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    .modal-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: white;
+    }
+
+    .modal-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .modal-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+
+    /* Toast notification */
+    #toast {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      z-index: 150;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      color: white;
+      padding: 0.65rem 1.15rem;
+      border-radius: 10px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(12px);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    #toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Scrollbars */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 640px) {
+      header {
+        padding: 0 1rem;
+      }
+      .brand-title span {
+        display: none;
+      }
+      main {
+        padding: 1.25rem 1rem 2rem;
+      }
+      .quiz-card {
+        padding: 1.25rem;
+      }
+      .dutch-text {
+        font-size: 1.15rem;
+      }
+      .option-card {
+        padding: 0.85rem 1rem;
+      }
+      .score-circle-wrapper {
+        width: 130px;
+        height: 130px;
+      }
+      .score-percentage {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-mesh"></div>
+
+  <div id="app">
+    <!-- Header -->
+    <header>
+      <div class="brand" onclick="appState.confirmQuitToMenu()">
+        <div class="brand-logo">NL</div>
+        <div class="brand-title">
+          BRIGHT <span>Dutch</span>
+          <span id="headerSectionBadge" class="badge-pill">Central Hub</span>
+        </div>
+      </div>
+
+      <div class="header-controls">
+        <button id="soundToggleBtn" class="icon-btn active" title="Toggle Sound FX" onclick="appState.toggleSound()">
+          <!-- Sound ON SVG -->
+          <svg id="soundOnIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+          </svg>
+          <!-- Sound OFF SVG -->
+          <svg id="soundOffIcon" style="display:none" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <line x1="23" y1="9" x2="17" y2="15"></line>
+            <line x1="17" y1="9" x2="23" y2="15"></line>
+          </svg>
+        </button>
+
+        <button id="navJumpBtn" class="icon-btn" style="display:none;" title="Question Map" onclick="appState.toggleJumpDrawer()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="7"></rect>
+            <rect x="14" y="3" width="7" height="7"></rect>
+            <rect x="14" y="14" width="7" height="7"></rect>
+            <rect x="3" y="14" width="7" height="7"></rect>
+          </svg>
+        </button>
+
+        <button id="quitBtn" class="btn btn-secondary" style="display:none; padding: 0.4rem 0.85rem;" onclick="appState.confirmQuitToMenu()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+            <polyline points="16 17 21 12 16 7"></polyline>
+            <line x1="21" y1="12" x2="9" y2="12"></line>
+          </svg>
+          <span>Menu</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+
+      <!-- 1. CENTRAL HUB (LANDING SCREEN) -->
+      <section id="landingScreen" class="view-screen active">
+        <div class="hero-section">
+          <div class="hero-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+              <path d="M2 17l10 5 10-5"></path>
+              <path d="M2 12l10 5 10-5"></path>
+            </svg>
+            Complete BRIGHT Dutch Assessment Platform &bull; 120 Total Questions
+          </div>
+          <h1 class="hero-title">Master Professional Dutch</h1>
+          <p class="hero-subtitle">
+            Prepare for official Dutch business language tests. Select a module below to practice with detailed grammar breakdowns or simulate real 60-second timed exam conditions.
+          </p>
+        </div>
+
+        <!-- MODULE SELECTOR (Central Hub) -->
+        <div class="hub-section-container">
+          <div class="hub-section-label">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            Select Exam Module
+          </div>
+
+          <div class="hub-cards-grid">
+            <!-- Module 1: Reading & Grammar -->
+            <div id="hubCardReading" class="hub-card active" onclick="appState.selectModule('reading')">
+              <div class="hub-icon-wrapper reading">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+              </div>
+              <div class="hub-title">
+                <span>📖 Reading & Grammar</span>
+                <span class="active-indicator-tag">Selected</span>
+              </div>
+              <p class="hub-desc">
+                60 official multiple-choice questions focusing on sentence structure, word order & inversion, 't kofschip spelling, prepositions, and workplace collocations.
+              </p>
+              <div class="hub-footer-meta">
+                <span>60 Questions</span>
+                <span style="color: #818cf8;">Leesvaardigheid</span>
+              </div>
+            </div>
+
+            <!-- Module 2: Listening Comprehension -->
+            <div id="hubCardListening" class="hub-card listening" onclick="appState.selectModule('listening')">
+              <div class="hub-icon-wrapper listening">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                  <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                </svg>
+              </div>
+              <div class="hub-title">
+                <span>🎧 Listening Comprehension</span>
+                <span class="active-indicator-tag">Selected</span>
+              </div>
+              <p class="hub-desc">
+                60 official audio assessment questions with authentic original Dutch voice recordings from the exam video, speed controls (0.85x/1.0x), full transcripts, and translations.
+              </p>
+              <div class="hub-footer-meta">
+                <span>60 Original Audio Questions</span>
+                <span style="color: #22d3ee;">Luistervaardigheid &bull; Voce Originală</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Active Section Banner -->
+        <div class="active-section-banner">
+          <div class="active-section-title">
+            <span id="activeModuleIcon" style="font-size: 1.25rem;">📖</span>
+            <div>
+              <div id="activeModuleTitle" style="font-size: 0.95rem; font-weight: 700;">Reading & Grammar Section</div>
+              <div id="activeModuleSub" style="font-size: 0.75rem; color: var(--text-dim); font-weight: 500;">60 Questions available &bull; Target CEFR B1 - C1</div>
+            </div>
+          </div>
+          <span class="badge-pill" id="activeModulePill">Ready to Study</span>
+        </div>
+
+        <!-- Mode Selection Cards -->
+        <div class="modes-grid">
+          <!-- Mode 1: Practice & Learn -->
+          <div class="mode-card" onclick="appState.startPracticeMode()">
+            <div class="mode-icon practice">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="10 8 16 12 10 16 10 8"></polygon>
+              </svg>
+            </div>
+            <h2 class="mode-title">Practice & Learn</h2>
+            <p class="mode-desc">
+              Untimed, self-paced study. Instant feedback after each option, deep grammar/audio explanations, and toggleable translations.
+            </p>
+            <ul class="mode-features">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Untimed pace (no clock pressure)
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Unlimited audio replays & speed toggles
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Toggleable English translations & transcripts
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Navigate freely or jump to any question
+              </li>
+            </ul>
+            <button class="btn btn-primary" style="width: 100%; margin-top: auto;">
+              <span>Start Practice Mode</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+          </div>
+
+          <!-- Mode 2: Exam / Timed Mode -->
+          <div class="mode-card exam-mode-card" onclick="appState.startExamMode()">
+            <div class="mode-icon exam">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h2 class="mode-title">Timed Exam Simulation</h2>
+            <p class="mode-desc">
+              Strict 60-second limit per question with live countdown, urgency alerts, audio replay limits (max 2), and detailed score diagnostics.
+            </p>
+            <ul class="mode-features">
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                60 seconds per question countdown
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Max 2 audio replays per question
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Pulsing alert under 10 seconds
+              </li>
+              <li>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Complete review of missed questions
+              </li>
+            </ul>
+            <button class="btn btn-success" style="width: 100%; margin-top: auto;">
+              <span>Begin Timed Exam</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quick Question Selector Preview -->
+        <div class="jump-drawer">
+          <div class="jump-header">
+            <span class="jump-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="8" y1="6" x2="21" y2="6"></line>
+                <line x1="8" y1="12" x2="21" y2="12"></line>
+                <line x1="8" y1="18" x2="21" y2="18"></line>
+                <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                <line x1="3" y1="18" x2="3.01" y2="18"></line>
+              </svg>
+              Jump to any specific question in Practice Mode
+            </span>
+            <span id="jumpTotalText" style="font-size: 0.8rem; color: var(--text-dim);">Questions 1 to 60</span>
+          </div>
+          <div class="jump-grid" id="landingJumpGrid"></div>
+        </div>
+      </section>
+
+      <!-- 2. QUIZ SCREEN (Used by both Practice & Exam) -->
+      <section id="quizScreen" class="view-screen">
+        <!-- Progress bar across all 60 questions -->
+        <div class="progress-bar-container">
+          <div id="quizProgressBar" class="progress-bar-fill" style="width: 0%;"></div>
+        </div>
+
+        <!-- 60-second countdown bar for Exam mode -->
+        <div id="timerBarContainer" class="timer-bar-container" style="display: none;">
+          <div id="timerBarFill" class="timer-bar-fill"></div>
+        </div>
+
+        <div class="quiz-card">
+          <!-- Top bar -->
+          <div class="quiz-top-bar">
+            <div class="quiz-meta">
+              <span id="quizModuleBadge" class="category-tag">Reading</span>
+              <span id="quizCategoryBadge" class="category-tag">Grammar</span>
+              <span id="quizCounterText" class="question-counter">Question 1 of 60</span>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 0.6rem;">
+              <!-- Bookmark button -->
+              <button id="bookmarkBtn" class="icon-btn" title="Bookmark this question" onclick="appState.toggleCurrentBookmark()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </button>
+
+              <!-- Timed mode countdown badge -->
+              <div id="quizTimerBadge" class="timer-badge" style="display: none;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span id="timerSecondsText">60s</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- AUDIO PLAYER WIDGET (Active only for Listening Comprehension) -->
+          <div id="audioPlayerWidget" class="audio-player-box" style="display: none;">
+            <div class="audio-player-controls">
+              <div style="display: flex; align-items: center; gap: 0.65rem; flex-wrap: wrap;">
+                <button id="playAudioBtn" class="audio-play-btn" onclick="appState.playCurrentAudio()">
+                  <svg id="playAudioIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                  </svg>
+                  <div class="soundwave-container" id="soundwaveContainer" style="display:none;">
+                    <span class="soundwave-bar"></span>
+                    <span class="soundwave-bar"></span>
+                    <span class="soundwave-bar"></span>
+                  </div>
+                  <span id="playAudioBtnText">Play Original Audio</span>
+                </button>
+                <span class="badge-pill" style="background: rgba(16, 185, 129, 0.15); color: #34d399; border-color: rgba(16, 185, 129, 0.3); font-size: 0.72rem; display: inline-flex; align-items: center; gap: 0.35rem;">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                  Voce Originală din Examen
+                </span>
+              </div>
+
+              <div class="audio-meta-controls">
+                <button id="audioSpeedBtn" class="speed-btn" title="Toggle audio speed (0.85x / 1.0x)" onclick="appState.toggleAudioSpeed()">1.0x</button>
+                <span id="audioReplayBadge" class="replay-counter-badge">Replays: Unlimited</span>
+              </div>
+            </div>
+
+            <!-- Practice mode Audio Transcript & English Translation Toggle -->
+            <div id="transcriptToggleWrapper">
+              <button id="toggleTranscriptBtn" class="toggle-translation-btn" onclick="appState.toggleAudioTranscript()">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span id="transcriptBtnLabel">Show Audio Transcript & English Translation (T)</span>
+              </button>
+              <div id="transcriptBox" class="transcript-box">
+                <div id="transcriptDutchText" class="transcript-dutch"></div>
+                <div id="transcriptEnglishText" class="transcript-english"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question Prompt -->
+          <div class="question-prompt">
+            <div id="dutchQuestionText" class="dutch-text">Loading question...</div>
+
+            <!-- English Translation Toggle (For Reading & Grammar in Practice Mode) -->
+            <div id="translationWrapper" class="translation-container">
+              <button id="toggleTranslationBtn" class="toggle-translation-btn" onclick="appState.toggleTranslation()">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 8l6 6"></path>
+                  <path d="M4 14l6-6 2-3"></path>
+                  <path d="M2 5h12"></path>
+                  <path d="M7 2h1"></path>
+                  <path d="M22 22l-5-10-5 10"></path>
+                  <path d="M14 18h6"></path>
+                </svg>
+                <span id="translationBtnLabel">Show English Translation (T)</span>
+              </button>
+              <div id="englishTranslationCard" class="translation-card"></div>
+            </div>
+          </div>
+
+          <!-- Options List -->
+          <div id="optionsList" class="options-grid"></div>
+
+          <!-- Animated Explanation Panel -->
+          <div id="explanationPanel" class="explanation-panel">
+            <div class="explanation-header">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              Grammar & Context Breakdown
+            </div>
+            <div id="explanationText" class="explanation-text"></div>
+          </div>
+
+          <!-- Quiz Footer Actions -->
+          <div class="quiz-footer">
+            <button id="prevQuestionBtn" class="btn btn-secondary" onclick="appState.prevQuestion()">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+              <span>Previous</span>
+            </button>
+
+            <span class="shortcut-hint">Keys: [1-4 / A-D] Select &bull; [P] Audio &bull; [Enter] Next</span>
+
+            <button id="nextQuestionBtn" class="btn btn-primary" onclick="appState.nextQuestion()">
+              <span id="nextBtnLabel">Next Question</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Popover Question Jump Grid (In Quiz) -->
+        <div id="quizJumpDrawer" class="jump-drawer" style="display: none; margin-top: 1.5rem;">
+          <div class="jump-header">
+            <span class="jump-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+              Question Navigator (1 to 60)
+            </span>
+            <button class="btn btn-secondary" style="padding: 0.25rem 0.65rem; font-size: 0.75rem;" onclick="appState.toggleJumpDrawer()">Close</button>
+          </div>
+          <div class="jump-grid" id="quizJumpGrid"></div>
+        </div>
+      </section>
+
+      <!-- 3. RESULTS & REVIEW SCREEN -->
+      <section id="resultsScreen" class="view-screen">
+        <div class="results-card">
+          <!-- Circular Score Visualization -->
+          <div class="score-circle-wrapper">
+            <svg class="score-circle-svg" viewBox="0 0 160 160">
+              <circle class="circle-bg" cx="80" cy="80" r="70" />
+              <circle id="scoreProgressCircle" class="circle-progress" cx="80" cy="80" r="70" />
+            </svg>
+            <div class="score-inner-text">
+              <div id="finalScorePercent" class="score-percentage">0%</div>
+              <div id="finalScoreFraction" class="score-fraction">0 / 60</div>
+            </div>
+          </div>
+
+          <h2 id="resultsGradeTitle" class="results-title">Assessment Completed!</h2>
+          <p id="resultsFeedbackMsg" class="results-subtext">
+            Here is your comprehensive performance breakdown for the BRIGHT Dutch Exam.
+          </p>
+
+          <div class="results-stats-row">
+            <div class="results-stat-box">
+              <span id="resTotalCorrect" class="stat-val" style="color: #34d399;">0</span>
+              <span class="stat-label">Correct</span>
+            </div>
+            <div class="results-stat-box">
+              <span id="resTotalWrong" class="stat-val" style="color: #f87171;">0</span>
+              <span class="stat-label">Incorrect</span>
+            </div>
+            <div class="results-stat-box">
+              <span id="resTimeSpent" class="stat-val" style="color: #60a5fa;">0m 00s</span>
+              <span class="stat-label">Total Time</span>
+            </div>
+            <div class="results-stat-box">
+              <span id="resAvgSpeed" class="stat-val" style="color: #fbbf24;">0s</span>
+              <span class="stat-label">Avg / Question</span>
+            </div>
+          </div>
+
+          <div class="results-actions">
+            <button id="retryIncorrectBtn" class="btn btn-secondary" onclick="appState.retryIncorrect()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="1 4 1 10 7 10"></polyline>
+                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+              </svg>
+              <span>Practice Incorrect (<span id="missedCountText">0</span>)</span>
+            </button>
+
+            <button class="btn btn-primary" onclick="appState.restartCurrentMode()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 4v6h-6"></path>
+                <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+              </svg>
+              <span>Retake Full Set</span>
+            </button>
+
+            <button class="btn btn-secondary" onclick="appState.quitToMenu()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+              <span>Main Menu</span>
+            </button>
+          </div>
+
+          <!-- Comprehensive Review List -->
+          <div class="review-section">
+            <div class="review-filter-bar">
+              <h3 style="font-size: 1.15rem; font-weight: 700;">Question By Question Review</h3>
+              <div class="filter-pills">
+                <button class="filter-btn active" onclick="appState.filterReview('all', this)">All (60)</button>
+                <button class="filter-btn" onclick="appState.filterReview('wrong', this)">Missed (<span id="filterWrongCount">0</span>)</button>
+                <button class="filter-btn" onclick="appState.filterReview('bookmarked', this)">Bookmarked (<span id="filterBookmarkCount">0</span>)</button>
+              </div>
+            </div>
+
+            <div id="reviewItemsList" class="review-list"></div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Quit Confirmation Modal -->
+  <div id="quitModal" class="modal-overlay">
+    <div class="modal-box">
+      <h3 class="modal-title">Quit current session?</h3>
+      <p class="modal-desc">Your current session progress will be lost if you return to the main menu.</p>
+      <div class="modal-buttons">
+        <button class="btn btn-secondary" onclick="appState.closeQuitModal()">Keep Going</button>
+        <button class="btn btn-primary" onclick="appState.quitToMenu()">Quit to Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"></circle>
+      <line x1="12" y1="16" x2="12" y2="12"></line>
+      <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+    <span id="toastMessage">Notification</span>
+  </div>
+
+  <!-- Sound Synthesizer & Quiz Application Script -->
+  <script>
+    /**
+     * MODULE 1: 60 READING & GRAMMAR QUESTIONS (FROM OFFICIAL PDF DOCUMENT)
+     */
+    const quizData = [
+      {
+        id: 1,
+        category: "Verbs & Inversion",
+        dutchQuestion: "David, waar ______ naartoe?",
+        englishTranslation: "David, where are you going?",
+        options: ["was jij", "ga jij", "ben jij", "gaat jij"],
+        correctIndex: 1,
+        explanation: "'Waar ... naartoe' expresses direction or motion towards a destination ('where to'). In Dutch, motion towards a place uses the verb 'gaan' (to go). Because this is an inverted question with 'jij' immediately following the verb in the present tense, the verb loses its '-t' ending ('jij gaat' becomes 'ga jij', never 'gaat jij')."
+      },
+      {
+        id: 2,
+        category: "Prepositions",
+        dutchQuestion: "Het rapport van de laatste vergadering ligt _______ het bureau.",
+        englishTranslation: "The report of the last meeting is lying on the desk.",
+        options: ["tussen", "naartoe", "op", "binnenin"],
+        correctIndex: 2,
+        explanation: "In Dutch, an object resting on top of a flat horizontal surface like a desk or table takes the preposition 'op' ('op het bureau' = on the desk). 'Tussen' means between, 'naartoe' expresses direction towards, and 'binnenin' means deep inside."
+      },
+      {
+        id: 3,
+        category: "Verbs & Employment",
+        dutchQuestion: "Zij _______ bij een bank.",
+        englishTranslation: "She works at a bank.",
+        options: ["is in werking", "werkt", "loopt", "werk"],
+        correctIndex: 1,
+        explanation: "The standard verb for working a job is 'werken'. For the 3rd person singular subject 'zij' (she), the present tense conjugation is stem + t ('werkt'). 'Is in werking' is an idiom used for machines or regulations in operation, not employment."
+      },
+      {
+        id: 4,
+        category: "Pronouns",
+        dutchQuestion: "De baas praat met _______.",
+        englishTranslation: "The boss is talking to her.",
+        options: ["ik", "haar", "zij", "jouw"],
+        correctIndex: 1,
+        explanation: "After a preposition such as 'met' (with), an object pronoun must be used. 'Haar' is the 3rd person singular feminine object pronoun ('her'). 'Ik' and 'zij' are subject pronouns, and 'jouw' is a possessive pronoun."
+      },
+      {
+        id: 5,
+        category: "Negation & Er-words",
+        dutchQuestion: "Wonen zij in Amsterdam? _____________.",
+        englishTranslation: "Do they live in Amsterdam? No, they do not live there.",
+        options: ["Nee, zij wonen niet", "Ja, zij wonen", "Ja, zij wonen erin", "Nee, zij wonen daar niet"],
+        correctIndex: 3,
+        explanation: "When replying to a question about living in a specific city, Dutch requires referencing that place with 'daar' (there): 'Nee, zij wonen daar niet'. Merely stating 'Nee, zij wonen niet' is ungrammatical because 'wonen' requires a locational complement."
+      },
+      {
+        id: 6,
+        category: "Numbers & Ordinals",
+        dutchQuestion: "Is uw kantoor op de tweede of de _______ verdieping?",
+        englishTranslation: "Is your office on the second or the third floor?",
+        options: ["twee", "vier", "derde", "drie"],
+        correctIndex: 2,
+        explanation: "Floors of a building in Dutch require ordinal numbers (eerste, tweede, derde, vierde, etc.). Since 'tweede' (second) is an ordinal, the alternative must also be an ordinal: 'derde' (third). 'Twee', 'vier', and 'drie' are cardinal numbers."
+      },
+      {
+        id: 7,
+        category: "Verbs & Polite Form",
+        dutchQuestion: "_______ u de bankafschriften gecontroleerd?",
+        englishTranslation: "Have you checked the bank statements?",
+        options: ["Hebben", "Zal", "Gaat", "Heeft"],
+        correctIndex: 3,
+        explanation: "The formal 2nd person singular pronoun 'u' conjugates with the 3rd person singular auxiliary verb 'heeft' (or 'hebt u'). Combined with the past participle 'gecontroleerd', 'Heeft u ... gecontroleerd?' forms the present perfect tense."
+      },
+      {
+        id: 8,
+        category: "Possessives",
+        dutchQuestion: "Van wie is de GSM? Die is _______.",
+        englishTranslation: "Whose mobile phone is this? It is mine.",
+        options: ["mij", "van mij", "ons", "het ons"],
+        correctIndex: 1,
+        explanation: "In Dutch, ownership in response to 'Van wie is...?' (Whose is...?) is expressed with the preposition 'van' followed by the personal object pronoun: 'Die is van mij' (That is mine)."
+      },
+      {
+        id: 9,
+        category: "Word Order & Inversion",
+        dutchQuestion: "Vanmiddag _______ hier.",
+        englishTranslation: "This afternoon they are here.",
+        options: ["zullen zij", "gaan zij", "zijn zij", "zijn"],
+        correctIndex: 2,
+        explanation: "Starting a sentence with an adverbial adjunct of time ('Vanmiddag') in Dutch causes inversion: [Time adverbial] + [Verb] + [Subject]. 'Zijn zij' contains both the finite verb 'zijn' and the subject 'zij'. 'Zijn' alone lacks the required subject."
+      },
+      {
+        id: 10,
+        category: "Comparatives & Possessives",
+        dutchQuestion: "Haar Frans is net zo goed ____________.",
+        englishTranslation: "Her French is just as good as mine.",
+        options: ["als het mijne", "als Tom", "dan Tom", "als de mijne"],
+        correctIndex: 0,
+        explanation: "Comparisons of equality ('net zo goed...') require the conjunction 'als' (unlike unequal comparisons which use 'dan'). Because language names in Dutch take the neuter definite article ('het Frans'), the independent possessive pronoun is 'het mijne' (not 'de mijne')."
+      },
+      {
+        id: 11,
+        category: "Past Tense",
+        dutchQuestion: "Hij is blij omdat hij vorige week met vakantie _____.",
+        englishTranslation: "He is happy because he was on vacation last week.",
+        options: ["zijn", "gaat", "was", "is"],
+        correctIndex: 2,
+        explanation: "The temporal indicator 'vorige week' (last week) denotes a completed event in the past, demanding the simple past tense (imperfectum). For the 3rd person singular pronoun 'hij', the past tense of 'zijn' is 'was'."
+      },
+      {
+        id: 12,
+        category: "Past Participles",
+        dutchQuestion: "Wanneer heeft u meneer Janssen voor het laatst _______?",
+        englishTranslation: "When did you last see Mr. Janssen?",
+        options: ["ontmoette", "gezien", "geontmoet", "zien"],
+        correctIndex: 1,
+        explanation: "The auxiliary verb 'heeft' requires a past participle at the end of the sentence. The past participle of 'zien' is 'gezien'. 'Ontmoeten' forms the participle 'ontmoet' (inseparable prefix ont- never takes ge-), making 'geontmoet' ungrammatical, while 'ontmoette' is simple past."
+      },
+      {
+        id: 13,
+        category: "Interrogatives",
+        dutchQuestion: "_________ deze rapporten wilt u hebben?",
+        englishTranslation: "Which of these reports would you like to have?",
+        options: ["Wat", "Welke zijn", "Welke van", "Wat zijn"],
+        correctIndex: 2,
+        explanation: "When selecting one or more items out of a specific defined set or collection, Dutch uses 'Welke van...' ('Which of...'). 'Wat' cannot directly modify 'deze rapporten' without an appropriate preposition."
+      },
+      {
+        id: 14,
+        category: "Modal Verbs & Negation",
+        dutchQuestion: "De telefoniste _______ de juiste informatie niet geven.",
+        englishTranslation: "The receptionist could not provide the correct information.",
+        options: ["kende", "kon niet", "kon", "heft"],
+        correctIndex: 2,
+        explanation: "The modal verb 'kunnen' denotes ability; its singular past tense is 'kon'. Because the negative adverb 'niet' is already present later in the sentence ('niet geven'), choosing 'kon niet' would introduce a double negation."
+      },
+      {
+        id: 15,
+        category: "Modal Verbs",
+        dutchQuestion: "De waarde van de Euro _____ binnenkort dalen.",
+        englishTranslation: "The value of the Euro may drop soon.",
+        options: ["kunt", "misschien", "mocht", "kan"],
+        correctIndex: 3,
+        explanation: "The subject 'De waarde van de Euro' is 3rd person singular. The present tense of 'kunnen' for 3rd person singular is 'kan' (whereas 'kunt' is used with 'u' or 'jij'). 'Kan dalen' correctly expresses possibility with the infinitive 'dalen'."
+      },
+      {
+        id: 16,
+        category: "Vocabulary",
+        dutchQuestion: "Ik begrijp de ______ van dat werkwoord niet.",
+        englishTranslation: "I do not understand the meaning of that verb.",
+        options: ["bekentenis", "betekenis", "mening", "zin"],
+        correctIndex: 1,
+        explanation: "'Betekenis' means 'meaning' or 'definition' (derived from 'betekenen', to mean). 'Bekentenis' means 'confession', 'mening' means 'opinion', and 'zin' means 'sentence' or 'appetite/inclination'."
+      },
+      {
+        id: 17,
+        category: "Vocabulary",
+        dutchQuestion: "Iemand die niet veel wil werken, is _______.",
+        englishTranslation: "Someone who does not want to work much is lazy.",
+        options: ["moe", "intelligent", "lui", "moedig"],
+        correctIndex: 2,
+        explanation: "'Lui' translates directly to 'lazy'. 'Moe' means tired, 'intelligent' means smart, and 'moedig' means courageous or brave."
+      },
+      {
+        id: 18,
+        category: "Relative Pronouns",
+        dutchQuestion: "Heeft u gehoord ____ de directeur zei?",
+        englishTranslation: "Did you hear what the director said?",
+        options: ["dat wat", "van dat", "wat", "welke"],
+        correctIndex: 2,
+        explanation: "When referring back to an indefinite antecedent or a whole statement ('that which / what'), Dutch uses the independent relative pronoun 'wat'."
+      },
+      {
+        id: 19,
+        category: "Comparatives",
+        dutchQuestion: "De manager werkt _______ dan zijn assistent.",
+        englishTranslation: "The manager works harder than his assistant.",
+        options: ["amper", "harder", "meer harder", "meest hard"],
+        correctIndex: 1,
+        explanation: "The comparative degree of the adverb 'hard' is created by appending the suffix '-er': 'harder'. Dutch does not use 'meer' with monosyllabic adverbs or adjectives (avoiding redundant constructions like 'meer harder')."
+      },
+      {
+        id: 20,
+        category: "Infinitive Clauses",
+        dutchQuestion: "Kunt u Willem vragen ___________?",
+        englishTranslation: "Could you ask Willem to come to my office/me?",
+        options: ["om bij mij te komen", "de directeur te komen", "aan mij te komen", "te komen bij de voorzitter"],
+        correctIndex: 0,
+        explanation: "Verbs of asking or requesting follow the pattern 'vragen om ... te + infinitive'. In Dutch business contexts, 'bij iemand komen' means to drop by someone's office or report to them: 'om bij mij te komen'."
+      },
+      {
+        id: 21,
+        category: "Prepositions",
+        dutchQuestion: "Ik ben niet jaloers _______ haar promotie.",
+        englishTranslation: "I am not jealous of her promotion.",
+        options: ["voor", "op", "in", "van"],
+        correctIndex: 1,
+        explanation: "The fixed preposition governing the adjective 'jaloers' (jealous/envious) is 'op': 'jaloers zijn op iemand/iets'."
+      },
+      {
+        id: 22,
+        category: "Modals & Negation",
+        dutchQuestion: "Zij ______ Engelse zijn omdat zij in het bezit is van een Frans paspoort.",
+        englishTranslation: "She cannot be English because she holds a French passport.",
+        options: ["mag niet", "zal niet", "kan geen", "heeft niet"],
+        correctIndex: 2,
+        explanation: "To express logical impossibility regarding identity or nationality, Dutch pairs 'kunnen' with the indefinite negative determiner 'geen': 'Zij kan geen Engelse zijn' (She cannot be an English woman)."
+      },
+      {
+        id: 23,
+        category: "Verb Spelling: Leiden vs Lijden",
+        dutchQuestion: "De voorzitter _______ de vergadering.",
+        englishTranslation: "The chairperson leads the meeting.",
+        options: ["leed", "leidt", "lijdt", "lijdde"],
+        correctIndex: 1,
+        explanation: "'Leiden' (with 'ei') means 'to lead' or 'to preside over'. The stem is 'leid', and 3rd person singular present adds '-t' to form 'leidt'. By contrast, 'lijden' (with 'ij') means 'to suffer' (past tense 'leed')."
+      },
+      {
+        id: 24,
+        category: "Time Adverbials",
+        dutchQuestion: "_________ heb ik moeite met wakker worden.",
+        englishTranslation: "This morning I am having trouble waking up.",
+        options: ["Deze ochtend", "Morgen vroeg", "Morgen", "Gistermorgen"],
+        correctIndex: 0,
+        explanation: "The main verb 'heb' is in the present tense. 'Morgen' refers to future time, and 'gistermorgen' refers to the past (which would require 'had ik'). Therefore, 'Deze ochtend' (this morning) aligns with the present tense."
+      },
+      {
+        id: 25,
+        category: "Present Perfect",
+        dutchQuestion: "Jan _____ voor een verzekeringsmaatschappij ________.",
+        englishTranslation: "Jan has worked for an insurance company.",
+        options: ["heeft / gebruikt", "vaak / gewerkt", "is / gewerkt", "heeft / gewerkt"],
+        correctIndex: 3,
+        explanation: "The verb 'werken' forms its present perfect tense with the auxiliary verb 'hebben' (not 'zijn'): 'heeft gewerkt'. In Dutch main clauses, the finite verb 'heeft' sits in second position, while the past participle 'gewerkt' is placed at the very end."
+      },
+      {
+        id: 26,
+        category: "Conjunctions & Negation",
+        dutchQuestion: "Marieke ___________ Spaans, ze kan deze brief niet vertalen.",
+        englishTranslation: "Marieke neither speaks nor writes Spanish; she cannot translate this letter.",
+        options: ["spreekt of schrijft", "spreekt nog schrijft", "spreekt of schrijft geen", "noch spreekt of schrijft"],
+        correctIndex: 2,
+        explanation: "The negative indefinite determiner 'geen' negates the language noun 'Spaans': 'spreekt of schrijft geen Spaans' (speaks or writes no Spanish). Option B lacks negation before Spaans, while D has improper clause structure."
+      },
+      {
+        id: 27,
+        category: "Adverbs of Duration",
+        dutchQuestion: "Ik ben _______ een hele tijd bij deze firma.",
+        englishTranslation: "I have already been with this company for quite some time.",
+        options: ["vanaf", "al", "sindsdien", "doo"],
+        correctIndex: 1,
+        explanation: "In Dutch, 'al' is used with the present tense to express that a state or activity has already been ongoing for a certain period of time ('al een hele tijd' = already for quite some time). 'Sindsdien' is an adverb meaning 'since then'."
+      },
+      {
+        id: 28,
+        category: "Modal Past Tense",
+        dutchQuestion: "Om zijn promotie te krijgen, _______ hij eerst als assistent werken.",
+        englishTranslation: "In order to get his promotion, he had to work as an assistant first.",
+        options: ["moesten", "moest", "heeft", "heeft moeten"],
+        correctIndex: 1,
+        explanation: "The subject 'hij' is singular, so the simple past tense of 'moeten' must be 'moest' (not plural 'moesten'). Inverted word order after the purpose clause places 'moest' immediately before 'hij'."
+      },
+      {
+        id: 29,
+        category: "Time Expressions",
+        dutchQuestion: "Hij heeft __________ in Amsterdam gewoond.",
+        englishTranslation: "He lived in Amsterdam for a number of years.",
+        options: ["sinds lange jaren", "sindsdien 1980", "al een aantal jaren", "sinds veel tijd"],
+        correctIndex: 2,
+        explanation: "In Dutch, 'sinds' can only introduce a specific point in time (e.g., 'sinds 2015'), never a duration of time. Duration is expressed using 'al' ('al een aantal jaren' = for a number of years). Expressions like *sinds lange jaren or *sinds veel tijd are literal translations from other languages and ungrammatical in Dutch."
+      },
+      {
+        id: 30,
+        category: "Conditionals",
+        dutchQuestion: "Als u Office Manager ___________, wat zou u dan veranderen?",
+        englishTranslation: "If you were Office Manager, what would you change?",
+        options: ["is", "zou zijn", "waren geweest", "zou wezen"],
+        correctIndex: 1,
+        explanation: "In modern Dutch hypothetical conditionals, the subclause frequently uses 'zou + infinitive' ('Als u ... zou zijn') to parallel the conditional 'zou veranderen' in the main clause. 'Zou wezen' is informal/colloquial."
+      },
+      {
+        id: 31,
+        category: "Spelling & Idioms",
+        dutchQuestion: "Welke zin is correct?",
+        englishTranslation: "Which sentence is correct? He undoubtedly committed fraud.",
+        options: ["Er bestaadt geen twijfel dat hij gefraudeerd heeft.", "Hij heeft ongetwijfeld gefraudeerd.", "Er bestaat geen twijfel dat hij fraude gedaan heeft."],
+        correctIndex: 1,
+        explanation: "'Hij heeft ongetwijfeld gefraudeerd' is concise, grammatically flawless, and uses standard idiom. In A, 'bestaadt' is misspelled (the 3rd person of 'bestaan' is 'bestaat'). In C, 'fraude gedaan' is an incorrect collocation (Dutch requires 'fraude plegen')."
+      },
+      {
+        id: 32,
+        category: "Separable Verbs & Modals",
+        dutchQuestion: "Moeten wij ons project deze week ________?",
+        englishTranslation: "Do we have to finish our project this week?",
+        options: ["rond maken", "in de afmaak", "afmaken", "te maken"],
+        correctIndex: 2,
+        explanation: "The modal verb 'moeten' combines with a bare infinitive (no 'te'). 'Afmaken' is the standard separable verb meaning 'to finish / complete'."
+      },
+      {
+        id: 33,
+        category: "Future Modals & Subclauses",
+        dutchQuestion: "De manager zegt dat zijn assistent volgende week hard _______ werken.",
+        englishTranslation: "The manager says that his assistant will have to work hard next week.",
+        options: ["mocht", "heeft moeten", "zal moeten", "moest"],
+        correctIndex: 2,
+        explanation: "'Volgende week' (next week) refers to the future. Future obligation is expressed by combining the future auxiliary 'zullen' with the modal infinitive 'moeten': 'zal moeten werken'. In subordinate clauses introduced by 'dat', the verbs gather at the end."
+      },
+      {
+        id: 34,
+        category: "Subordinate Conjunctions",
+        dutchQuestion: "Kunt u de boekhouding nakijken voordat u _______?",
+        englishTranslation: "Could you check the accounting before you leave?",
+        options: ["weggegaat", "vertrekt", "weg te gaan", "te vertrekken"],
+        correctIndex: 1,
+        explanation: "'Voordat' (before) is a subordinating conjunction that must be followed by a finite subclause with a conjugated verb agreeing with the subject 'u': 'voordat u vertrekt'. It cannot take an infinitive with 'te'."
+      },
+      {
+        id: 35,
+        category: "Prepositions",
+        dutchQuestion: "Je moet onmiddellijk ___________ de directrice komen!",
+        englishTranslation: "You must come to the director immediately!",
+        options: ["voor", "in", "bij", "om"],
+        correctIndex: 2,
+        explanation: "In Dutch professional communication, reporting to someone's office or presence uses the preposition 'bij': 'komen bij iemand' ('bij de directrice komen')."
+      },
+      {
+        id: 36,
+        category: "Reflexive & Reciprocal Pronouns",
+        dutchQuestion: "Waar hebben je ouders ______ ontmoet?",
+        englishTranslation: "Where did your parents meet each other?",
+        options: ["elkaar", "jullie", "zich", "je"],
+        correctIndex: 0,
+        explanation: "'Elkaar' is the reciprocal pronoun in Dutch meaning 'each other / one another'. Meeting each other reciprocally requires 'elkaar ontmoeten'. 'Zich' is a reflexive pronoun ('themselves'), which does not fit mutual meeting."
+      },
+      {
+        id: 37,
+        category: "Adverbs of Degree",
+        dutchQuestion: "Die vraag is _______ moeilijk voor mij.",
+        englishTranslation: "That question is too difficult for me.",
+        options: ["te", "genoeg", "te veel", "veel"],
+        correctIndex: 0,
+        explanation: "When modifying an adjective to mean 'excessively / too', Dutch uses 'te' ('te moeilijk'). 'Te veel' means 'too much' and is used with nouns or as an independent adverb of quantity."
+      },
+      {
+        id: 38,
+        category: "Spelling: 't Kofschip",
+        dutchQuestion: "Welke zin is correct?",
+        englishTranslation: "Which sentence is correct? My girlfriend just showered.",
+        options: ["Mijn vriendin heeft net gedouched.", "Mijn vriendin heeft net gedoucht.", "Mijn vriendin heeft net gedouchet."],
+        correctIndex: 1,
+        explanation: "The verb 'douchen' is borrowed from French. To determine whether its past participle ends in -d or -t, apply the rule of 't kofschip ('t fokschaap) to the pronunciation of the stem: the stem ends in the voiceless sound /ʃ/ (written 'ch'), which is voiceless, so the past participle ends in '-t': 'gedoucht'."
+      },
+      {
+        id: 39,
+        category: "Conjunctions of Time: Toen vs Als",
+        dutchQuestion: "Ik viel achterover ________ ik het bedrag op die factuur zag!",
+        englishTranslation: "I was stunned (fell backwards) when I saw the amount on that invoice!",
+        options: ["bij", "toen", "met", "als"],
+        correctIndex: 1,
+        explanation: "In Dutch, a single specific event in the past is introduced by 'toen' ('when'). 'Als' is reserved for present/future events, hypothetical conditions, or recurring past actions ('whenever')."
+      },
+      {
+        id: 40,
+        category: "Spelling & Loanwords",
+        dutchQuestion: "De herstructurering van het bedrijf werd door de nieuwe baas _______ aangepakt.",
+        englishTranslation: "The restructuring of the company was tackled rigorously by the new boss.",
+        options: ["rigoureus", "rigoereus", "rigoreus", "rigorieus"],
+        correctIndex: 0,
+        explanation: "The correct Dutch spelling is 'rigoureus' (with 'ou' and 'eu'), preserved from the French 'rigoureux'."
+      },
+      {
+        id: 41,
+        category: "Auxiliary Verbs: Zijn vs Hebben",
+        dutchQuestion: "Hij wilde weten hoe lang ik daar _________.",
+        englishTranslation: "He wanted to know how long I had been there.",
+        options: ["ben", "ben geweest", "had geweest", "geweest"],
+        correctIndex: 1,
+        explanation: "The verb 'zijn' (to be) always forms its perfect tenses with 'zijn', never with 'hebben' ('ik ben geweest'). In indirect speech questions about duration, 'ben geweest' correctly completes the clause."
+      },
+      {
+        id: 42,
+        category: "Nominalized Infinitives & Prepositions",
+        dutchQuestion: "Wie is verantwoordelijk ____________ van deze afspraak?",
+        englishTranslation: "Who is responsible for making this appointment?",
+        options: ["voor maken", "te maken", "voor het maken", "in het maken"],
+        correctIndex: 2,
+        explanation: "The adjective 'verantwoordelijk' takes the preposition 'voor' (responsible for). When English uses a gerund ('for making'), Dutch uses a nominalized infinitive preceded by the neuter definite article 'het': 'voor het maken van...'."
+      },
+      {
+        id: 43,
+        category: "Indirect Questions: Of",
+        dutchQuestion: "Hij wist niet zeker ______ hij van baan zou veranderen.",
+        englishTranslation: "He was not sure whether he would change jobs.",
+        options: ["of niet", "wat", "als", "of"],
+        correctIndex: 3,
+        explanation: "In Dutch, embedded indirect yes/no questions meaning 'whether / if' are introduced by the subordinating conjunction 'of'. 'Als' means 'if' in conditional statements, not in indirect questions."
+      },
+      {
+        id: 44,
+        category: "Comparatives & Pronouns",
+        dutchQuestion: "Mijn collega is vriendelijk, maar mijn baas is vriendelijker ___________ .",
+        englishTranslation: "My colleague is friendly, but my boss is friendlier than he is.",
+        options: ["dan hij", "als hij", "als hem"],
+        correctIndex: 0,
+        explanation: "Unequal comparisons in standard Dutch require the conjunction 'dan' (not 'als'). Because the pronoun represents the subject of the implied clause ('...vriendelijker dan hij [is]'), the subject pronoun 'hij' is used: 'dan hij'."
+      },
+      {
+        id: 45,
+        category: "Word Order in Perfect Tense",
+        dutchQuestion: "Haar baas _________ veel verantwoordelijkheid gegeven.",
+        englishTranslation: "Her boss has given her a lot of responsibility.",
+        options: ["heeft haar", "haar heeft", "is haar", "neemt haar"],
+        correctIndex: 0,
+        explanation: "In a Dutch main declarative clause, the finite verb 'heeft' must occupy the second position (V2), followed immediately by the indirect object pronoun 'haar': 'Haar baas heeft haar veel verantwoordelijkheid gegeven'."
+      },
+      {
+        id: 46,
+        category: "Reflexive Verbs & Prepositions",
+        dutchQuestion: "Hoewel hij niet moe was, had hij toch moeite ________ de zakelijke brieven en e-mails _________.",
+        englishTranslation: "Although he wasn't tired, he still had difficulty concentrating on the business letters and emails.",
+        options: ["zich /te concentreren", "om/ herwerken", "om zich/ te schrijven", "om zich op/ te concentreren"],
+        correctIndex: 3,
+        explanation: "The expression 'moeite hebben' takes an 'om ... te' construction. The verb 'zich concentreren' takes the preposition 'op' (to concentrate on). With the object phrases placed inside the bracket, the parts are 'om zich op' ... 'te concentreren'."
+      },
+      {
+        id: 47,
+        category: "Collocations & Business Idioms",
+        dutchQuestion: "Al jaren ___________ met dat bedrijf.",
+        englishTranslation: "For years we have been doing business with that company.",
+        options: ["leveren wij", "doen wij zaken", "doen wij handel", "maken wij zaken"],
+        correctIndex: 1,
+        explanation: "The standard idiomatic Dutch collocation for 'to do business with' is 'zaken doen met'. Inversion occurs after the initial adverbial 'Al jaren', giving 'doen wij zaken met'."
+      },
+      {
+        id: 48,
+        category: "Verb Spelling: Stam + t",
+        dutchQuestion: "Welke zin is correct?",
+        englishTranslation: "Which sentence is correct? The director will definitely reimburse your expenses if you do what you promise.",
+        options: [
+          "De directeur vergoet vast en zeker je onkosten als je doet wat je belooft.",
+          "De directeur vergoed vast en zeker je onkosten als je doet wat je belooft.",
+          "De directeur vergoedt vast en zeker je onkosten als je doet wat je belooft.",
+          "De directeur vergoedt vast en zeker je onkosten als je doet wat je beloofd."
+        ],
+        correctIndex: 2,
+        explanation: "The stem of 'vergoeden' is 'vergoed' (ending in 'd'). In the present tense 3rd person singular ('de directeur'), we add '-t': 'vergoedt' (stam + t). In the subclause, 'belooft' is present tense 2nd person ('je belooft', stem 'beloof' + t = 'belooft'). Both are spelled correctly in option C."
+      },
+      {
+        id: 49,
+        category: "Prepositions: Banking",
+        dutchQuestion: "Zij heeft geld _____ haar bankrekening gestort.",
+        englishTranslation: "She deposited money into her bank account.",
+        options: ["naar", "bij", "op", "in"],
+        correctIndex: 2,
+        explanation: "In Dutch banking terminology, depositing money onto an account always uses the preposition 'op': 'geld storten op een bankrekening'."
+      },
+      {
+        id: 50,
+        category: "Imperatives & Polite Form",
+        dutchQuestion: "_______ u alstublieft aan de lijn. Ik probeer u door te verbinden.",
+        englishTranslation: "Please stay on the line. I will try to transfer you.",
+        options: ["Wacht", "Sta", "Kom", "Blijft"],
+        correctIndex: 3,
+        explanation: "When expressing a polite imperative with the formal pronoun 'u' explicitly stated, the verb takes the '-t' suffix: 'Blijft u alstublieft aan de lijn'. Furthermore, 'aan de lijn blijven' is the idiomatic Dutch phrase for holding on the telephone."
+      },
+      {
+        id: 51,
+        category: "Vocabulary & Modals",
+        dutchQuestion: "We _________ jaarlijks al snel 100 euro op onze rekening __________ .",
+        englishTranslation: "We can quickly save 100 euros annually on our bill.",
+        options: ["hebben / sparen", "zullen / versparen", "kunnen / besparen", "hebben / gesparen"],
+        correctIndex: 2,
+        explanation: "'Besparen op' is the precise Dutch verb for saving/cutting costs on an expense or bill. The modal verb 'kunnen' agrees with 'we' ('kunnen'), and the bare infinitive 'besparen' closes the verbal bracket: 'kunnen besparen'."
+      },
+      {
+        id: 52,
+        category: "Past Perfect (Plusquamperfectum)",
+        dutchQuestion: "Hij vroeg mij of ik het nieuws ____________ .",
+        englishTranslation: "He asked me if I had heard the news.",
+        options: ["had gehoord", "hoort", "hoorde", "heeft gehoord"],
+        correctIndex: 0,
+        explanation: "In indirect speech where the reporting verb is in the past ('vroeg'), an action that took place prior to the asking requires the past perfect tense: 'had gehoord'."
+      },
+      {
+        id: 53,
+        category: "Fixed Prepositions",
+        dutchQuestion: "Werd u uitgenodigd ______ een sollicitatiegesprek, ______ een bedrijfsbezoek of ______ een vergadering?",
+        englishTranslation: "Were you invited for a job interview, a company visit, or a meeting?",
+        options: ["met/met/met", "bij/bij/bij", "voor/voor/voor", "in/in/in"],
+        correctIndex: 2,
+        explanation: "The verb 'uitnodigen' takes the preposition 'voor' when inviting someone to an event, appointment, or meeting: 'uitnodigen voor een sollicitatiegesprek'."
+      },
+      {
+        id: 54,
+        category: "Conditional Sentences (Past)",
+        dutchQuestion: "Als wij van je probleem ____________, hadden wij je kunnen helpen.",
+        englishTranslation: "If we had known about your problem, we could have helped you.",
+        options: ["geweten hadden", "hadden weten", "weten", "gewist hadden"],
+        correctIndex: 0,
+        explanation: "A past counterfactual condition ('if we had known..., we could have...') requires the past perfect. In Dutch subclauses, both 'geweten hadden' and 'hadden geweten' are acceptable verb clusters; the participle of 'weten' is 'geweten' ('gewist' is from 'wissen', to erase)."
+      },
+      {
+        id: 55,
+        category: "Word Order & Perfect Tense",
+        dutchQuestion: "Ik __________ 25 minuten __________, maar de lijn blijft bezet.",
+        englishTranslation: "I have already tried for 25 minutes, but the line remains busy.",
+        options: ["heb het al / geprobeerd", "was het al / geprobeerd", "had het al / probeerd", "heb al het / geprobeerd"],
+        correctIndex: 0,
+        explanation: "The present perfect of 'proberen' uses the auxiliary 'hebben' + participle 'geprobeerd'. In Dutch word order, the unstressed object pronoun 'het' precedes the adverb 'al': 'heb het al ... geprobeerd'."
+      },
+      {
+        id: 56,
+        category: "Word Order & Idioms",
+        dutchQuestion: "Kies de juiste formulering.",
+        englishTranslation: "Choose the correct formulation: The new law comes into effect today.",
+        options: [
+          "De nieuwe wet wordt van kracht vandaag.",
+          "De nieuwe wet gaat vandaag van kracht.",
+          "De nieuwe wet wordt vandaag van kracht.",
+          "De nieuwe wet is van kracht vandaag."
+        ],
+        correctIndex: 2,
+        explanation: "'Van kracht worden' is the standard Dutch idiom for coming into legal force/effect. In Dutch clause structure, temporal adverbs ('vandaag') precede prepositional complements and predicates ('van kracht'): 'wordt vandaag van kracht'."
+      },
+      {
+        id: 57,
+        category: "Conjunctions: Als maar",
+        dutchQuestion: "Het programma is gemakkelijk _________ je maar de instructies leest.",
+        englishTranslation: "The program is easy as long as you just read the instructions.",
+        options: ["als", "onder voorwaarde", "alvorens", "voordat"],
+        correctIndex: 0,
+        explanation: "'Als ... maar' is a common Dutch conjunctional idiom meaning 'as long as / provided that / if only'. 'Onder voorwaarde' is incomplete without 'dat', and 'alvorens' means 'before'."
+      },
+      {
+        id: 58,
+        category: "Infinitive Clauses: Om ... te",
+        dutchQuestion: "Het heeft geen zin om naar een betere baan ___________ , zolang je je houding niet verandert.",
+        englishTranslation: "There is no point in applying for a better job as long as you do not change your attitude.",
+        options: ["solliciteren", "solliciteer", "sollicitatie", "te solliciteren"],
+        correctIndex: 3,
+        explanation: "The idiom 'het heeft geen zin om ... te + infinitive' requires 'te' before the infinitive verb 'solliciteren' ('om ... te solliciteren'). 'Sollicitatie' is a noun, not a verb."
+      },
+      {
+        id: 59,
+        category: "Reflexive Verbs: Zich voordoen",
+        dutchQuestion: "Indien er problemen _______ dan kunt u op het volgende adres contact met mij opnemen.",
+        englishTranslation: "If problems arise, you can contact me at the following address.",
+        options: ["komen", "voordoen", "zijn", "zich voordoen"],
+        correctIndex: 3,
+        explanation: "The formal verb for problems or situations arising/occurring is 'zich voordoen'. In a subordinate clause introduced by 'Indien' (if), the reflexive pronoun and verb cluster at the end: 'zich voordoen'."
+      },
+      {
+        id: 60,
+        category: "Nouns & Prepositional Idioms",
+        dutchQuestion: "In het _________ van onweer, zet je alle computers onmiddellijk uit.",
+        englishTranslation: "In the event of a thunderstorm, turn off all computers immediately.",
+        options: ["geval", "situatie", "gebeurtenis", "uitzicht"],
+        correctIndex: 0,
+        explanation: "'In het geval van...' is the idiomatic Dutch expression for 'in the event of / in case of'. Furthermore, 'geval' is a neuter noun taking the definite article 'het' ('het geval'), whereas 'situatie' and 'gebeurtenis' are 'de-words'."
+      }
+    ];
+
+    /**
+     * MODULE 2: 60 LISTENING COMPREHENSION QUESTIONS (FROM OFFICIAL VIDEO ASSESSMENT)
+     */
+    const listeningQuizData = [
+  {
+    "id": 1,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Tijdens de vergadering werd duidelijk dat hij zijn baas belogen had en geld gestolen had. Vervolgens werd hij onmiddellijk ontslagen.",
+    "englishAudioTranslation": "During the meeting, it became clear that he had lied to his boss and stolen money. Subsequently, he was immediately fired.",
+    "options": [
+      "De baas heeft gelogen.",
+      "De medewerker heeft gelogen.",
+      "De baas werd ontslagen.",
+      "De baas heeft geld gestolen."
+    ],
+    "correctIndex": 1,
+    "explanation": "The audio states that 'he' (the employee) lied to his boss and stole money, leading to his dismissal. Therefore, the employee lied."
+  },
+  {
+    "id": 2,
+    "dutchQuestion": "Hoe laat is het?",
+    "englishQuestionTranslation": "What time is it?",
+    "audioTranscript": "Jan, we moeten vertrekken, het is al kwart over zes. Nee An, we hebben nog wel even tijd, het is pas kwart voor zes.",
+    "englishAudioTranslation": "Jan, we have to leave, it's already 6:15. No An, we still have some time, it's only 5:45.",
+    "options": [
+      "18:55",
+      "17:45",
+      "18:45",
+      "19:15"
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker explicitly says 'kwart voor zes', which translates to 5:45."
+  },
+  {
+    "id": 3,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Deze informatie heeft geen enkele waarde voor de politie-enquête.",
+    "englishAudioTranslation": "This information has no value for the police investigation.",
+    "options": [
+      "De informatie is onwaardig.",
+      "De informatie is waardeloos.",
+      "De informatie is ongebaat.",
+      "De informatie is waardevol."
+    ],
+    "correctIndex": 1,
+    "explanation": "The audio states the information has no value, which is synonymous with 'waardeloos' (worthless)."
+  },
+  {
+    "id": 4,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "De jongeren weten tegenwoordig niet meer wat ze willen in het leven.",
+    "englishAudioTranslation": "Young people nowadays no longer know what they want in life.",
+    "options": [
+      "De jongeren willen leven.",
+      "Ze weten niet wat ze willen doen.",
+      "De jongeren willen niets.",
+      "De jongeren willen niet meer leven."
+    ],
+    "correctIndex": 1,
+    "explanation": "The audio says young people don't know what they want, which matches 'Ze weten niet wat ze willen doen'."
+  },
+  {
+    "id": 5,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "De klanten kunnen onmogelijk op tijd aangekomen zijn. Het vliegtuig had 1 uur vertraging.",
+    "englishAudioTranslation": "The customers could not possibly have arrived on time. The plane was delayed by 1 hour.",
+    "options": [
+      "De klanten zijn niet gekomen.",
+      "De vlucht werd geannuleerd.",
+      "Het vliegtuig was op tijd.",
+      "Het vliegtuig had vertraging."
+    ],
+    "correctIndex": 3,
+    "explanation": "The audio explicitly mentions the plane had a 1-hour delay ('1 uur vertraging')."
+  },
+  {
+    "id": 6,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik wilde naar huis gaan en mijn auto was weg. De auto stond er nog, maar je kon hem niet vinden op het parkeerterrein.",
+    "englishAudioTranslation": "I wanted to go home and my car was gone. The car was still there, but you couldn't find it in the parking lot.",
+    "options": [
+      "De auto van de vrouw werd verplaatst.",
+      "De auto van de vrouw was niet meer thuis.",
+      "De man vond zijn auto niet.",
+      "De auto stond nog altijd waar de vrouw hem had laten staan."
+    ],
+    "correctIndex": 1,
+    "explanation": "The woman says her car was gone ('mijn auto was weg'), implying it was no longer at her home location."
+  },
+  {
+    "id": 7,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik ben dol op die muziek. Jij ook? Nee, niet echt. Ik luister er wel af en toe naar, maar ik kan best zonder.",
+    "englishAudioTranslation": "I love that music. You too? No, not really. I do listen to it occasionally, but I can do without it.",
+    "options": [
+      "De vrouw houdt van dat soort muziek.",
+      "De man houdt wel best van dat soort muziek.",
+      "De man kan zonder muziek.",
+      "De vrouw kan niet zonder muziek."
+    ],
+    "correctIndex": 1,
+    "explanation": "The man says he loves the music ('Ik ben dol op die muziek'), so he likes it."
+  },
+  {
+    "id": 8,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Ik heb van de hele situatie niets begrepen. Alles verliep als in een droom.",
+    "englishAudioTranslation": "I didn't understand anything about the whole situation. Everything went like a dream.",
+    "options": [
+      "De vrouw heeft niets begrepen.",
+      "De vrouw droomde.",
+      "De vrouw heeft alles begrepen."
+    ],
+    "correctIndex": 0,
+    "explanation": "The woman says she didn't understand anything ('niets begrepen')."
+  },
+  {
+    "id": 9,
+    "dutchQuestion": "En, hoe was je gesprek?",
+    "englishQuestionTranslation": "And, how was your conversation?",
+    "audioTranscript": "Ik moet nauwkeuriger werken, heeft de baas gezegd.",
+    "englishAudioTranslation": "I need to work more accurately, the boss said.",
+    "options": [
+      "De medewerker is nauwkeurig.",
+      "De baas wordt nauwkeuriger.",
+      "De baas is niet nauwkeurig genoeg.",
+      "De medewerker is niet nauwkeurig genoeg."
+    ],
+    "correctIndex": 3,
+    "explanation": "The boss told the employee to work more accurately, implying the employee is currently not accurate enough."
+  },
+  {
+    "id": 10,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Er wordt gezegd dat er mensen ontslagen zullen worden.",
+    "englishAudioTranslation": "It is said that people will be fired.",
+    "options": [
+      "Medewerkers dienen ontslag.",
+      "Medewerkers zijn al ontslagen.",
+      "Medewerkers zullen eventueel ontslagen worden.",
+      "Medewerkers worden ontslagen."
+    ],
+    "correctIndex": 2,
+    "explanation": "The audio uses the future tense 'zullen worden' (will be), which matches 'zullen eventueel ontslagen worden'."
+  },
+  {
+    "id": 11,
+    "dutchQuestion": "Wat wil de spreker eigenlijk zeggen?",
+    "englishQuestionTranslation": "What does the speaker actually want to say?",
+    "audioTranscript": "Zelfs als hij 50 uur per week zou werken, heeft hij niet genoeg tijd om al het werk af te maken.",
+    "englishAudioTranslation": "Even if he were to work 50 hours a week, he doesn't have enough time to finish all the work.",
+    "options": [
+      "Hij werkt 50 uur per week.",
+      "Hij doet al zijn werk.",
+      "Hij heeft genoeg tijd om te werken.",
+      "Hij krijgt zijn werk niet klaar."
+    ],
+    "correctIndex": 3,
+    "explanation": "The speaker says he doesn't have enough time to finish the work, meaning he cannot get it done."
+  },
+  {
+    "id": 12,
+    "dutchQuestion": "Wat wil de spreker eigenlijk zeggen?",
+    "englishQuestionTranslation": "What does the speaker actually want to say?",
+    "audioTranscript": "We hadden een picknick gepland, maar ze hebben slecht weer voorspeld.",
+    "englishAudioTranslation": "We had planned a picnic, but they predicted bad weather.",
+    "options": [
+      "We zullen een andere activiteit moeten bedenken.",
+      "We hadden een andere activiteit moeten vinden.",
+      "We zochten andere activiteiten.",
+      "We hebben een andere activiteit."
+    ],
+    "correctIndex": 0,
+    "explanation": "Since the picnic is cancelled due to bad weather, they will need to think of a new activity."
+  },
+  {
+    "id": 13,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Ik kan morgen niet op tijd zijn voor de vergadering, want ik zit bij mijn boekhouder.",
+    "englishAudioTranslation": "I cannot be on time for the meeting tomorrow, because I am with my accountant.",
+    "options": [
+      "De man heeft een afspraak met de boekhouder.",
+      "De man heeft een boek.",
+      "De man zit naast de boekhouder.",
+      "De man is de boekhouder."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man says he is with his accountant, which implies an appointment."
+  },
+  {
+    "id": 14,
+    "dutchQuestion": "Hoe laat is de koerier vertrokken?",
+    "englishQuestionTranslation": "What time did the courier leave?",
+    "audioTranscript": "Het pakje voor de firma Klaas is al weg sinds kwart voor drie. Het pakje voor Kramer sinds kwart over drie.",
+    "englishAudioTranslation": "The package for the Klaas firm has been gone since 2:45. The package for Kramer since 3:15.",
+    "options": [
+      "om 15 uur",
+      "om 15u15",
+      "om 14u45"
+    ],
+    "correctIndex": 2,
+    "explanation": "The courier for the Klaas firm left at 2:45 (kwart voor drie), which is 14:45."
+  },
+  {
+    "id": 15,
+    "dutchQuestion": "Welk telefoonnummer heeft de vrouw?",
+    "englishQuestionTranslation": "Which phone number does the woman have?",
+    "audioTranscript": "En mijn GSM-nummer is 058-151801.",
+    "englishAudioTranslation": "And my mobile number is 058-151801.",
+    "options": [
+      "058-51.81.01",
+      "058-51.18.01",
+      "058-51.92.01"
+    ],
+    "correctIndex": 1,
+    "explanation": "The woman states her number is 058-151801, which matches the second option."
+  },
+  {
+    "id": 16,
+    "dutchQuestion": "Welk telefoonnummer heeft het bedrijf?",
+    "englishQuestionTranslation": "Which phone number does the company have?",
+    "audioTranscript": "Dus het nummer van de firma is toch 058 51 82 01 of niet soms? Het nummer heb je verkeerd genoteerd. Het is 085 51 81 01 en mijn GSM-nummer is 058 15 18 01.",
+    "englishAudioTranslation": "So the company's number is 058 51 82 01, right? You wrote the number down wrong. It is 085 51 81 01 and my mobile number is 058 15 18 01.",
+    "options": [
+      "085 51 81 01",
+      "058 15 18 01",
+      "058 51 82 01"
+    ],
+    "correctIndex": 0,
+    "explanation": "The speaker corrects the listener, stating the company's number is 085 51 81 01."
+  },
+  {
+    "id": 17,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik begrijp niet waarom mijn bankkaart het niet doet. Misschien staat er niet voldoende geld op je rekening. Onzin, ik heb vorige week 1500 euro gestort.",
+    "englishAudioTranslation": "I don't understand why my bank card isn't working. Maybe there isn't enough money in your account. Nonsense, I deposited 1500 euros last week.",
+    "options": [
+      "Er staat veel geld op de rekening.",
+      "Er staat geen geld op de rekening.",
+      "Hij heeft net een nieuwe rekening geopend waarmee hij tevreden is."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man states he deposited 1500 euros, implying there is money in the account."
+  },
+  {
+    "id": 18,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "De trein met bestemming Amsterdam vertrekt van spoor 7 en niet van spoor 10. Ik herhaal, de trein met bestemming Amsterdam vertrekt van spoor 7 in plaats van spoor 10.",
+    "englishAudioTranslation": "The train to Amsterdam departs from platform 7 and not from platform 10. I repeat, the train to Amsterdam departs from platform 7 instead of platform 10.",
+    "options": [
+      "De trein vertrekt van spoor 10.",
+      "De trein vertrekt van spoor 9.",
+      "De trein vertrekt van spoor 7."
+    ],
+    "correctIndex": 2,
+    "explanation": "The announcement explicitly states the train departs from platform 7."
+  },
+  {
+    "id": 19,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Dames en heren, de laatste oproep voor vlucht 758 van KLM met bestemming Brussel is om kwart over drie.",
+    "englishAudioTranslation": "Ladies and gentlemen, the final call for flight 758 from KLM to Brussels is at 3:15.",
+    "options": [
+      "De laatste oproep voor vlucht 758 is om 15u55.",
+      "De laatste oproep voor vlucht 758 is om 16u45.",
+      "De laatste oproep voor vlucht 758 is om 15u15."
+    ],
+    "correctIndex": 2,
+    "explanation": "The announcement states the time is 3:15, which is 15:15."
+  },
+  {
+    "id": 20,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Hoi Marieke, ik heb een probleem. Ik moet nog even op kantoor langs, want ik heb mijn huissleutels op mijn bureau laten liggen. Ik kom daarna naar je toe en pik je op. Oei Bert, dat is geen goed idee. Mijn trein vertrekt stipt om 5 uur. Als je nu nog langs kantoor rijdt, dan wordt dat echt te laat. Ik ga wel alleen naar het station.",
+    "englishAudioTranslation": "Hi Marieke, I have a problem. I have to stop by the office because I left my house keys on my desk. I'll come to you afterwards and pick you up. Oh Bert, that's not a good idea. My train leaves promptly at 5 o'clock. If you drive by the office now, it will be too late. I'll go to the station alone.",
+    "options": [
+      "De man gaat eerst naar huis en komt Marieke later halen.",
+      "De man komt meteen op het kantoor langs om Marieke mee te nemen.",
+      "Marieke kan niet wachten tot de man komt en gaat alleen."
+    ],
+    "correctIndex": 2,
+    "explanation": "Marieke decides to go to the station alone because Bert's detour would make her miss her train."
+  },
+  {
+    "id": 21,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "De klant wil een korting op zijn bestelling. Is dat mogelijk? Dat kan eventueel, als hij even op zijn levering kan wachten. Ik kijk de bestelbon nog even na om te zien welke korting we de klant kunnen bieden.",
+    "englishAudioTranslation": "The customer wants a discount on his order. Is that possible? That might be possible if he can wait for his delivery. I'll check the order form to see what discount we can offer the customer.",
+    "options": [
+      "De klant krijgt zijn bestelling.",
+      "De persoon wil de bestelbon nog eens herzien om een korting aan te kunnen bieden.",
+      "De klant krijgt zijn bestelling niet."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker says they will check the order form to see what discount can be offered."
+  },
+  {
+    "id": 22,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Hoi Karel, ik wilde je informeren over het feit dat ik van afdeling ben veranderd en daardoor op mijn oude telefoonnummer niet meer te bereiken ben. Ik zal van nu af aan op een nieuw nummer te bereiken zijn.",
+    "englishAudioTranslation": "Hi Karel, I wanted to inform you that I have changed departments and therefore can no longer be reached at my old phone number. From now on, I will be reachable at a new number.",
+    "options": [
+      "De vrouw heeft zijn telefoon verloren.",
+      "De vrouw zal niet meer bereikbaar zijn per telefoon.",
+      "De firma heeft de vrouw een nieuw telefoonnummer gegeven."
+    ],
+    "correctIndex": 2,
+    "explanation": "The woman informs Karel that she has a new number due to changing departments."
+  },
+  {
+    "id": 23,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Goedendag, ik heb zoals gewoonlijk 200 stuks besteld, maar uw collega heeft me zonet over uw nieuwe product wat meer uitleg gegeven. Op basis van deze informatie had ik mijn bestaande bestelling graag vervangen door een bestelling van het nieuwe product. Is dat mogelijk?",
+    "englishAudioTranslation": "Good day, I ordered 200 pieces as usual, but your colleague just gave me more information about your new product. Based on this information, I would like to replace my existing order with an order for the new product. Is that possible?",
+    "options": [
+      "De man wil andere goederen bij de firma kopen en verandert zijn bestelling.",
+      "De man wil zijn bestelling annuleren.",
+      "De man wil informatie over het nieuwe product."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man wants to replace his current order with the new product."
+  },
+  {
+    "id": 24,
+    "dutchQuestion": "Hoe laat komt de klant aan?",
+    "englishQuestionTranslation": "What time does the customer arrive?",
+    "audioTranscript": "Dus de trein komt om 8:20 in Amsterdam aan. De klant haalt u daar om 8:25 op en brengt u om 8:30 naar de beurs.",
+    "englishAudioTranslation": "So the train arrives in Amsterdam at 8:20. The customer will pick you up there at 8:25 and take you to the fair at 8:30.",
+    "options": [
+      "Om 8u30.",
+      "Om 8u25.",
+      "Om 8u20."
+    ],
+    "correctIndex": 2,
+    "explanation": "The train arrives at 8:20."
+  },
+  {
+    "id": 25,
+    "dutchQuestion": "Hoe laat vertrekt de trein?",
+    "englishQuestionTranslation": "What time does the train depart?",
+    "audioTranscript": "Je moet je wel haasten bij het overstappen. Je hebt 5 minuten tijd, want je komt om 10 over 6 aan en de trein naar Oostende vertrekt om 6 uur 16 vanaf Brussel-Zuid.",
+    "englishAudioTranslation": "You have to hurry when transferring. You have 5 minutes, because you arrive at 10 past 6 and the train to Ostend departs at 6:16 from Brussels-South.",
+    "options": [
+      "Om 6u 16.",
+      "Om 16u 5.",
+      "Om 06u 16"
+    ],
+    "correctIndex": 0,
+    "explanation": "The train departs at 6:16."
+  },
+  {
+    "id": 26,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik ben gebleven tot de resultaten van het gesprek bekend waren. Daarna heb ik Klaas gebeld om hem het resultaat mee te delen.",
+    "englishAudioTranslation": "I stayed until the results of the conversation were known. Afterwards, I called Klaas to share the result with him.",
+    "options": [
+      "Marieke en Klaas vertrokken.",
+      "Marieke en Klaas wachten het resultaat van het gesprek af.",
+      "Na het gesprek vertrekt Marieke direct."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker waited for the results before calling Klaas."
+  },
+  {
+    "id": 27,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik heb een probleem. Mijn GSM werd gestolen. Maar directeur, hoe kunnen we u dan bereiken? Ik bel wel even als ik er ben. Je zegt aan iedereen dat ze jou bellen in geval van een probleem en als ik je bel, kunnen we het dan daarover hebben.",
+    "englishAudioTranslation": "I have a problem. My mobile phone was stolen. But director, how can we reach you then? I'll call when I'm there. You tell everyone to call you in case of a problem, and if I call you, we can talk about it then.",
+    "options": [
+      "Je kan de directeur van de redactie niet bellen.",
+      "Iedereen belt de directeur van de redactie.",
+      "De directeur van de redactie belt iedereen zodra hij er is."
+    ],
+    "correctIndex": 2,
+    "explanation": "The director instructs the employee to have everyone call them, and the director will call the employee back."
+  },
+  {
+    "id": 28,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Hoi Linda, hoe schiet jij op met je project? Oh, heel goed. Ben bijna klaar. Hoe doe je dat? Eerst had ik problemen met de administratie. Nu blijken maar leveranciers mijn producten niet meer te produceren. Nou, en zo kan ik wel door blijven gaan. Het is eigenlijk heel simpel. Je komt telkens weer in domme situaties terecht.",
+    "englishAudioTranslation": "Hi Linda, how are you getting on with your project? Oh, very well. Almost done. How do you do that? At first I had problems with the administration. Now it turns out that suppliers are no longer producing my products. Well, and I can keep going like that. It's actually very simple. You keep ending up in stupid situations.",
+    "options": [
+      "Het project van Jan wil maar niet opschieten.",
+      "Het project is veel gemakkelijker dan Jan dacht.",
+      "Het project van Jan gaat er goed op vooruit."
+    ],
+    "correctIndex": 1,
+    "explanation": "Linda says her project is going very well and she is almost done, which is easier than expected."
+  },
+  {
+    "id": 29,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Lieve studenten, jullie gaan bij ons veel groepswerk doen. Jullie zullen elkaar evalueren en dat vier keer tot het einde van het jaar. Jullie werken in groepen van vier.",
+    "englishAudioTranslation": "Dear students, you will do a lot of group work with us. You will evaluate each other four times until the end of the year. You work in groups of four.",
+    "options": [
+      "Ze worden 4 keer per jaar beoordeeld.",
+      "Ze beoordelen elk 4 personen uit de groep.",
+      "Er zijn vier personen die ze iedere keer beoordelen."
+    ],
+    "correctIndex": 0,
+    "explanation": "The students will evaluate each other four times a year."
+  },
+  {
+    "id": 30,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik laat mijn auto repareren na dat ongeluk van verleden week. Je hebt een goede verzekering zeg, dat gaat vlug. Dat is mijn verzekering niet. Die kerel heeft mij de voorrang niet gegeven, vandaar dat zijn verzekering alles moet betalen.",
+    "englishAudioTranslation": "I'm having my car repaired after that accident last week. You have good insurance, that's fast. That's not my insurance. That guy didn't give me right of way, so his insurance has to pay for everything.",
+    "options": [
+      "De verzekeringsmaatschappij betaalt reparaties voor Jan.",
+      "Jan heeft geen verzekering.",
+      "Jan werkt voor een verzekeringsmaatschappij."
+    ],
+    "correctIndex": 0,
+    "explanation": "The other driver's insurance is paying for the repairs."
+  },
+  {
+    "id": 31,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik kan niet meer met mijn zakenpartner samenwerken. Ik vertrouw hem voor geen meter meer en ik ga zo snel mogelijk een einde maken aan ons partnerschap.",
+    "englishAudioTranslation": "I can no longer work with my business partner. I do not trust him one bit anymore and I will end our partnership as soon as possible.",
+    "options": [
+      "Ik blijf bij mijn partner.",
+      "Ik heb een betrouwbare partner.",
+      "Ik heb geen betrouwbare partner meer."
+    ],
+    "correctIndex": 2,
+    "explanation": "The speaker explicitly states that he no longer trusts his business partner at all (\"vertrouw hem voor geen meter meer\") and plans to terminate the partnership immediately, meaning he no longer has a trustworthy partner."
+  },
+  {
+    "id": 32,
+    "dutchQuestion": "Ik heb met de klant nog voor de vergadering alles kunnen bespreken.",
+    "englishQuestionTranslation": "I was able to discuss everything with the client before the meeting.",
+    "audioTranscript": "Ik had alles mooi gepland. De vergadering begon om 2 uur. Ik had nog een afspraak om 10 uur. Dus had ik nog ruim schoots tijd tot de vergadering begon. Maar mijn klant had een uur vertraging met de trein en kwam daarna met de taxi nog in de file te staan op de grote ring rond Brussel. We hebben daarom heel snel ons gesprek gevoerd en alles in de auto op de weg van mijn bureau naar de vergadering in de hoofdzetel van de firma besproken.",
+    "englishAudioTranslation": "I had everything planned nicely. The meeting started at 2 o'clock. I had another appointment at 10 o'clock. So I had plenty of time before the meeting started. But my client was an hour late with the train and then got stuck in traffic in a taxi on the big ring around Brussels. We therefore had our conversation very quickly and discussed everything in the car on the way from my office to the meeting at the company's headquarters.",
+    "options": [
+      "Ik heb met de klant nog voor de vergadering alles kunnen bespreken.",
+      "Ik kwam te laat voor de vergadering.",
+      "Ik had nog veel tijd tot de vergadering begon."
+    ],
+    "correctIndex": 0,
+    "explanation": "The speaker confirms they discussed everything in the car on the way to the meeting."
+  },
+  {
+    "id": 33,
+    "dutchQuestion": "Hoeveel kost het treinkaartje op en neer naar Gent?",
+    "englishQuestionTranslation": "How much does the train ticket to and from Ghent cost?",
+    "audioTranscript": "Een enkeltje naar Gent kost 125 euro. Naar Haarlem 135 euro. Bij heen en terug naar Gent kom je op 250 euro. En bij Haarlem wordt dat 270 euro.",
+    "englishAudioTranslation": "A one-way ticket to Ghent costs 125 euros. To Haarlem 135 euros. For a round trip to Ghent you come to 250 euros. And for Haarlem that becomes 270 euros.",
+    "options": [
+      "125 €",
+      "250 €",
+      "135 €",
+      "270 €"
+    ],
+    "correctIndex": 1,
+    "explanation": "The audio states a round trip to Ghent costs 250 euros."
+  },
+  {
+    "id": 34,
+    "dutchQuestion": "Hoeveel kost de reis voor de hele groep?",
+    "englishQuestionTranslation": "How much does the trip cost for the whole group?",
+    "audioTranscript": "Ik heb de reis naar New York laten berekenen. Voor de hele groep komen we op 6598 euro. Met de korting van de firma wordt dat dan 5698 euro. Dat valt best wel mee.",
+    "englishAudioTranslation": "I had the trip to New York calculated. For the whole group we come to 6598 euros. With the company discount that becomes 5698 euros. That's not too bad.",
+    "options": [
+      "6598 €",
+      "6589 €",
+      "6698 €"
+    ],
+    "correctIndex": 1,
+    "explanation": "The audio states the discounted price is 5698 euros."
+  },
+  {
+    "id": 35,
+    "dutchQuestion": "Hoeveel mensen gaan mee?",
+    "englishQuestionTranslation": "How many people are going?",
+    "audioTranscript": "Eigenlijk zou de hele groep meegaan, maar Rosa is ziek en Piet zit in Zwitserland aan het nieuwe project te werken. Dus blijven er maar drie van de vijf over.",
+    "englishAudioTranslation": "Actually the whole group would go, but Rosa is sick and Piet is in Switzerland working on the new project. So only three of the five remain.",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "The audio states that only three of the five people are going."
+  },
+  {
+    "id": 36,
+    "dutchQuestion": "De situatie is erg goed.",
+    "englishQuestionTranslation": "The situation is very good.",
+    "audioTranscript": "Mijn klanten kunnen de rekeningen niet meer betalen en ik zit ook erg krap, want er is steeds minder vraag en de concurrentie is op dit moment sterker dan ooit. Ik weet niet wanneer we het einde van de tunnel bereiken, maar als er niet gauw meer vraag komt, dan zal ik failliet gaan.",
+    "englishAudioTranslation": "My clients can no longer pay the bills and I am also very tight, because there is less and less demand and the competition is stronger than ever at the moment. I don't know when we will reach the end of the tunnel, but if there isn't more demand soon, then I will go bankrupt.",
+    "options": [
+      "De situatie is erg goed.",
+      "De situatie is nog nooit zo slecht geweest.",
+      "Het is erg ingewikkeld op dit moment."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker describes the situation as dire, implying it has never been this bad."
+  },
+  {
+    "id": 37,
+    "dutchQuestion": "De persoon leert veel in de firma.",
+    "englishQuestionTranslation": "The person learns a lot in the company.",
+    "audioTranscript": "Ik loop deze week stage in een groot bedrijf. Ik leer erg veel over de structuur en de verschillende afdelingen in een firma. Hoe groter de firma, hoe ingewikkelder de structuur en de verdeling van werk en verantwoordelijkheid.",
+    "englishAudioTranslation": "I am doing an internship at a large company this week. I learn a lot about the structure and the different departments in a company. The larger the company, the more complex the structure and the distribution of work and responsibility.",
+    "options": [
+      "De verantwoordelijkheid van de persoon is ingewikkeld.",
+      "De persoon werkt in een klein bedrijf.",
+      "De persoon heeft veel verantwoordelijkheid.",
+      "De persoon leert veel in de firma."
+    ],
+    "correctIndex": 3,
+    "explanation": "The speaker explicitly states they are learning a lot about the company's structure."
+  },
+  {
+    "id": 38,
+    "dutchQuestion": "De vrouw weet niet of de contracten zullen worden ondertekend.",
+    "englishQuestionTranslation": "The woman does not know if the contracts will be signed.",
+    "audioTranscript": "Ik wil graag weten of de contracten van de stagiaires worden ondertekend. Ik weet dat niet, maar ik denk van niet, want ze blijven maar twee weken. Maar we kunnen hen toch geen contracten geven die niet ondertekend zijn. Als je hen een contract wil geven, moet het op zijn minst ondertekend zijn.",
+    "englishAudioTranslation": "I would like to know if the interns' contracts are being signed. I don't know that, but I don't think so, because they only stay for two weeks. But we can't give them contracts that aren't signed. If you want to give them a contract, it must at least be signed.",
+    "options": [
+      "De vrouw eist dat de contracten worden ondertekend.",
+      "De vrouw wil het arbeidscontract niet ondertekenen.",
+      "De vrouw weet niet of de contracten zullen worden ondertekend."
+    ],
+    "correctIndex": 2,
+    "explanation": "The woman asks if they will be signed and expresses uncertainty."
+  },
+  {
+    "id": 39,
+    "dutchQuestion": "Wanneer is de firma het best bereikbaar?",
+    "englishQuestionTranslation": "When is the company best reachable?",
+    "audioTranscript": "We zijn bereikbaar tijdens onze openingsuren, maandag tot en met donderdag van 7 tot 12 en van 2 tot 5 en op vrijdag van 8 tot 6. Op zaterdag kunt u ons van 7 tot 12 telefonisch bereiken.",
+    "englishAudioTranslation": "We are reachable during our opening hours, Monday to Thursday from 7 to 12 and from 2 to 5 and on Friday from 8 to 6. On Saturday you can reach us by phone from 7 to 12.",
+    "options": [
+      "vrijdag",
+      "donderdag",
+      "maandag"
+    ],
+    "correctIndex": 2,
+    "explanation": "The company is reachable Monday through Thursday."
+  },
+  {
+    "id": 40,
+    "dutchQuestion": "Je mag het jasje niet meer kunnen ruilen.",
+    "englishQuestionTranslation": "You may not be able to exchange the jacket anymore.",
+    "audioTranscript": "Dat is dan 43 euro. Echt niet veel voor zo'n leuke jas. En het is de laatste in deze kleur. Maar ik moet u erop wijzen dat ik afgeprijsde kleding niet mag terugnemen.",
+    "englishAudioTranslation": "That is then 43 euros. Really not much for such a nice jacket. And it is the last one in this color. But I must point out to you that I am not allowed to take back discounted clothing.",
+    "options": [
+      "Het jasje is goedkoop vanwege de kleur.",
+      "Het jasje zou in de was kunnen verkleuren.",
+      "Je mag het jasje niet meer kunnen ruilen."
+    ],
+    "correctIndex": 2,
+    "explanation": "The cashier states that discounted items cannot be returned or exchanged."
+  },
+  {
+    "id": 41,
+    "dutchQuestion": "Wanneer vindt de vergadering plaats?",
+    "englishQuestionTranslation": "When does the meeting take place?",
+    "audioTranscript": "Zullen we de vergadering op maandag 4 uur zetten? Maandag kan ik niet. Kunnen we hem niet op donderdag om 5 uur doen of op vrijdag om 10 uur? Laten we maar vrijdag doen, want op donderdag kan ik niet.",
+    "englishAudioTranslation": "Shall we set the meeting for Monday at 4 o'clock? I can't on Monday. Can't we do it on Thursday at 5 o'clock or on Friday at 10 o'clock? Let's do Friday, because I can't on Thursday.",
+    "options": [
+      "vrijdag",
+      "donderdag",
+      "maandag"
+    ],
+    "correctIndex": 0,
+    "explanation": "The speakers agree to meet on Friday."
+  },
+  {
+    "id": 42,
+    "dutchQuestion": "Wat voor weer is het tijdens dit gesprek?",
+    "englishQuestionTranslation": "What is the weather like during this conversation?",
+    "audioTranscript": "Het is echt rotweer. Ja, dat kan je wel zeggen. En het houdt maar niet op. We kunnen er niets aan doen. Maar eigenlijk mogen we niet klagen als je hoort wat er in andere landen gebeurt. Dat klopt, we zijn nooit tevreden. We hebben altijd iets te klagen. Zo erg is het nu ook weer niet. Nee, dat valt best wel mee.",
+    "englishAudioTranslation": "It's really bad weather. Yes, you can say that. And it just won't stop. We can't do anything about it. But actually we shouldn't complain if you hear what's happening in other countries. That's true, we are never satisfied. We always have something to complain about. It's not that bad now. No, that's not too bad.",
+    "options": [
+      "Het is heel mooi weer.",
+      "Het regent en het is nat.",
+      "Dat kunnen we niet weten."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speakers describe the weather as 'rotweer' (bad weather) and mention it won't stop, implying rain."
+  },
+  {
+    "id": 43,
+    "dutchQuestion": "Wat wordt apart afgerekend?",
+    "englishQuestionTranslation": "What is billed separately?",
+    "audioTranscript": "Er zijn verschillende vruchtensappen. Lokaal bier en wijn zijn in de prijs inbegrepen. Als u geïmporteerde alcoholische dranken wilt drinken, worden deze gewoon op de rekening van uw kamer gezet.",
+    "englishAudioTranslation": "There are various fruit juices. Local beer and wine are included in the price. If you want to drink imported alcoholic drinks, these are simply put on your room bill.",
+    "options": [
+      "bier en wijn",
+      "alles uit de koelkast, behalve bier",
+      "geïmporteerde alcoholische dranken"
+    ],
+    "correctIndex": 2,
+    "explanation": "The audio states that imported alcoholic drinks are added to the room bill separately."
+  },
+  {
+    "id": 44,
+    "dutchQuestion": "Wat bestelt de vrouw?",
+    "englishQuestionTranslation": "What does the woman order?",
+    "audioTranscript": "Deze keer neem ik mosselen. Kunt u de salade die daarbij hoort door frietjes vervangen?",
+    "englishAudioTranslation": "This time I'll have mussels. Can you replace the salad that comes with it with fries?",
+    "options": [
+      "mosselen met salade",
+      "mosselen met frietjes",
+      "mosselen met salade en frietjes",
+      "groentesoep"
+    ],
+    "correctIndex": 1,
+    "explanation": "The woman orders mussels and asks to replace the salad with fries."
+  },
+  {
+    "id": 45,
+    "dutchQuestion": "Wat moet je 's morgens doen?",
+    "englishQuestionTranslation": "What do you have to do in the morning?",
+    "audioTranscript": "S'morgens moet je eerst alle mails beantwoorden. Daarna moeten er berichten voor de baas worden getikt.",
+    "englishAudioTranslation": "In the morning you must first answer all emails. Then messages for the boss must be typed.",
+    "options": [
+      "koffie bestellen",
+      "vragen beantwoorden",
+      "mails beantwoorden en berichten tikken."
+    ],
+    "correctIndex": 2,
+    "explanation": "The audio explicitly lists answering emails and typing messages as morning tasks."
+  },
+  {
+    "id": 46,
+    "dutchQuestion": "Waarover spreekt de man?",
+    "englishQuestionTranslation": "What is the man talking about?",
+    "audioTranscript": "Goedendag, ik ben jullie nieuwe leraar. Ik zou jullie dit jaar begeleiden en ik heb in de laatste 10 maanden op deze school met veel studenten samengewerkt aan hun stages.",
+    "englishAudioTranslation": "Good day, I am your new teacher. I will be guiding you this year and I have worked with many students at this school over the last 10 months on their internships.",
+    "options": [
+      "over de school",
+      "over zichzelf",
+      "over de stages van de studenten"
+    ],
+    "correctIndex": 2,
+    "explanation": "The man introduces himself as the new teacher and mentions his work with students on their internships."
+  },
+  {
+    "id": 47,
+    "dutchQuestion": "Wat gebeurt er?",
+    "englishQuestionTranslation": "What is happening?",
+    "audioTranscript": "De rekening voor de Audi werd nog niet betaald. Waarom niet? Ik heb de overschrijving van de klant toch teruggevonden? Nee, dat bedrag van 31.000 euro is niet de Audi, maar de Mercedes die verleden maand werd verkocht. Dat kan niet. Je moet je vergist hebben. Laat mij die overschrijving zien. Hier heb je hem. Nee, maar dat is niet de juiste klant. Je hebt bij de overschrijving van de verkeerde firma gekeken.",
+    "englishAudioTranslation": "The bill for the Audi has not been paid yet. Why not? I found the customer's transfer, didn't I? No, that amount of 31,000 euros is not the Audi, but the Mercedes that was sold last month. That cannot be. You must have made a mistake. Let me see that transfer. Here you go. No, but that is not the right customer. You looked at the transfer from the wrong company.",
+    "options": [
+      "De man verwisselt de boekhouding van verschillende klanten.",
+      "De vrouw heeft zich vergist in de boekhouding.",
+      "De Mercedes werd niet betaald."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man points out that the woman confused the transfer from the wrong company (customer)."
+  },
+  {
+    "id": 48,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Ik heb de baas gebeld. Hij heeft mij het goede adres gegeven. Oh, ik weet waar dat is. Je rijdt eerst links, dan rechtdoor en weer links en dan de eerste rechts. Het gebouw is aan je linkerhand aan het einde van de straat.",
+    "englishAudioTranslation": "I called the boss. He gave me the right address. Oh, I know where that is. You drive left first, then straight ahead and left again and then the first right. The building is on your left hand at the end of the street.",
+    "options": [
+      "De man weet precies waar het gebouw ligt.",
+      "De man heeft het adres niet en moet uitleg hebben.",
+      "De vrouw weet hoe ze erheen moet gaan.",
+      "De baas legt uit waar het gebouw ligt."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man explains the directions to the building, showing he knows exactly where it is."
+  },
+  {
+    "id": 49,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Het spijt me verschrikkelijk, maar de agenda van de directeur is echt erg vol. Ik heb nog maar een paar mogelijkheden. Een afspraak op maandag kan niet, want hij is er nooit op maandag. Woensdag is hij 's middags weg en de andere dagen zitten gewoon erg vol. En als we nu toch woensdag nemen, maar in de middag? Dat zou kunnen, als we er een korte afspraak van maken.",
+    "englishAudioTranslation": "I am terribly sorry, but the director's schedule is really very full. I only have a few options left. An appointment on Monday is not possible, because he is never there on Monday. Wednesday he is away in the afternoon and the other days are just very full. And if we take Wednesday after all, but in the afternoon? That could work, if we make it a short appointment.",
+    "options": [
+      "De directeur werkt nooit op maandag.",
+      "De directeur maakt enkel korte afspraken.",
+      "De directeur wil met niemand meer spreken."
+    ],
+    "correctIndex": 0,
+    "explanation": "The speaker explicitly states that an appointment on Monday is impossible because the director is never there on Mondays."
+  },
+  {
+    "id": 50,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Ik wil graag een bestelling doorgeven. Wat wilt u bestellen? Uw nieuwe printer die zo goed lijkt te zijn. Ik weet niet of hij zo goed is, maar in ieder geval is hij goedkoop.",
+    "englishAudioTranslation": "I would like to place an order. What would you like to order? Your new printer that seems to be so good. I don't know if it is that good, but at least it is cheap.",
+    "options": [
+      "De vrouw vindt het nieuwe product goed.",
+      "De man vindt het nieuwe product goed.",
+      "Men zegt dat het nieuwe product van de firma heel goed is."
+    ],
+    "correctIndex": 2,
+    "explanation": "The man says he doesn't know if the printer is good, but it is cheap, implying the general reputation is that it is good."
+  },
+  {
+    "id": 51,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Laten we vanavond pannenkoeken maken. Ik lust geen pannenkoeken. We hebben geen meel meer, maar er zijn eieren en spek en We kunnen een omelet maken.",
+    "englishAudioTranslation": "Let's make pancakes tonight. I don't like pancakes. We have no flour left, but there are eggs and bacon and We can make an omelet.",
+    "options": [
+      "De vrouw wil geen omelet maken.",
+      "De man wil een omelet maken.",
+      "De vrouw lust pannenkoeken.",
+      "De man lust pannenkoeken."
+    ],
+    "correctIndex": 1,
+    "explanation": "The man suggests making an omelet after the woman says she doesn't like pancakes."
+  },
+  {
+    "id": 52,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Hoe gaat het ermee? Alles goed en met jou? Ook alles goed. Maar zeg, heb jij het dossier van die nieuwe architect gezien? Je weet wel, die daar midden in de stad het hotel moet ombouwen tot een rusthuis. Ja, dat dossier is vanmorgen weer opgedoken. Iemand heeft het bij de collega's op de derde verdieping laten liggen.",
+    "englishAudioTranslation": "How are things? Everything good and with you? Everything is good too. But tell me, have you seen the file of that new architect? You know, the one who has to convert the hotel into a nursing home in the middle of the city. Yes, that file turned up again this morning. Someone left it with the colleagues on the third floor.",
+    "options": [
+      "De vrouw heeft het dossier naar de derde verdieping gebracht.",
+      "Het dossier ligt in het rusthuis.",
+      "De man vraagt of het dossier dat kwijtgeraakt was, weer is opgedoken."
+    ],
+    "correctIndex": 2,
+    "explanation": "The man asks if the file that was lost has turned up again, and the woman confirms it has."
+  },
+  {
+    "id": 53,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Er is geen enkele balpen die schrijft. Dat kan echt niet. Ik heb gisteren nog een heel pakje nieuwe pennen gekocht.",
+    "englishAudioTranslation": "There is not a single ballpoint pen that writes. That really cannot be. I bought a whole pack of new pens yesterday.",
+    "options": [
+      "De balpennen van de vrouw doen het niet.",
+      "De man heeft gisteren nog pas met een balpen geschreven.",
+      "De man is op zoek naar een balpen.",
+      "De vrouw heeft balpennen gekocht."
+    ],
+    "correctIndex": 3,
+    "explanation": "The woman states she bought a new pack of pens yesterday, which is why she is frustrated they don't work."
+  },
+  {
+    "id": 54,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Met dit appartement hebben we echt een goede keuze gemaakt. De kamers zijn allemaal groot en op het zuiden gericht. Maar het balkon ligt op het westen. De badkamer is groot. Maar er is geen groot bad, enkel een grote douche.",
+    "englishAudioTranslation": "We really made a good choice with this apartment. The rooms are all large and face south. But the balcony faces west. The bathroom is large. But there is no large bath, only a large shower.",
+    "options": [
+      "De vrouw wil geen bad in de badkamer.",
+      "De man vindt het appartement best wel in orde.",
+      "De vrouw wil een appartement met een balkon dat westelijk gericht is."
+    ],
+    "correctIndex": 1,
+    "explanation": "The man says they made a good choice, indicating he finds the apartment in order."
+  },
+  {
+    "id": 55,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Met deze koffiemachine heeft u een echt voordeel. Ze produceert niet alleen hele goede koffie, maar ook warme melk zonder dat de machine voortdurend hoeft te worden schoongemaakt.",
+    "englishAudioTranslation": "With this coffee machine you have a real advantage. It produces not only very good coffee, but also warm milk without the machine having to be cleaned constantly.",
+    "options": [
+      "Ze is goedkoop.",
+      "Zij maakt betere koffie.",
+      "Men hoeft ze niet zo vaak schoon te maken."
+    ],
+    "correctIndex": 2,
+    "explanation": "The speaker highlights that the machine does not need to be cleaned constantly."
+  },
+  {
+    "id": 56,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Uw vliegtickets heb ik in uw tas gestopt, maar de envelop met documenten voor het contract heeft u? Nee, ik heb mijn vliegticket bij mij, maar ik heb geen contract. Dat heeft de baas. Klopt, deze tas is voor u. Er zitten alle documenten in voor de afspraak met de nieuwe klant, dus ook de envelop met het contract.",
+    "englishAudioTranslation": "I put your flight tickets in your bag, but do you have the envelope with documents for the contract? No, I have my flight ticket with me, but I have no contract. The boss has that. Correct, this bag is for you. It contains all the documents for the appointment with the new customer, including the envelope with the contract.",
+    "options": [
+      "De baas krijgt een envelop met een contract.",
+      "De man krijgt een envelop met een contract.",
+      "De vrouw krijgt een envelop met een contract."
+    ],
+    "correctIndex": 1,
+    "explanation": "The woman gives the bag containing the contract to the man."
+  },
+  {
+    "id": 57,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Ik voel me niet lekker. Dan kun je beter naar huis gaan en rust je even uit. Maar ik moet dat nu eerst nog even afmaken, want het is dringend. Laat maar, ik doe dat wel.",
+    "englishAudioTranslation": "I don't feel well. Then you better go home and rest for a while. But I have to finish that now, because it is urgent. Never mind, I'll do it.",
+    "options": [
+      "De vrouw is ziek.",
+      "De man wil het werk van de vrouw niet doen.",
+      "De vrouw vraagt collega of hij al haar werk kan doen."
+    ],
+    "correctIndex": 0,
+    "explanation": "The woman says she doesn't feel well, which is a common way to say she is sick."
+  },
+  {
+    "id": 58,
+    "dutchQuestion": "Wat drinkt de huisgenoot?",
+    "englishQuestionTranslation": "What does the housemate drink?",
+    "audioTranscript": "Bij het ontbijt zegt een huisgenoot: Wie heeft de laatste koffie gebruikt? Er is geen koffie meer. Nu moet ik melk of thee gaan drinken. Ik verdraag geen melk, dan maar thee.",
+    "englishAudioTranslation": "At breakfast, a housemate says: Who used the last coffee? There is no more coffee. Now I have to drink milk or tea. I cannot tolerate milk, so I'll have tea.",
+    "options": [
+      "koffie",
+      "melk",
+      "thee"
+    ],
+    "correctIndex": 2,
+    "explanation": "The housemate says they cannot tolerate milk and chooses tea."
+  },
+  {
+    "id": 59,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Goedendag mevrouw, u wenst de rekening? Komt zo. Oh nee, het spijt me. U komt vanwege de baan. Ik herken u van de foto's op uw CV.",
+    "englishAudioTranslation": "Good day madam, you want the bill? Coming soon. Oh no, I'm sorry. You are coming because of the job. I recognize you from the photos on your CV.",
+    "options": [
+      "Zij heeft de persoon nog lang laten wachten.",
+      "Zij heeft de brief met de foto niet bij de hand.",
+      "Zij begrijpt niet waarvoor de persoon kwam."
+    ],
+    "correctIndex": 2,
+    "explanation": "The person at the desk initially thinks the woman wants the bill, then realizes she is there for a job interview."
+  },
+  {
+    "id": 60,
+    "dutchQuestion": "Wat gebeurt er?",
+    "englishQuestionTranslation": "What is happening?",
+    "audioTranscript": "Oké meneer, u kunt uw wagen hier neerzetten. Zet u de motor uit alstublieft. Zet u even de richtingaanwijzer rechts aan. Oké, nu links. Oké, nu even de lichten. Oh, om door de keuring te komen, moet u uw rechterlicht laten repareren.",
+    "englishAudioTranslation": "Okay sir, you can park your car here. Turn off the engine please. Turn on the right turn signal for a moment. Okay, now left. Okay, now the lights for a moment. Oh, to pass the inspection, you have to have your right light repaired.",
+    "options": [
+      "De richtingaanwijzers van de auto doen het niet.",
+      "De man moet zijn kapotte lichten vervangen.",
+      "De wagen komt zonder problemen door de keuring."
+    ],
+    "correctIndex": 1,
+    "explanation": "The inspector tells the man he needs to repair his right light to pass the inspection."
+  }
+];
+
+    /**
+     * Web Audio API Synthesizer (No external audio file dependencies)
+     */
+    class SoundFX {
+      constructor() {
+        this.ctx = null;
+        this.enabled = true;
+      }
+
+      init() {
+        if (!this.ctx) {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          if (AudioContext) {
+            this.ctx = new AudioContext();
+          }
+        }
+        if (this.ctx && this.ctx.state === 'suspended') {
+          this.ctx.resume();
+        }
+      }
+
+      playCorrect() {
+        if (!this.enabled) return;
+        this.init();
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(523.25, now);
+        osc.frequency.exponentialRampToValueAtTime(783.99, now + 0.12);
+        osc.frequency.exponentialRampToValueAtTime(1046.50, now + 0.25);
+        gain.gain.setValueAtTime(0.2, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.35);
+      }
+
+      playWrong() {
+        if (!this.enabled) return;
+        this.init();
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(220, now);
+        osc.frequency.exponentialRampToValueAtTime(146.83, now + 0.22);
+        gain.gain.setValueAtTime(0.25, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.3);
+      }
+
+      playTick() {
+        if (!this.enabled) return;
+        this.init();
+        if (!this.ctx) return;
+        const now = this.ctx.currentTime;
+        const osc = this.ctx.createOscillator();
+        const gain = this.ctx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(880, now);
+        gain.gain.setValueAtTime(0.04, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.05);
+        osc.connect(gain);
+        gain.connect(this.ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.05);
+      }
+    }
+
+    const sound = new SoundFX();
+
+    /**
+     * Application State & Controller
+     */
+    class QuizApplication {
+      constructor() {
+        this.selectedModule = 'reading'; // 'reading' | 'listening'
+        this.currentMode = 'landing'; // 'landing' | 'practice' | 'exam' | 'results'
+        this.activeQuestionList = [...quizData];
+        this.currentIndex = 0;
+        this.answers = {}; // index -> { selectedIndex, isCorrect, timeSpent }
+        this.showTranslation = false;
+        this.showTranscript = false;
+        this.bookmarkedIds = new Set();
+
+        // Speech synthesis audio settings
+        this.audioSpeed = 1.0;
+        this.isAudioPlaying = false;
+        this.currentReplaysUsed = 0;
+        
+        // Exam timer
+        this.timerSeconds = 60;
+        this.timerInterval = null;
+        this.examStartTime = null;
+        this.examEndTime = null;
+        this.questionStartTime = null;
+
+        // Load bookmarks from localStorage
+        try {
+          const saved = localStorage.getItem('bright_dutch_bookmarks');
+          if (saved) {
+            this.bookmarkedIds = new Set(JSON.parse(saved));
+          }
+        } catch (e) {
+          console.warn('LocalStorage unavailable', e);
+        }
+
+        // Initialize voices when available
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.onvoiceschanged = () => {
+            window.speechSynthesis.getVoices();
+          };
+        }
+      }
+
+      init() {
+        this.selectModule('reading', false);
+        this.renderLandingJumpGrid();
+        this.setupKeyboardListeners();
+      }
+
+      // Module Selector (Central Hub)
+      selectModule(moduleName, showNotification = true) {
+        this.selectedModule = moduleName;
+        const hubReading = document.getElementById('hubCardReading');
+        const hubListening = document.getElementById('hubCardListening');
+        const activeIcon = document.getElementById('activeModuleIcon');
+        const activeTitle = document.getElementById('activeModuleTitle');
+        const activeSub = document.getElementById('activeModuleSub');
+        const activePill = document.getElementById('activeModulePill');
+        const headerBadge = document.getElementById('headerSectionBadge');
+
+        if (moduleName === 'reading') {
+          hubReading.classList.add('active');
+          hubListening.classList.remove('active');
+          activeIcon.textContent = '📖';
+          activeTitle.textContent = 'Reading & Grammar Section (Leesvaardigheid)';
+          activeSub.textContent = '60 Official Questions &bull; Word order, verbs, prepositions & idioms';
+          activePill.textContent = 'Reading Active';
+          activePill.style.background = 'rgba(99, 102, 241, 0.15)';
+          activePill.style.color = '#818cf8';
+          activePill.style.borderColor = 'rgba(99, 102, 241, 0.3)';
+          headerBadge.textContent = 'Reading & Grammar';
+          this.activeQuestionList = [...quizData];
+        } else {
+          hubListening.classList.add('active');
+          hubReading.classList.remove('active');
+          activeIcon.textContent = '🎧';
+          activeTitle.textContent = 'Listening Comprehension Section (Luistervaardigheid)';
+          activeSub.textContent = '60 Spoken Audio Fragments &bull; Authentic exam audio & transcripts';
+          activePill.textContent = 'Listening Active';
+          activePill.style.background = 'rgba(6, 182, 212, 0.15)';
+          activePill.style.color = '#22d3ee';
+          activePill.style.borderColor = 'rgba(6, 182, 212, 0.3)';
+          headerBadge.textContent = 'Listening (Luister)';
+          this.activeQuestionList = [...listeningQuizData];
+        }
+
+        this.renderLandingJumpGrid();
+        if (showNotification) {
+          this.showToast(`Switched to ${moduleName === 'reading' ? '📖 Reading & Grammar' : '🎧 Listening Comprehension'}`);
+        }
+      }
+
+      // Mode switchers
+      startPracticeMode(initialIndex = 0) {
+        sound.init();
+        this.currentMode = 'practice';
+        this.activeQuestionList = this.selectedModule === 'reading' ? [...quizData] : [...listeningQuizData];
+        this.currentIndex = initialIndex;
+        this.answers = {};
+        this.showTranslation = false;
+        this.showTranscript = false;
+        this.currentReplaysUsed = 0;
+        this.stopTimer();
+        this.stopSpeech();
+
+        this.showView('quizScreen');
+        this.updateHeaderControls();
+        this.renderCurrentQuestion();
+      }
+
+      startExamMode() {
+        sound.init();
+        this.currentMode = 'exam';
+        this.activeQuestionList = this.selectedModule === 'reading' ? [...quizData] : [...listeningQuizData];
+        this.currentIndex = 0;
+        this.answers = {};
+        this.showTranslation = false;
+        this.showTranscript = false;
+        this.currentReplaysUsed = 0;
+        this.examStartTime = Date.now();
+        this.stopSpeech();
+
+        this.showView('quizScreen');
+        this.updateHeaderControls();
+        this.renderCurrentQuestion();
+      }
+
+      retryIncorrect() {
+        const sourceData = this.selectedModule === 'reading' ? quizData : listeningQuizData;
+        const missedQuestions = sourceData.filter((q, idx) => {
+          return this.answers[idx] && !this.answers[idx].isCorrect;
+        });
+
+        if (missedQuestions.length === 0) {
+          this.showToast('No missed questions to practice!');
+          return;
+        }
+
+        this.activeQuestionList = missedQuestions;
+        this.currentMode = 'practice';
+        this.currentIndex = 0;
+        this.answers = {};
+        this.showTranslation = false;
+        this.showTranscript = false;
+        this.currentReplaysUsed = 0;
+        this.stopTimer();
+        this.stopSpeech();
+
+        this.showView('quizScreen');
+        this.updateHeaderControls();
+        this.renderCurrentQuestion();
+        this.showToast(`Practicing ${missedQuestions.length} missed questions`);
+      }
+
+      restartCurrentMode() {
+        if (this.currentMode === 'exam' || this.currentMode === 'results') {
+          this.startExamMode();
+        } else {
+          this.startPracticeMode(0);
+        }
+      }
+
+      confirmQuitToMenu() {
+        if (this.currentMode === 'landing') return;
+        document.getElementById('quitModal').classList.add('active');
+      }
+
+      closeQuitModal() {
+        document.getElementById('quitModal').classList.remove('active');
+      }
+
+      quitToMenu() {
+        this.closeQuitModal();
+        this.stopTimer();
+        this.stopSpeech();
+        this.currentMode = 'landing';
+        this.showView('landingScreen');
+        this.updateHeaderControls();
+        this.renderLandingJumpGrid();
+      }
+
+      showView(screenId) {
+        document.querySelectorAll('.view-screen').forEach(el => el.classList.remove('active'));
+        const screen = document.getElementById(screenId);
+        if (screen) screen.classList.add('active');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      updateHeaderControls() {
+        const quitBtn = document.getElementById('quitBtn');
+        const navJumpBtn = document.getElementById('navJumpBtn');
+
+        if (this.currentMode === 'landing') {
+          quitBtn.style.display = 'none';
+          navJumpBtn.style.display = 'none';
+        } else {
+          quitBtn.style.display = 'inline-flex';
+          navJumpBtn.style.display = 'inline-flex';
+        }
+      }
+
+      // Render Question
+      renderCurrentQuestion() {
+        const q = this.activeQuestionList[this.currentIndex];
+        if (!q) return;
+
+        this.questionStartTime = Date.now();
+        this.currentReplaysUsed = 0;
+        this.stopSpeech();
+
+        // Counter & Progress
+        const total = this.activeQuestionList.length;
+        document.getElementById('quizCounterText').textContent = `Question ${this.currentIndex + 1} of ${total}`;
+        
+        const moduleBadge = document.getElementById('quizModuleBadge');
+        const categoryBadge = document.getElementById('quizCategoryBadge');
+        
+        if (this.selectedModule === 'listening') {
+          moduleBadge.textContent = '🎧 Listening';
+          moduleBadge.className = 'category-tag audio-tag';
+          categoryBadge.textContent = q.category || 'Comprehension';
+          categoryBadge.className = 'category-tag audio-tag';
+        } else {
+          moduleBadge.textContent = '📖 Reading';
+          moduleBadge.className = 'category-tag';
+          categoryBadge.textContent = q.category || 'Grammar';
+          categoryBadge.className = 'category-tag';
+        }
+
+        const progressPct = ((this.currentIndex) / total) * 100;
+        document.getElementById('quizProgressBar').style.width = `${progressPct}%`;
+
+        // Dutch Question Text
+        const dutchPrompt = q.dutchQuestion || 'Wat heeft u begrepen?';
+        document.getElementById('dutchQuestionText').textContent = `${q.id}. ${dutchPrompt}`;
+
+        // Bookmark icon state
+        this.updateBookmarkButtonState(q.id);
+
+        // Audio Player Widget configuration
+        const audioWidget = document.getElementById('audioPlayerWidget');
+        const translationWrapper = document.getElementById('translationWrapper');
+        const translationCard = document.getElementById('englishTranslationCard');
+        const translationBtnLabel = document.getElementById('translationBtnLabel');
+
+        if (this.selectedModule === 'listening') {
+          audioWidget.style.display = 'flex';
+          translationWrapper.style.display = 'none'; // Transcript toggle is in audio player
+
+          // Configure transcripts
+          document.getElementById('transcriptDutchText').textContent = q.audioTranscript || '';
+          document.getElementById('transcriptEnglishText').textContent = q.englishAudioTranslation || '';
+
+          const transcriptBox = document.getElementById('transcriptBox');
+          const transcriptBtnLabel = document.getElementById('transcriptBtnLabel');
+          const transcriptToggleWrapper = document.getElementById('transcriptToggleWrapper');
+
+          if (this.currentMode === 'practice') {
+            transcriptToggleWrapper.style.display = 'block';
+            if (this.showTranscript) {
+              transcriptBox.classList.add('visible');
+              transcriptBtnLabel.textContent = 'Hide Transcript & Translation (T)';
+            } else {
+              transcriptBox.classList.remove('visible');
+              transcriptBtnLabel.textContent = 'Show Transcript & Translation (T)';
+            }
+          } else {
+            // In exam mode, hide transcript toggle
+            transcriptToggleWrapper.style.display = 'none';
+            transcriptBox.classList.remove('visible');
+          }
+
+          this.updateAudioPlayerUI();
+
+          // In timed exam mode, auto-play audio fragment once on question load!
+          if (this.currentMode === 'exam' && this.answers[this.currentIndex] === undefined) {
+            setTimeout(() => this.playCurrentAudio(), 250);
+          }
+        } else {
+          // Reading mode
+          audioWidget.style.display = 'none';
+          translationWrapper.style.display = 'block';
+
+          translationCard.textContent = q.englishTranslation;
+          if (this.currentMode === 'practice') {
+            translationWrapper.style.display = 'block';
+            if (this.showTranslation) {
+              translationCard.classList.add('visible');
+              translationBtnLabel.textContent = 'Hide English Translation (T)';
+            } else {
+              translationCard.classList.remove('visible');
+              translationBtnLabel.textContent = 'Show English Translation (T)';
+            }
+          } else {
+            translationWrapper.style.display = 'none';
+            translationCard.classList.remove('visible');
+          }
+        }
+
+        // Explanation text
+        const explanationPanel = document.getElementById('explanationPanel');
+        const explanationText = document.getElementById('explanationText');
+        explanationText.textContent = q.explanation;
+
+        // Render Options
+        const optionsList = document.getElementById('optionsList');
+        optionsList.innerHTML = '';
+
+        const letters = ['A', 'B', 'C', 'D'];
+        const existingAnswer = this.answers[this.currentIndex];
+
+        q.options.forEach((optText, optIdx) => {
+          const card = document.createElement('div');
+          card.className = 'option-card';
+          card.setAttribute('data-index', optIdx);
+
+          let letterHtml = `<div class="option-letter">${letters[optIdx]}</div>`;
+          let textHtml = `<div class="option-text">${optText}</div>`;
+          let iconHtml = `
+            <div class="option-feedback-icon">
+              <svg class="icon-chk" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <svg class="icon-err" style="display:none;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </div>
+          `;
+
+          card.innerHTML = letterHtml + textHtml + iconHtml;
+
+          if (existingAnswer !== undefined) {
+            card.classList.add('locked');
+            if (optIdx === q.correctIndex) {
+              card.classList.add('correct');
+              card.querySelector('.icon-chk').style.display = 'block';
+              card.querySelector('.icon-err').style.display = 'none';
+            } else if (optIdx === existingAnswer.selectedIndex) {
+              card.classList.add('incorrect');
+              card.querySelector('.icon-chk').style.display = 'none';
+              card.querySelector('.icon-err').style.display = 'block';
+            }
+          } else {
+            card.addEventListener('click', () => this.handleOptionSelect(optIdx));
+          }
+
+          optionsList.appendChild(card);
+        });
+
+        // Show/hide explanation
+        if (existingAnswer !== undefined) {
+          explanationPanel.classList.add('visible');
+        } else {
+          explanationPanel.classList.remove('visible');
+        }
+
+        // Navigation button labels & state
+        const prevBtn = document.getElementById('prevQuestionBtn');
+        const nextBtn = document.getElementById('nextQuestionBtn');
+        const nextBtnLabel = document.getElementById('nextBtnLabel');
+        const isAnswered = existingAnswer !== undefined;
+
+        if (this.currentMode === 'practice') {
+          prevBtn.style.display = this.currentIndex > 0 ? 'inline-flex' : 'none';
+        } else {
+          prevBtn.style.display = 'none';
+        }
+
+        if (isAnswered) {
+          nextBtn.className = 'btn btn-primary';
+          nextBtnLabel.textContent = this.currentIndex === total - 1 ? 'Finish Assessment' : 'Next Question';
+        } else {
+          if (this.currentMode === 'exam') {
+            nextBtn.className = 'btn btn-secondary';
+            nextBtnLabel.textContent = this.currentIndex === total - 1 ? 'Skip & Finish' : 'Skip Question';
+          } else {
+            nextBtn.className = 'btn btn-secondary';
+            nextBtnLabel.textContent = this.currentIndex === total - 1 ? 'Finish Assessment' : 'Next Question';
+          }
+        }
+
+        // Handle Timed Mode Countdown
+        if (this.currentMode === 'exam') {
+          document.getElementById('timerBarContainer').style.display = 'block';
+          document.getElementById('quizTimerBadge').style.display = 'inline-flex';
+          
+          if (existingAnswer === undefined) {
+            this.startTimer();
+          } else {
+            this.stopTimer();
+          }
+        } else {
+          document.getElementById('timerBarContainer').style.display = 'none';
+          document.getElementById('quizTimerBadge').style.display = 'none';
+          this.stopTimer();
+        }
+
+        this.renderQuizJumpGrid();
+      }
+
+      // Audio Playback Methods (Original Exam Voice Recordings)
+      playCurrentAudio() {
+        const q = this.activeQuestionList[this.currentIndex];
+        if (!q) return;
+
+        // If currently playing, clicking again pauses audio
+        if (this.isAudioPlaying && this.audioElement) {
+          this.audioElement.pause();
+          this.isAudioPlaying = false;
+          this.updateAudioPlayButtonState();
+          return;
+        }
+
+        // Limit replays in Exam mode (max 2 replays)
+        if (this.currentMode === 'exam') {
+          if (this.currentReplaysUsed >= 2) {
+            this.showToast('Max audio replays reached (2 of 2 used).');
+            return;
+          }
+          this.currentReplaysUsed++;
+          this.updateAudioPlayerUI();
+        }
+
+        this.stopSpeech();
+
+        if (!this.audioElement) {
+          this.audioElement = new Audio();
+        }
+
+        const audioSrc = q.audioFile || `/audio/q_${q.id}.mp3`;
+        this.audioElement.src = audioSrc;
+        this.audioElement.playbackRate = this.audioSpeed || 1.0;
+
+        this.isAudioPlaying = true;
+        this.updateAudioPlayButtonState();
+
+        this.audioElement.onended = () => {
+          this.isAudioPlaying = false;
+          this.updateAudioPlayButtonState();
+        };
+
+        this.audioElement.onerror = (e) => {
+          console.warn('Audio playback error:', e);
+          this.isAudioPlaying = false;
+          this.updateAudioPlayButtonState();
+          this.showToast('Audio playback error.');
+        };
+
+        this.audioElement.play().catch(err => {
+          console.warn('Playback prevented or interrupted:', err);
+          this.isAudioPlaying = false;
+          this.updateAudioPlayButtonState();
+        });
+      }
+
+      stopSpeech() {
+        if (this.audioElement) {
+          try {
+            this.audioElement.pause();
+            this.audioElement.currentTime = 0;
+          } catch (e) {}
+        }
+        if (this.reviewAudioElement) {
+          try {
+            this.reviewAudioElement.pause();
+            this.reviewAudioElement.currentTime = 0;
+          } catch (e) {}
+        }
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+        }
+        this.isAudioPlaying = false;
+        this.updateAudioPlayButtonState();
+      }
+
+      toggleAudioSpeed() {
+        this.audioSpeed = this.audioSpeed === 1.0 ? 0.85 : 1.0;
+        if (this.audioElement) {
+          this.audioElement.playbackRate = this.audioSpeed;
+        }
+        if (this.reviewAudioElement) {
+          this.reviewAudioElement.playbackRate = this.audioSpeed;
+        }
+        const btn = document.getElementById('audioSpeedBtn');
+        if (btn) btn.textContent = `${this.audioSpeed}x`;
+        this.showToast(`Audio speed set to ${this.audioSpeed}x`);
+      }
+
+      updateAudioPlayerUI() {
+        const replayBadge = document.getElementById('audioReplayBadge');
+        const playBtn = document.getElementById('playAudioBtn');
+
+        if (this.currentMode === 'exam') {
+          const remaining = Math.max(0, 2 - this.currentReplaysUsed);
+          replayBadge.textContent = `Replays Left: ${remaining} / 2`;
+          replayBadge.style.color = remaining === 0 ? '#f87171' : '#fbbf24';
+          playBtn.disabled = remaining === 0;
+        } else {
+          replayBadge.textContent = 'Replays: Unlimited';
+          replayBadge.style.color = '#cbd5e1';
+          playBtn.disabled = false;
+        }
+      }
+
+      updateAudioPlayButtonState() {
+        const btn = document.getElementById('playAudioBtn');
+        const text = document.getElementById('playAudioBtnText');
+        const icon = document.getElementById('playAudioIcon');
+        const wave = document.getElementById('soundwaveContainer');
+
+        if (!btn) return;
+
+        if (this.isAudioPlaying) {
+          btn.classList.add('playing');
+          text.textContent = 'Pause Original Audio';
+          icon.style.display = 'none';
+          wave.style.display = 'inline-flex';
+        } else {
+          btn.classList.remove('playing');
+          text.textContent = 'Play Original Audio (Voce Originală)';
+          icon.style.display = 'block';
+          wave.style.display = 'none';
+        }
+      }
+
+      toggleAudioTranscript() {
+        this.showTranscript = !this.showTranscript;
+        const box = document.getElementById('transcriptBox');
+        const label = document.getElementById('transcriptBtnLabel');
+
+        if (this.showTranscript) {
+          box.classList.add('visible');
+          label.textContent = 'Hide Transcript & Translation (T)';
+        } else {
+          box.classList.remove('visible');
+          label.textContent = 'Show Transcript & Translation (T)';
+        }
+      }
+
+      // Handle Option Selection
+      handleOptionSelect(selectedIndex) {
+        if (this.answers[this.currentIndex] !== undefined) return;
+
+        const q = this.activeQuestionList[this.currentIndex];
+        const isCorrect = (selectedIndex === q.correctIndex);
+        const timeSpent = Math.max(1, Math.round((Date.now() - this.questionStartTime) / 1000));
+
+        this.answers[this.currentIndex] = {
+          selectedIndex,
+          isCorrect,
+          timeSpent,
+          isTimedOut: false
+        };
+
+        this.stopTimer();
+
+        // Audio & Visual feedback
+        if (isCorrect) {
+          sound.playCorrect();
+        } else {
+          sound.playWrong();
+        }
+
+        const cards = document.querySelectorAll('#optionsList .option-card');
+        cards.forEach((card, idx) => {
+          card.classList.add('locked');
+          if (idx === q.correctIndex) {
+            card.classList.add('correct');
+            card.querySelector('.icon-chk').style.display = 'block';
+            card.querySelector('.icon-err').style.display = 'none';
+          } else if (idx === selectedIndex) {
+            card.classList.add('incorrect');
+            card.querySelector('.icon-chk').style.display = 'none';
+            card.querySelector('.icon-err').style.display = 'block';
+          }
+        });
+
+        // Update Next button to active primary state
+        const nextBtn = document.getElementById('nextQuestionBtn');
+        const nextBtnLabel = document.getElementById('nextBtnLabel');
+        nextBtn.className = 'btn btn-primary';
+        nextBtnLabel.textContent = this.currentIndex === this.activeQuestionList.length - 1 ? 'Finish Assessment' : 'Next Question';
+
+        // Reveal explanation and smoothly scroll into view
+        const expPanel = document.getElementById('explanationPanel');
+        expPanel.classList.add('visible');
+        setTimeout(() => {
+          expPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 80);
+
+        this.renderQuizJumpGrid();
+      }
+
+      // Handle Question Timeout (Exam Mode)
+      handleTimeout() {
+        if (this.answers[this.currentIndex] !== undefined) return;
+        const q = this.activeQuestionList[this.currentIndex];
+
+        sound.playWrong();
+        this.answers[this.currentIndex] = {
+          selectedIndex: -1,
+          isCorrect: false,
+          timeSpent: 60,
+          isTimedOut: true
+        };
+
+        this.stopTimer();
+        this.showToast("Time's up! Showing correct answer.");
+
+        // Lock & reveal correct option
+        const cards = document.querySelectorAll('#optionsList .option-card');
+        cards.forEach((card, idx) => {
+          card.classList.add('locked');
+          if (idx === q.correctIndex) {
+            card.classList.add('correct');
+            card.querySelector('.icon-chk').style.display = 'block';
+            card.querySelector('.icon-err').style.display = 'none';
+          }
+        });
+
+        document.getElementById('explanationPanel').classList.add('visible');
+        this.renderQuizJumpGrid();
+      }
+
+      // Timer Management
+      startTimer() {
+        this.stopTimer();
+        this.timerSeconds = 60;
+        this.updateTimerDisplay();
+
+        this.timerInterval = setInterval(() => {
+          this.timerSeconds--;
+          this.updateTimerDisplay();
+
+          if (this.timerSeconds <= 5 && this.timerSeconds > 0) {
+            sound.playTick();
+          }
+
+          if (this.timerSeconds <= 0) {
+            this.handleTimeout();
+          }
+        }, 1000);
+      }
+
+      stopTimer() {
+        if (this.timerInterval) {
+          clearInterval(this.timerInterval);
+          this.timerInterval = null;
+        }
+      }
+
+      updateTimerDisplay() {
+        const badge = document.getElementById('quizTimerBadge');
+        const text = document.getElementById('timerSecondsText');
+        const barFill = document.getElementById('timerBarFill');
+
+        text.textContent = `${this.timerSeconds}s`;
+
+        const pct = Math.max(0, (this.timerSeconds / 60) * 100);
+        barFill.style.width = `${pct}%`;
+
+        badge.classList.remove('warning', 'danger');
+        barFill.classList.remove('warning', 'danger');
+
+        if (this.timerSeconds <= 10) {
+          badge.classList.add('danger');
+          barFill.classList.add('danger');
+        } else if (this.timerSeconds <= 20) {
+          badge.classList.add('warning');
+          barFill.classList.add('warning');
+        }
+      }
+
+      // Navigation
+      nextQuestion() {
+        if (this.answers[this.currentIndex] === undefined && this.currentMode === 'exam') {
+          this.answers[this.currentIndex] = {
+            selectedIndex: -1,
+            isCorrect: false,
+            timeSpent: 60 - this.timerSeconds,
+            isTimedOut: false
+          };
+        }
+
+        if (this.currentIndex < this.activeQuestionList.length - 1) {
+          this.currentIndex++;
+          this.renderCurrentQuestion();
+        } else {
+          this.finishQuiz();
+        }
+      }
+
+      prevQuestion() {
+        if (this.currentIndex > 0) {
+          this.currentIndex--;
+          this.renderCurrentQuestion();
+        }
+      }
+
+      jumpToQuestion(idx) {
+        if (idx >= 0 && idx < this.activeQuestionList.length) {
+          this.currentIndex = idx;
+          this.renderCurrentQuestion();
+          this.closeJumpDrawer();
+        }
+      }
+
+      // Bookmarking
+      toggleCurrentBookmark() {
+        const q = this.activeQuestionList[this.currentIndex];
+        if (!q) return;
+
+        const compositeId = `${this.selectedModule}_${q.id}`;
+        if (this.bookmarkedIds.has(compositeId)) {
+          this.bookmarkedIds.delete(compositeId);
+          this.showToast(`Removed Q${q.id} from bookmarks`);
+        } else {
+          this.bookmarkedIds.add(compositeId);
+          this.showToast(`Bookmarked Q${q.id} for review`);
+        }
+
+        this.updateBookmarkButtonState(q.id);
+        this.saveBookmarks();
+      }
+
+      updateBookmarkButtonState(qId) {
+        const btn = document.getElementById('bookmarkBtn');
+        const compositeId = `${this.selectedModule}_${qId}`;
+        if (this.bookmarkedIds.has(compositeId)) {
+          btn.classList.add('active');
+          btn.querySelector('svg').style.fill = '#6366f1';
+        } else {
+          btn.classList.remove('active');
+          btn.querySelector('svg').style.fill = 'none';
+        }
+      }
+
+      saveBookmarks() {
+        try {
+          localStorage.setItem('bright_dutch_bookmarks', JSON.stringify([...this.bookmarkedIds]));
+        } catch (e) {}
+      }
+
+      toggleTranslation() {
+        this.showTranslation = !this.showTranslation;
+        const card = document.getElementById('englishTranslationCard');
+        const btnLabel = document.getElementById('translationBtnLabel');
+
+        if (this.showTranslation) {
+          card.classList.add('visible');
+          btnLabel.textContent = 'Hide English Translation (T)';
+        } else {
+          card.classList.remove('visible');
+          btnLabel.textContent = 'Show English Translation (T)';
+        }
+      }
+
+      toggleSound() {
+        sound.enabled = !sound.enabled;
+        const btn = document.getElementById('soundToggleBtn');
+        const onIcon = document.getElementById('soundOnIcon');
+        const offIcon = document.getElementById('soundOffIcon');
+
+        if (sound.enabled) {
+          btn.classList.add('active');
+          onIcon.style.display = 'block';
+          offIcon.style.display = 'none';
+          this.showToast('Sound Effects: Enabled');
+          sound.playCorrect();
+        } else {
+          btn.classList.remove('active');
+          onIcon.style.display = 'none';
+          offIcon.style.display = 'block';
+          this.showToast('Sound Effects: Muted');
+        }
+      }
+
+      toggleJumpDrawer() {
+        const drawer = document.getElementById('quizJumpDrawer');
+        if (drawer.style.display === 'none') {
+          drawer.style.display = 'block';
+          this.renderQuizJumpGrid();
+        } else {
+          drawer.style.display = 'none';
+        }
+      }
+
+      closeJumpDrawer() {
+        document.getElementById('quizJumpDrawer').style.display = 'none';
+      }
+
+      // Finish Quiz & Render Results
+      finishQuiz() {
+        this.stopTimer();
+        this.stopSpeech();
+        this.examEndTime = Date.now();
+        this.currentMode = 'results';
+
+        const total = this.activeQuestionList.length;
+        let correctCount = 0;
+        let totalSecondsSpent = 0;
+
+        for (let i = 0; i < total; i++) {
+          const ans = this.answers[i];
+          if (ans && ans.isCorrect) {
+            correctCount++;
+          }
+          if (ans && ans.timeSpent) {
+            totalSecondsSpent += ans.timeSpent;
+          }
+        }
+
+        const scorePercent = Math.round((correctCount / total) * 100);
+
+        // Update Stat Cards
+        document.getElementById('resTotalCorrect').textContent = correctCount;
+        document.getElementById('resTotalWrong').textContent = total - correctCount;
+        document.getElementById('missedCountText').textContent = total - correctCount;
+
+        const minutes = Math.floor(totalSecondsSpent / 60);
+        const seconds = totalSecondsSpent % 60;
+        document.getElementById('resTimeSpent').textContent = `${minutes}m ${seconds.toString().padStart(2, '0')}s`;
+
+        const avgSecs = (totalSecondsSpent / (total || 1)).toFixed(1);
+        document.getElementById('resAvgSpeed').textContent = `${avgSecs}s`;
+
+        // Donut circle progress
+        const circle = document.getElementById('scoreProgressCircle');
+        const circumference = 2 * Math.PI * 70;
+        const offset = circumference - (scorePercent / 100) * circumference;
+        circle.style.strokeDashoffset = offset;
+
+        if (scorePercent >= 80) {
+          circle.style.stroke = '#10b981';
+        } else if (scorePercent >= 60) {
+          circle.style.stroke = '#6366f1';
+        } else {
+          circle.style.stroke = '#ef4444';
+        }
+
+        document.getElementById('finalScorePercent').textContent = `${scorePercent}%`;
+        document.getElementById('finalScoreFraction').textContent = `${correctCount} / ${total}`;
+
+        // English Feedback title & description
+        const gradeTitle = document.getElementById('resultsGradeTitle');
+        const feedbackMsg = document.getElementById('resultsFeedbackMsg');
+        const modName = this.selectedModule === 'reading' ? 'Reading & Grammar' : 'Listening Comprehension';
+
+        if (scorePercent >= 90) {
+          gradeTitle.textContent = 'Outstanding Performance! (CEFR C1/C2)';
+          feedbackMsg.textContent = `Exceptional mastery of Dutch ${modName}! You have demonstrated fluency and high accuracy.`;
+        } else if (scorePercent >= 75) {
+          gradeTitle.textContent = 'Passed with Merit! (CEFR B2)';
+          feedbackMsg.textContent = `Great work! You have a solid grasp of professional Dutch business ${modName}.`;
+        } else if (scorePercent >= 55) {
+          gradeTitle.textContent = 'Exam Passed (CEFR B1)';
+          feedbackMsg.textContent = `Passing score! Review your missed questions below to sharpen challenging areas in Dutch ${modName}.`;
+        } else {
+          gradeTitle.textContent = 'Needs More Practice';
+          feedbackMsg.textContent = `Keep studying! Review the detailed explanations and transcripts below and retake the ${modName} exam.`;
+        }
+
+        this.renderReviewList('all');
+        this.showView('resultsScreen');
+        this.updateHeaderControls();
+      }
+
+      // Review Section Filtering & Rendering
+      renderReviewList(filter = 'all') {
+        const container = document.getElementById('reviewItemsList');
+        container.innerHTML = '';
+
+        let wrongCount = 0;
+        let bookmarkedCount = 0;
+
+        const filteredQuestions = this.activeQuestionList.filter((q, idx) => {
+          const ans = this.answers[idx];
+          const isWrong = !ans || !ans.isCorrect;
+          const compositeId = `${this.selectedModule}_${q.id}`;
+          const isBookmarked = this.bookmarkedIds.has(compositeId);
+
+          if (isWrong) wrongCount++;
+          if (isBookmarked) bookmarkedCount++;
+
+          if (filter === 'wrong') return isWrong;
+          if (filter === 'bookmarked') return isBookmarked;
+          return true;
+        });
+
+        document.getElementById('filterWrongCount').textContent = wrongCount;
+        document.getElementById('filterBookmarkCount').textContent = bookmarkedCount;
+
+        if (filteredQuestions.length === 0) {
+          container.innerHTML = `<div style="text-align: center; color: var(--text-dim); padding: 2rem;">No questions match this filter.</div>`;
+          return;
+        }
+
+        filteredQuestions.forEach((q) => {
+          const originalIdx = this.activeQuestionList.findIndex(item => item.id === q.id);
+          const ans = this.answers[originalIdx];
+          const isCorrect = ans && ans.isCorrect;
+
+          const item = document.createElement('div');
+          item.className = `review-item ${isCorrect ? 'is-correct' : 'is-incorrect'}`;
+
+          const userChoiceText = (ans && ans.selectedIndex >= 0 && q.options[ans.selectedIndex]) 
+            ? q.options[ans.selectedIndex] 
+            : (ans && ans.isTimedOut ? 'Timed out (No answer)' : 'Skipped / Unanswered');
+          const correctChoiceText = q.options[q.correctIndex];
+
+          const crossSvg = `<svg style="display:inline-block;vertical-align:-2px;margin-left:4px;color:#ef4444;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`;
+          const checkSvg = `<svg style="display:inline-block;vertical-align:-2px;margin-left:4px;color:#10b981;" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+
+          // If listening question, show audio playback button and transcript in review
+          let audioReviewHtml = '';
+          if (this.selectedModule === 'listening' && q.audioTranscript) {
+            audioReviewHtml = `
+              <div style="margin: 0.6rem 0; padding: 0.6rem 0.85rem; background: rgba(6, 182, 212, 0.08); border-left: 3px solid #06b6d4; border-radius: 0 8px 8px 0;">
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.35rem;">
+                  <span style="font-size: 0.75rem; font-weight: 700; color: #67e8f9; text-transform: uppercase;">🎧 Audio Transcript</span>
+                  <button class="btn btn-secondary" style="padding: 0.2rem 0.55rem; font-size: 0.72rem; gap: 0.3rem;" onclick="appState.playReviewAudio(${q.id})">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                    <span>Play Original Audio</span>
+                  </button>
+                </div>
+                <div style="font-size: 0.85rem; color: #f1f5f9; font-style: italic; margin-bottom: 0.25rem;">"${q.audioTranscript}"</div>
+                <div style="font-size: 0.8rem; color: #94a3b8;">${q.englishAudioTranslation || ''}</div>
+              </div>
+            `;
+          }
+
+          item.innerHTML = `
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.4rem;">
+              <span class="category-tag ${this.selectedModule === 'listening' ? 'audio-tag' : ''}">${q.category || (this.selectedModule === 'listening' ? 'Listening' : 'Grammar')}</span>
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-dim);">Q#${q.id}</span>
+            </div>
+            <div class="review-item-q">${q.dutchQuestion || 'Wat heeft u begrepen?'}</div>
+            ${q.englishQuestionTranslation ? `<div style="font-size: 0.82rem; color: #a5b4fc; margin-bottom: 0.4rem;"><em>${q.englishQuestionTranslation}</em></div>` : (q.englishTranslation ? `<div style="font-size: 0.82rem; color: #a5b4fc; margin-bottom: 0.4rem;"><em>${q.englishTranslation}</em></div>` : '')}
+            ${audioReviewHtml}
+            <div class="review-answers">
+              ${!isCorrect ? `<div class="review-user-ans">Your answer: <strong>${userChoiceText}</strong> ${crossSvg}</div>` : ''}
+              <div class="review-correct-ans">Correct answer: <strong>${correctChoiceText}</strong> ${checkSvg}</div>
+            </div>
+            <div class="review-exp"><strong>Explanation:</strong> ${q.explanation}</div>
+          `;
+
+          container.appendChild(item);
+        });
+      }
+
+      playReviewAudio(qId) {
+        this.stopSpeech();
+        if (!this.reviewAudioElement) {
+          this.reviewAudioElement = new Audio();
+        }
+        this.reviewAudioElement.src = `/audio/q_${qId}.mp3`;
+        this.reviewAudioElement.playbackRate = this.audioSpeed || 1.0;
+        this.reviewAudioElement.play().catch(err => console.warn('Review audio play error:', err));
+      }
+
+      filterReview(filter, btnElement) {
+        document.querySelectorAll('.filter-pills .filter-btn').forEach(btn => btn.classList.remove('active'));
+        if (btnElement) btnElement.classList.add('active');
+        this.renderReviewList(filter);
+      }
+
+      // Jump Grids
+      renderLandingJumpGrid() {
+        const grid = document.getElementById('landingJumpGrid');
+        grid.innerHTML = '';
+        this.activeQuestionList.forEach((q, idx) => {
+          const chip = document.createElement('div');
+          chip.className = 'jump-chip';
+          chip.textContent = q.id;
+          chip.title = `Question ${q.id}: ${q.category || 'Question'}`;
+          chip.addEventListener('click', () => {
+            this.startPracticeMode(idx);
+          });
+          grid.appendChild(chip);
+        });
+        document.getElementById('jumpTotalText').textContent = `Questions 1 to ${this.activeQuestionList.length}`;
+      }
+
+      renderQuizJumpGrid() {
+        const grid = document.getElementById('quizJumpGrid');
+        grid.innerHTML = '';
+        this.activeQuestionList.forEach((q, idx) => {
+          const chip = document.createElement('div');
+          chip.className = 'jump-chip';
+          chip.textContent = q.id;
+
+          if (idx === this.currentIndex) {
+            chip.classList.add('current');
+          }
+
+          const ans = this.answers[idx];
+          if (ans !== undefined) {
+            if (ans.isCorrect) chip.classList.add('answered-correct');
+            else chip.classList.add('answered-wrong');
+          }
+
+          chip.addEventListener('click', () => {
+            this.jumpToQuestion(idx);
+          });
+          grid.appendChild(chip);
+        });
+      }
+
+      // Toast Notifications
+      showToast(msg) {
+        const toast = document.getElementById('toast');
+        const text = document.getElementById('toastMessage');
+        text.textContent = msg;
+        toast.classList.add('show');
+        clearTimeout(this.toastTimer);
+        this.toastTimer = setTimeout(() => {
+          toast.classList.remove('show');
+        }, 2500);
+      }
+
+      // Keyboard Controls
+      setupKeyboardListeners() {
+        window.addEventListener('keydown', (e) => {
+          if (document.getElementById('quitModal').classList.contains('active')) {
+            if (e.key === 'Escape') this.closeQuitModal();
+            return;
+          }
+
+          if (this.currentMode !== 'practice' && this.currentMode !== 'exam') return;
+
+          // Audio play shortcut: 'P' or 'p'
+          if ((e.key === 'p' || e.key === 'P') && this.selectedModule === 'listening') {
+            this.playCurrentAudio();
+            return;
+          }
+
+          // Translation / Transcript toggle: 'T' or 't'
+          if (e.key === 't' || e.key === 'T') {
+            if (this.currentMode === 'practice') {
+              if (this.selectedModule === 'listening') {
+                this.toggleAudioTranscript();
+              } else {
+                this.toggleTranslation();
+              }
+            }
+            return;
+          }
+
+          // Bookmark: 'B' or 'b'
+          if (e.key === 'b' || e.key === 'B') {
+            this.toggleCurrentBookmark();
+            return;
+          }
+
+          // Option selection: 1-4 or A-D
+          const key = e.key.toUpperCase();
+          const optionKeys = {
+            '1': 0, 'A': 0,
+            '2': 1, 'B': 1,
+            '3': 2, 'C': 2,
+            '4': 3, 'D': 3
+          };
+
+          if (optionKeys[key] !== undefined) {
+            const optIdx = optionKeys[key];
+            const q = this.activeQuestionList[this.currentIndex];
+            if (q && optIdx < q.options.length) {
+              this.handleOptionSelect(optIdx);
+            }
+            return;
+          }
+
+          // Next: Enter or Space
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            this.nextQuestion();
+            return;
+          }
+
+          // Previous: ArrowLeft
+          if (e.key === 'ArrowLeft' && this.currentMode === 'practice') {
+            this.prevQuestion();
+            return;
+          }
+
+          // Next: ArrowRight
+          if (e.key === 'ArrowRight') {
+            this.nextQuestion();
+            return;
+          }
+        });
+      }
+    }
+
+    // Initialize Application
+    const appState = new QuizApplication();
+    window.appState = appState;
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        appState.init();
+      });
+    } else {
+      appState.init();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,860 @@
+[
+  {
+    "id": 1,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Tijdens de vergadering werd duidelijk dat hij zijn baas belogen had en geld gestolen had. Vervolgens werd hij onmiddellijk ontslagen.",
+    "englishAudioTranslation": "During the meeting, it became clear that he had lied to his boss and stolen money. Subsequently, he was immediately fired.",
+    "options": [
+      "De baas heeft gelogen.",
+      "De medewerker heeft gelogen.",
+      "De baas werd ontslagen.",
+      "De baas heeft geld gestolen."
+    ],
+    "correctIndex": 1,
+    "explanation": "The audio states that 'he' (the employee) lied to his boss and stole money, leading to his dismissal. Therefore, the employee lied."
+  },
+  {
+    "id": 2,
+    "dutchQuestion": "Hoe laat is het?",
+    "englishQuestionTranslation": "What time is it?",
+    "audioTranscript": "Jan, we moeten vertrekken, het is al kwart over zes. Nee An, we hebben nog wel even tijd, het is pas kwart voor zes.",
+    "englishAudioTranslation": "Jan, we have to leave, it's already 6:15. No An, we still have some time, it's only 5:45.",
+    "options": [
+      "18:55",
+      "17:45",
+      "18:45",
+      "19:15"
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker explicitly says 'kwart voor zes', which translates to 5:45."
+  },
+  {
+    "id": 3,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Deze informatie heeft geen enkele waarde voor de politie-enquête.",
+    "englishAudioTranslation": "This information has no value for the police investigation.",
+    "options": [
+      "De informatie is onwaardig.",
+      "De informatie is waardeloos.",
+      "De informatie is ongebaat.",
+      "De informatie is waardevol."
+    ],
+    "correctIndex": 1,
+    "explanation": "The audio states the information has no value, which is synonymous with 'waardeloos' (worthless)."
+  },
+  {
+    "id": 4,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "De jongeren weten tegenwoordig niet meer wat ze willen in het leven.",
+    "englishAudioTranslation": "Young people nowadays no longer know what they want in life.",
+    "options": [
+      "De jongeren willen leven.",
+      "Ze weten niet wat ze willen doen.",
+      "De jongeren willen niets.",
+      "De jongeren willen niet meer leven."
+    ],
+    "correctIndex": 1,
+    "explanation": "The audio says young people don't know what they want, which matches 'Ze weten niet wat ze willen doen'."
+  },
+  {
+    "id": 5,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "De klanten kunnen onmogelijk op tijd aangekomen zijn. Het vliegtuig had 1 uur vertraging.",
+    "englishAudioTranslation": "The customers could not possibly have arrived on time. The plane was delayed by 1 hour.",
+    "options": [
+      "De klanten zijn niet gekomen.",
+      "De vlucht werd geannuleerd.",
+      "Het vliegtuig was op tijd.",
+      "Het vliegtuig had vertraging."
+    ],
+    "correctIndex": 3,
+    "explanation": "The audio explicitly mentions the plane had a 1-hour delay ('1 uur vertraging')."
+  },
+  {
+    "id": 6,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik wilde naar huis gaan en mijn auto was weg. De auto stond er nog, maar je kon hem niet vinden op het parkeerterrein.",
+    "englishAudioTranslation": "I wanted to go home and my car was gone. The car was still there, but you couldn't find it in the parking lot.",
+    "options": [
+      "De auto van de vrouw werd verplaatst.",
+      "De auto van de vrouw was niet meer thuis.",
+      "De man vond zijn auto niet.",
+      "De auto stond nog altijd waar de vrouw hem had laten staan."
+    ],
+    "correctIndex": 1,
+    "explanation": "The woman says her car was gone ('mijn auto was weg'), implying it was no longer at her home location."
+  },
+  {
+    "id": 7,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik ben dol op die muziek. Jij ook? Nee, niet echt. Ik luister er wel af en toe naar, maar ik kan best zonder.",
+    "englishAudioTranslation": "I love that music. You too? No, not really. I do listen to it occasionally, but I can do without it.",
+    "options": [
+      "De vrouw houdt van dat soort muziek.",
+      "De man houdt wel best van dat soort muziek.",
+      "De man kan zonder muziek.",
+      "De vrouw kan niet zonder muziek."
+    ],
+    "correctIndex": 1,
+    "explanation": "The man says he loves the music ('Ik ben dol op die muziek'), so he likes it."
+  },
+  {
+    "id": 8,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Ik heb van de hele situatie niets begrepen. Alles verliep als in een droom.",
+    "englishAudioTranslation": "I didn't understand anything about the whole situation. Everything went like a dream.",
+    "options": [
+      "De vrouw heeft niets begrepen.",
+      "De vrouw droomde.",
+      "De vrouw heeft alles begrepen."
+    ],
+    "correctIndex": 0,
+    "explanation": "The woman says she didn't understand anything ('niets begrepen')."
+  },
+  {
+    "id": 9,
+    "dutchQuestion": "En, hoe was je gesprek?",
+    "englishQuestionTranslation": "And, how was your conversation?",
+    "audioTranscript": "Ik moet nauwkeuriger werken, heeft de baas gezegd.",
+    "englishAudioTranslation": "I need to work more accurately, the boss said.",
+    "options": [
+      "De medewerker is nauwkeurig.",
+      "De baas wordt nauwkeuriger.",
+      "De baas is niet nauwkeurig genoeg.",
+      "De medewerker is niet nauwkeurig genoeg."
+    ],
+    "correctIndex": 3,
+    "explanation": "The boss told the employee to work more accurately, implying the employee is currently not accurate enough."
+  },
+  {
+    "id": 10,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Er wordt gezegd dat er mensen ontslagen zullen worden.",
+    "englishAudioTranslation": "It is said that people will be fired.",
+    "options": [
+      "Medewerkers dienen ontslag.",
+      "Medewerkers zijn al ontslagen.",
+      "Medewerkers zullen eventueel ontslagen worden.",
+      "Medewerkers worden ontslagen."
+    ],
+    "correctIndex": 2,
+    "explanation": "The audio uses the future tense 'zullen worden' (will be), which matches 'zullen eventueel ontslagen worden'."
+  },
+  {
+    "id": 11,
+    "dutchQuestion": "Wat wil de spreker eigenlijk zeggen?",
+    "englishQuestionTranslation": "What does the speaker actually want to say?",
+    "audioTranscript": "Zelfs als hij 50 uur per week zou werken, heeft hij niet genoeg tijd om al het werk af te maken.",
+    "englishAudioTranslation": "Even if he were to work 50 hours a week, he doesn't have enough time to finish all the work.",
+    "options": [
+      "Hij werkt 50 uur per week.",
+      "Hij doet al zijn werk.",
+      "Hij heeft genoeg tijd om te werken.",
+      "Hij krijgt zijn werk niet klaar."
+    ],
+    "correctIndex": 3,
+    "explanation": "The speaker says he doesn't have enough time to finish the work, meaning he cannot get it done."
+  },
+  {
+    "id": 12,
+    "dutchQuestion": "Wat wil de spreker eigenlijk zeggen?",
+    "englishQuestionTranslation": "What does the speaker actually want to say?",
+    "audioTranscript": "We hadden een picknick gepland, maar ze hebben slecht weer voorspeld.",
+    "englishAudioTranslation": "We had planned a picnic, but they predicted bad weather.",
+    "options": [
+      "We zullen een andere activiteit moeten bedenken.",
+      "We hadden een andere activiteit moeten vinden.",
+      "We zochten andere activiteiten.",
+      "We hebben een andere activiteit."
+    ],
+    "correctIndex": 0,
+    "explanation": "Since the picnic is cancelled due to bad weather, they will need to think of a new activity."
+  },
+  {
+    "id": 13,
+    "dutchQuestion": "Wat is juist?",
+    "englishQuestionTranslation": "What is correct?",
+    "audioTranscript": "Ik kan morgen niet op tijd zijn voor de vergadering, want ik zit bij mijn boekhouder.",
+    "englishAudioTranslation": "I cannot be on time for the meeting tomorrow, because I am with my accountant.",
+    "options": [
+      "De man heeft een afspraak met de boekhouder.",
+      "De man heeft een boek.",
+      "De man zit naast de boekhouder.",
+      "De man is de boekhouder."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man says he is with his accountant, which implies an appointment."
+  },
+  {
+    "id": 14,
+    "dutchQuestion": "Hoe laat is de koerier vertrokken?",
+    "englishQuestionTranslation": "What time did the courier leave?",
+    "audioTranscript": "Het pakje voor de firma Klaas is al weg sinds kwart voor drie. Het pakje voor Kramer sinds kwart over drie.",
+    "englishAudioTranslation": "The package for the Klaas firm has been gone since 2:45. The package for Kramer since 3:15.",
+    "options": [
+      "om 15 uur",
+      "om 15u15",
+      "om 14u45"
+    ],
+    "correctIndex": 2,
+    "explanation": "The courier for the Klaas firm left at 2:45 (kwart voor drie), which is 14:45."
+  },
+  {
+    "id": 15,
+    "dutchQuestion": "Welk telefoonnummer heeft de vrouw?",
+    "englishQuestionTranslation": "Which phone number does the woman have?",
+    "audioTranscript": "En mijn GSM-nummer is 058-151801.",
+    "englishAudioTranslation": "And my mobile number is 058-151801.",
+    "options": [
+      "058-51.81.01",
+      "058-51.18.01",
+      "058-51.92.01"
+    ],
+    "correctIndex": 1,
+    "explanation": "The woman states her number is 058-151801, which matches the second option."
+  },
+  {
+    "id": 16,
+    "dutchQuestion": "Welk telefoonnummer heeft het bedrijf?",
+    "englishQuestionTranslation": "Which phone number does the company have?",
+    "audioTranscript": "Dus het nummer van de firma is toch 058 51 82 01 of niet soms? Het nummer heb je verkeerd genoteerd. Het is 085 51 81 01 en mijn GSM-nummer is 058 15 18 01.",
+    "englishAudioTranslation": "So the company's number is 058 51 82 01, right? You wrote the number down wrong. It is 085 51 81 01 and my mobile number is 058 15 18 01.",
+    "options": [
+      "085 51 81 01",
+      "058 15 18 01",
+      "058 51 82 01"
+    ],
+    "correctIndex": 0,
+    "explanation": "The speaker corrects the listener, stating the company's number is 085 51 81 01."
+  },
+  {
+    "id": 17,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik begrijp niet waarom mijn bankkaart het niet doet. Misschien staat er niet voldoende geld op je rekening. Onzin, ik heb vorige week 1500 euro gestort.",
+    "englishAudioTranslation": "I don't understand why my bank card isn't working. Maybe there isn't enough money in your account. Nonsense, I deposited 1500 euros last week.",
+    "options": [
+      "Er staat veel geld op de rekening.",
+      "Er staat geen geld op de rekening.",
+      "Hij heeft net een nieuwe rekening geopend waarmee hij tevreden is."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man states he deposited 1500 euros, implying there is money in the account."
+  },
+  {
+    "id": 18,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "De trein met bestemming Amsterdam vertrekt van spoor 7 en niet van spoor 10. Ik herhaal, de trein met bestemming Amsterdam vertrekt van spoor 7 in plaats van spoor 10.",
+    "englishAudioTranslation": "The train to Amsterdam departs from platform 7 and not from platform 10. I repeat, the train to Amsterdam departs from platform 7 instead of platform 10.",
+    "options": [
+      "De trein vertrekt van spoor 10.",
+      "De trein vertrekt van spoor 9.",
+      "De trein vertrekt van spoor 7."
+    ],
+    "correctIndex": 2,
+    "explanation": "The announcement explicitly states the train departs from platform 7."
+  },
+  {
+    "id": 19,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Dames en heren, de laatste oproep voor vlucht 758 van KLM met bestemming Brussel is om kwart over drie.",
+    "englishAudioTranslation": "Ladies and gentlemen, the final call for flight 758 from KLM to Brussels is at 3:15.",
+    "options": [
+      "De laatste oproep voor vlucht 758 is om 15u55.",
+      "De laatste oproep voor vlucht 758 is om 16u45.",
+      "De laatste oproep voor vlucht 758 is om 15u15."
+    ],
+    "correctIndex": 2,
+    "explanation": "The announcement states the time is 3:15, which is 15:15."
+  },
+  {
+    "id": 20,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Hoi Marieke, ik heb een probleem. Ik moet nog even op kantoor langs, want ik heb mijn huissleutels op mijn bureau laten liggen. Ik kom daarna naar je toe en pik je op. Oei Bert, dat is geen goed idee. Mijn trein vertrekt stipt om 5 uur. Als je nu nog langs kantoor rijdt, dan wordt dat echt te laat. Ik ga wel alleen naar het station.",
+    "englishAudioTranslation": "Hi Marieke, I have a problem. I have to stop by the office because I left my house keys on my desk. I'll come to you afterwards and pick you up. Oh Bert, that's not a good idea. My train leaves promptly at 5 o'clock. If you drive by the office now, it will be too late. I'll go to the station alone.",
+    "options": [
+      "De man gaat eerst naar huis en komt Marieke later halen.",
+      "De man komt meteen op het kantoor langs om Marieke mee te nemen.",
+      "Marieke kan niet wachten tot de man komt en gaat alleen."
+    ],
+    "correctIndex": 2,
+    "explanation": "Marieke decides to go to the station alone because Bert's detour would make her miss her train."
+  },
+  {
+    "id": 21,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "De klant wil een korting op zijn bestelling. Is dat mogelijk? Dat kan eventueel, als hij even op zijn levering kan wachten. Ik kijk de bestelbon nog even na om te zien welke korting we de klant kunnen bieden.",
+    "englishAudioTranslation": "The customer wants a discount on his order. Is that possible? That might be possible if he can wait for his delivery. I'll check the order form to see what discount we can offer the customer.",
+    "options": [
+      "De klant krijgt zijn bestelling.",
+      "De persoon wil de bestelbon nog eens herzien om een korting aan te kunnen bieden.",
+      "De klant krijgt zijn bestelling niet."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker says they will check the order form to see what discount can be offered."
+  },
+  {
+    "id": 22,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Hoi Karel, ik wilde je informeren over het feit dat ik van afdeling ben veranderd en daardoor op mijn oude telefoonnummer niet meer te bereiken ben. Ik zal van nu af aan op een nieuw nummer te bereiken zijn.",
+    "englishAudioTranslation": "Hi Karel, I wanted to inform you that I have changed departments and therefore can no longer be reached at my old phone number. From now on, I will be reachable at a new number.",
+    "options": [
+      "De vrouw heeft zijn telefoon verloren.",
+      "De vrouw zal niet meer bereikbaar zijn per telefoon.",
+      "De firma heeft de vrouw een nieuw telefoonnummer gegeven."
+    ],
+    "correctIndex": 2,
+    "explanation": "The woman informs Karel that she has a new number due to changing departments."
+  },
+  {
+    "id": 23,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Goedendag, ik heb zoals gewoonlijk 200 stuks besteld, maar uw collega heeft me zonet over uw nieuwe product wat meer uitleg gegeven. Op basis van deze informatie had ik mijn bestaande bestelling graag vervangen door een bestelling van het nieuwe product. Is dat mogelijk?",
+    "englishAudioTranslation": "Good day, I ordered 200 pieces as usual, but your colleague just gave me more information about your new product. Based on this information, I would like to replace my existing order with an order for the new product. Is that possible?",
+    "options": [
+      "De man wil andere goederen bij de firma kopen en verandert zijn bestelling.",
+      "De man wil zijn bestelling annuleren.",
+      "De man wil informatie over het nieuwe product."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man wants to replace his current order with the new product."
+  },
+  {
+    "id": 24,
+    "dutchQuestion": "Hoe laat komt de klant aan?",
+    "englishQuestionTranslation": "What time does the customer arrive?",
+    "audioTranscript": "Dus de trein komt om 8:20 in Amsterdam aan. De klant haalt u daar om 8:25 op en brengt u om 8:30 naar de beurs.",
+    "englishAudioTranslation": "So the train arrives in Amsterdam at 8:20. The customer will pick you up there at 8:25 and take you to the fair at 8:30.",
+    "options": [
+      "Om 8u30.",
+      "Om 8u25.",
+      "Om 8u20."
+    ],
+    "correctIndex": 2,
+    "explanation": "The train arrives at 8:20."
+  },
+  {
+    "id": 25,
+    "dutchQuestion": "Hoe laat vertrekt de trein?",
+    "englishQuestionTranslation": "What time does the train depart?",
+    "audioTranscript": "Je moet je wel haasten bij het overstappen. Je hebt 5 minuten tijd, want je komt om 10 over 6 aan en de trein naar Oostende vertrekt om 6 uur 16 vanaf Brussel-Zuid.",
+    "englishAudioTranslation": "You have to hurry when transferring. You have 5 minutes, because you arrive at 10 past 6 and the train to Ostend departs at 6:16 from Brussels-South.",
+    "options": [
+      "Om 6u 16.",
+      "Om 16u 5.",
+      "Om 06u 16"
+    ],
+    "correctIndex": 0,
+    "explanation": "The train departs at 6:16."
+  },
+  {
+    "id": 26,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik ben gebleven tot de resultaten van het gesprek bekend waren. Daarna heb ik Klaas gebeld om hem het resultaat mee te delen.",
+    "englishAudioTranslation": "I stayed until the results of the conversation were known. Afterwards, I called Klaas to share the result with him.",
+    "options": [
+      "Marieke en Klaas vertrokken.",
+      "Marieke en Klaas wachten het resultaat van het gesprek af.",
+      "Na het gesprek vertrekt Marieke direct."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker waited for the results before calling Klaas."
+  },
+  {
+    "id": 27,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik heb een probleem. Mijn GSM werd gestolen. Maar directeur, hoe kunnen we u dan bereiken? Ik bel wel even als ik er ben. Je zegt aan iedereen dat ze jou bellen in geval van een probleem en als ik je bel, kunnen we het dan daarover hebben.",
+    "englishAudioTranslation": "I have a problem. My mobile phone was stolen. But director, how can we reach you then? I'll call when I'm there. You tell everyone to call you in case of a problem, and if I call you, we can talk about it then.",
+    "options": [
+      "Je kan de directeur van de redactie niet bellen.",
+      "Iedereen belt de directeur van de redactie.",
+      "De directeur van de redactie belt iedereen zodra hij er is."
+    ],
+    "correctIndex": 2,
+    "explanation": "The director instructs the employee to have everyone call them, and the director will call the employee back."
+  },
+  {
+    "id": 28,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Hoi Linda, hoe schiet jij op met je project? Oh, heel goed. Ben bijna klaar. Hoe doe je dat? Eerst had ik problemen met de administratie. Nu blijken maar leveranciers mijn producten niet meer te produceren. Nou, en zo kan ik wel door blijven gaan. Het is eigenlijk heel simpel. Je komt telkens weer in domme situaties terecht.",
+    "englishAudioTranslation": "Hi Linda, how are you getting on with your project? Oh, very well. Almost done. How do you do that? At first I had problems with the administration. Now it turns out that suppliers are no longer producing my products. Well, and I can keep going like that. It's actually very simple. You keep ending up in stupid situations.",
+    "options": [
+      "Het project van Jan wil maar niet opschieten.",
+      "Het project is veel gemakkelijker dan Jan dacht.",
+      "Het project van Jan gaat er goed op vooruit."
+    ],
+    "correctIndex": 1,
+    "explanation": "Linda says her project is going very well and she is almost done, which is easier than expected."
+  },
+  {
+    "id": 29,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Lieve studenten, jullie gaan bij ons veel groepswerk doen. Jullie zullen elkaar evalueren en dat vier keer tot het einde van het jaar. Jullie werken in groepen van vier.",
+    "englishAudioTranslation": "Dear students, you will do a lot of group work with us. You will evaluate each other four times until the end of the year. You work in groups of four.",
+    "options": [
+      "Ze worden 4 keer per jaar beoordeeld.",
+      "Ze beoordelen elk 4 personen uit de groep.",
+      "Er zijn vier personen die ze iedere keer beoordelen."
+    ],
+    "correctIndex": 0,
+    "explanation": "The students will evaluate each other four times a year."
+  },
+  {
+    "id": 30,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik laat mijn auto repareren na dat ongeluk van verleden week. Je hebt een goede verzekering zeg, dat gaat vlug. Dat is mijn verzekering niet. Die kerel heeft mij de voorrang niet gegeven, vandaar dat zijn verzekering alles moet betalen.",
+    "englishAudioTranslation": "I'm having my car repaired after that accident last week. You have good insurance, that's fast. That's not my insurance. That guy didn't give me right of way, so his insurance has to pay for everything.",
+    "options": [
+      "De verzekeringsmaatschappij betaalt reparaties voor Jan.",
+      "Jan heeft geen verzekering.",
+      "Jan werkt voor een verzekeringsmaatschappij."
+    ],
+    "correctIndex": 0,
+    "explanation": "The other driver's insurance is paying for the repairs."
+  },
+  {
+    "id": 31,
+    "dutchQuestion": "Wat heeft u begrepen?",
+    "englishQuestionTranslation": "What did you understand?",
+    "audioTranscript": "Ik kan niet meer met mijn zakenpartner samenwerken. Ik vertrouw hem voor geen meter meer en ik ga zo snel mogelijk een einde maken aan ons partnerschap.",
+    "englishAudioTranslation": "I can no longer work with my business partner. I do not trust him one bit anymore and I will end our partnership as soon as possible.",
+    "options": [
+      "Ik blijf bij mijn partner.",
+      "Ik heb een betrouwbare partner.",
+      "Ik heb geen betrouwbare partner meer."
+    ],
+    "correctIndex": 2,
+    "explanation": "The speaker explicitly states that he no longer trusts his business partner at all (\"vertrouw hem voor geen meter meer\") and plans to terminate the partnership immediately, meaning he no longer has a trustworthy partner."
+  },
+  {
+    "id": 32,
+    "dutchQuestion": "Ik heb met de klant nog voor de vergadering alles kunnen bespreken.",
+    "englishQuestionTranslation": "I was able to discuss everything with the client before the meeting.",
+    "audioTranscript": "Ik had alles mooi gepland. De vergadering begon om 2 uur. Ik had nog een afspraak om 10 uur. Dus had ik nog ruim schoots tijd tot de vergadering begon. Maar mijn klant had een uur vertraging met de trein en kwam daarna met de taxi nog in de file te staan op de grote ring rond Brussel. We hebben daarom heel snel ons gesprek gevoerd en alles in de auto op de weg van mijn bureau naar de vergadering in de hoofdzetel van de firma besproken.",
+    "englishAudioTranslation": "I had everything planned nicely. The meeting started at 2 o'clock. I had another appointment at 10 o'clock. So I had plenty of time before the meeting started. But my client was an hour late with the train and then got stuck in traffic in a taxi on the big ring around Brussels. We therefore had our conversation very quickly and discussed everything in the car on the way from my office to the meeting at the company's headquarters.",
+    "options": [
+      "Ik heb met de klant nog voor de vergadering alles kunnen bespreken.",
+      "Ik kwam te laat voor de vergadering.",
+      "Ik had nog veel tijd tot de vergadering begon."
+    ],
+    "correctIndex": 0,
+    "explanation": "The speaker confirms they discussed everything in the car on the way to the meeting."
+  },
+  {
+    "id": 33,
+    "dutchQuestion": "Hoeveel kost het treinkaartje op en neer naar Gent?",
+    "englishQuestionTranslation": "How much does the train ticket to and from Ghent cost?",
+    "audioTranscript": "Een enkeltje naar Gent kost 125 euro. Naar Haarlem 135 euro. Bij heen en terug naar Gent kom je op 250 euro. En bij Haarlem wordt dat 270 euro.",
+    "englishAudioTranslation": "A one-way ticket to Ghent costs 125 euros. To Haarlem 135 euros. For a round trip to Ghent you come to 250 euros. And for Haarlem that becomes 270 euros.",
+    "options": [
+      "125 €",
+      "250 €",
+      "135 €",
+      "270 €"
+    ],
+    "correctIndex": 1,
+    "explanation": "The audio states a round trip to Ghent costs 250 euros."
+  },
+  {
+    "id": 34,
+    "dutchQuestion": "Hoeveel kost de reis voor de hele groep?",
+    "englishQuestionTranslation": "How much does the trip cost for the whole group?",
+    "audioTranscript": "Ik heb de reis naar New York laten berekenen. Voor de hele groep komen we op 6598 euro. Met de korting van de firma wordt dat dan 5698 euro. Dat valt best wel mee.",
+    "englishAudioTranslation": "I had the trip to New York calculated. For the whole group we come to 6598 euros. With the company discount that becomes 5698 euros. That's not too bad.",
+    "options": [
+      "6598 €",
+      "6589 €",
+      "6698 €"
+    ],
+    "correctIndex": 1,
+    "explanation": "The audio states the discounted price is 5698 euros."
+  },
+  {
+    "id": 35,
+    "dutchQuestion": "Hoeveel mensen gaan mee?",
+    "englishQuestionTranslation": "How many people are going?",
+    "audioTranscript": "Eigenlijk zou de hele groep meegaan, maar Rosa is ziek en Piet zit in Zwitserland aan het nieuwe project te werken. Dus blijven er maar drie van de vijf over.",
+    "englishAudioTranslation": "Actually the whole group would go, but Rosa is sick and Piet is in Switzerland working on the new project. So only three of the five remain.",
+    "options": [
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "The audio states that only three of the five people are going."
+  },
+  {
+    "id": 36,
+    "dutchQuestion": "De situatie is erg goed.",
+    "englishQuestionTranslation": "The situation is very good.",
+    "audioTranscript": "Mijn klanten kunnen de rekeningen niet meer betalen en ik zit ook erg krap, want er is steeds minder vraag en de concurrentie is op dit moment sterker dan ooit. Ik weet niet wanneer we het einde van de tunnel bereiken, maar als er niet gauw meer vraag komt, dan zal ik failliet gaan.",
+    "englishAudioTranslation": "My clients can no longer pay the bills and I am also very tight, because there is less and less demand and the competition is stronger than ever at the moment. I don't know when we will reach the end of the tunnel, but if there isn't more demand soon, then I will go bankrupt.",
+    "options": [
+      "De situatie is erg goed.",
+      "De situatie is nog nooit zo slecht geweest.",
+      "Het is erg ingewikkeld op dit moment."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speaker describes the situation as dire, implying it has never been this bad."
+  },
+  {
+    "id": 37,
+    "dutchQuestion": "De persoon leert veel in de firma.",
+    "englishQuestionTranslation": "The person learns a lot in the company.",
+    "audioTranscript": "Ik loop deze week stage in een groot bedrijf. Ik leer erg veel over de structuur en de verschillende afdelingen in een firma. Hoe groter de firma, hoe ingewikkelder de structuur en de verdeling van werk en verantwoordelijkheid.",
+    "englishAudioTranslation": "I am doing an internship at a large company this week. I learn a lot about the structure and the different departments in a company. The larger the company, the more complex the structure and the distribution of work and responsibility.",
+    "options": [
+      "De verantwoordelijkheid van de persoon is ingewikkeld.",
+      "De persoon werkt in een klein bedrijf.",
+      "De persoon heeft veel verantwoordelijkheid.",
+      "De persoon leert veel in de firma."
+    ],
+    "correctIndex": 3,
+    "explanation": "The speaker explicitly states they are learning a lot about the company's structure."
+  },
+  {
+    "id": 38,
+    "dutchQuestion": "De vrouw weet niet of de contracten zullen worden ondertekend.",
+    "englishQuestionTranslation": "The woman does not know if the contracts will be signed.",
+    "audioTranscript": "Ik wil graag weten of de contracten van de stagiaires worden ondertekend. Ik weet dat niet, maar ik denk van niet, want ze blijven maar twee weken. Maar we kunnen hen toch geen contracten geven die niet ondertekend zijn. Als je hen een contract wil geven, moet het op zijn minst ondertekend zijn.",
+    "englishAudioTranslation": "I would like to know if the interns' contracts are being signed. I don't know that, but I don't think so, because they only stay for two weeks. But we can't give them contracts that aren't signed. If you want to give them a contract, it must at least be signed.",
+    "options": [
+      "De vrouw eist dat de contracten worden ondertekend.",
+      "De vrouw wil het arbeidscontract niet ondertekenen.",
+      "De vrouw weet niet of de contracten zullen worden ondertekend."
+    ],
+    "correctIndex": 2,
+    "explanation": "The woman asks if they will be signed and expresses uncertainty."
+  },
+  {
+    "id": 39,
+    "dutchQuestion": "Wanneer is de firma het best bereikbaar?",
+    "englishQuestionTranslation": "When is the company best reachable?",
+    "audioTranscript": "We zijn bereikbaar tijdens onze openingsuren, maandag tot en met donderdag van 7 tot 12 en van 2 tot 5 en op vrijdag van 8 tot 6. Op zaterdag kunt u ons van 7 tot 12 telefonisch bereiken.",
+    "englishAudioTranslation": "We are reachable during our opening hours, Monday to Thursday from 7 to 12 and from 2 to 5 and on Friday from 8 to 6. On Saturday you can reach us by phone from 7 to 12.",
+    "options": [
+      "vrijdag",
+      "donderdag",
+      "maandag"
+    ],
+    "correctIndex": 2,
+    "explanation": "The company is reachable Monday through Thursday."
+  },
+  {
+    "id": 40,
+    "dutchQuestion": "Je mag het jasje niet meer kunnen ruilen.",
+    "englishQuestionTranslation": "You may not be able to exchange the jacket anymore.",
+    "audioTranscript": "Dat is dan 43 euro. Echt niet veel voor zo'n leuke jas. En het is de laatste in deze kleur. Maar ik moet u erop wijzen dat ik afgeprijsde kleding niet mag terugnemen.",
+    "englishAudioTranslation": "That is then 43 euros. Really not much for such a nice jacket. And it is the last one in this color. But I must point out to you that I am not allowed to take back discounted clothing.",
+    "options": [
+      "Het jasje is goedkoop vanwege de kleur.",
+      "Het jasje zou in de was kunnen verkleuren.",
+      "Je mag het jasje niet meer kunnen ruilen."
+    ],
+    "correctIndex": 2,
+    "explanation": "The cashier states that discounted items cannot be returned or exchanged."
+  },
+  {
+    "id": 41,
+    "dutchQuestion": "Wanneer vindt de vergadering plaats?",
+    "englishQuestionTranslation": "When does the meeting take place?",
+    "audioTranscript": "Zullen we de vergadering op maandag 4 uur zetten? Maandag kan ik niet. Kunnen we hem niet op donderdag om 5 uur doen of op vrijdag om 10 uur? Laten we maar vrijdag doen, want op donderdag kan ik niet.",
+    "englishAudioTranslation": "Shall we set the meeting for Monday at 4 o'clock? I can't on Monday. Can't we do it on Thursday at 5 o'clock or on Friday at 10 o'clock? Let's do Friday, because I can't on Thursday.",
+    "options": [
+      "vrijdag",
+      "donderdag",
+      "maandag"
+    ],
+    "correctIndex": 0,
+    "explanation": "The speakers agree to meet on Friday."
+  },
+  {
+    "id": 42,
+    "dutchQuestion": "Wat voor weer is het tijdens dit gesprek?",
+    "englishQuestionTranslation": "What is the weather like during this conversation?",
+    "audioTranscript": "Het is echt rotweer. Ja, dat kan je wel zeggen. En het houdt maar niet op. We kunnen er niets aan doen. Maar eigenlijk mogen we niet klagen als je hoort wat er in andere landen gebeurt. Dat klopt, we zijn nooit tevreden. We hebben altijd iets te klagen. Zo erg is het nu ook weer niet. Nee, dat valt best wel mee.",
+    "englishAudioTranslation": "It's really bad weather. Yes, you can say that. And it just won't stop. We can't do anything about it. But actually we shouldn't complain if you hear what's happening in other countries. That's true, we are never satisfied. We always have something to complain about. It's not that bad now. No, that's not too bad.",
+    "options": [
+      "Het is heel mooi weer.",
+      "Het regent en het is nat.",
+      "Dat kunnen we niet weten."
+    ],
+    "correctIndex": 1,
+    "explanation": "The speakers describe the weather as 'rotweer' (bad weather) and mention it won't stop, implying rain."
+  },
+  {
+    "id": 43,
+    "dutchQuestion": "Wat wordt apart afgerekend?",
+    "englishQuestionTranslation": "What is billed separately?",
+    "audioTranscript": "Er zijn verschillende vruchtensappen. Lokaal bier en wijn zijn in de prijs inbegrepen. Als u geïmporteerde alcoholische dranken wilt drinken, worden deze gewoon op de rekening van uw kamer gezet.",
+    "englishAudioTranslation": "There are various fruit juices. Local beer and wine are included in the price. If you want to drink imported alcoholic drinks, these are simply put on your room bill.",
+    "options": [
+      "bier en wijn",
+      "alles uit de koelkast, behalve bier",
+      "geïmporteerde alcoholische dranken"
+    ],
+    "correctIndex": 2,
+    "explanation": "The audio states that imported alcoholic drinks are added to the room bill separately."
+  },
+  {
+    "id": 44,
+    "dutchQuestion": "Wat bestelt de vrouw?",
+    "englishQuestionTranslation": "What does the woman order?",
+    "audioTranscript": "Deze keer neem ik mosselen. Kunt u de salade die daarbij hoort door frietjes vervangen?",
+    "englishAudioTranslation": "This time I'll have mussels. Can you replace the salad that comes with it with fries?",
+    "options": [
+      "mosselen met salade",
+      "mosselen met frietjes",
+      "mosselen met salade en frietjes",
+      "groentesoep"
+    ],
+    "correctIndex": 1,
+    "explanation": "The woman orders mussels and asks to replace the salad with fries."
+  },
+  {
+    "id": 45,
+    "dutchQuestion": "Wat moet je 's morgens doen?",
+    "englishQuestionTranslation": "What do you have to do in the morning?",
+    "audioTranscript": "S'morgens moet je eerst alle mails beantwoorden. Daarna moeten er berichten voor de baas worden getikt.",
+    "englishAudioTranslation": "In the morning you must first answer all emails. Then messages for the boss must be typed.",
+    "options": [
+      "koffie bestellen",
+      "vragen beantwoorden",
+      "mails beantwoorden en berichten tikken."
+    ],
+    "correctIndex": 2,
+    "explanation": "The audio explicitly lists answering emails and typing messages as morning tasks."
+  },
+  {
+    "id": 46,
+    "dutchQuestion": "Waarover spreekt de man?",
+    "englishQuestionTranslation": "What is the man talking about?",
+    "audioTranscript": "Goedendag, ik ben jullie nieuwe leraar. Ik zou jullie dit jaar begeleiden en ik heb in de laatste 10 maanden op deze school met veel studenten samengewerkt aan hun stages.",
+    "englishAudioTranslation": "Good day, I am your new teacher. I will be guiding you this year and I have worked with many students at this school over the last 10 months on their internships.",
+    "options": [
+      "over de school",
+      "over zichzelf",
+      "over de stages van de studenten"
+    ],
+    "correctIndex": 2,
+    "explanation": "The man introduces himself as the new teacher and mentions his work with students on their internships."
+  },
+  {
+    "id": 47,
+    "dutchQuestion": "Wat gebeurt er?",
+    "englishQuestionTranslation": "What is happening?",
+    "audioTranscript": "De rekening voor de Audi werd nog niet betaald. Waarom niet? Ik heb de overschrijving van de klant toch teruggevonden? Nee, dat bedrag van 31.000 euro is niet de Audi, maar de Mercedes die verleden maand werd verkocht. Dat kan niet. Je moet je vergist hebben. Laat mij die overschrijving zien. Hier heb je hem. Nee, maar dat is niet de juiste klant. Je hebt bij de overschrijving van de verkeerde firma gekeken.",
+    "englishAudioTranslation": "The bill for the Audi has not been paid yet. Why not? I found the customer's transfer, didn't I? No, that amount of 31,000 euros is not the Audi, but the Mercedes that was sold last month. That cannot be. You must have made a mistake. Let me see that transfer. Here you go. No, but that is not the right customer. You looked at the transfer from the wrong company.",
+    "options": [
+      "De man verwisselt de boekhouding van verschillende klanten.",
+      "De vrouw heeft zich vergist in de boekhouding.",
+      "De Mercedes werd niet betaald."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man points out that the woman confused the transfer from the wrong company (customer)."
+  },
+  {
+    "id": 48,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Ik heb de baas gebeld. Hij heeft mij het goede adres gegeven. Oh, ik weet waar dat is. Je rijdt eerst links, dan rechtdoor en weer links en dan de eerste rechts. Het gebouw is aan je linkerhand aan het einde van de straat.",
+    "englishAudioTranslation": "I called the boss. He gave me the right address. Oh, I know where that is. You drive left first, then straight ahead and left again and then the first right. The building is on your left hand at the end of the street.",
+    "options": [
+      "De man weet precies waar het gebouw ligt.",
+      "De man heeft het adres niet en moet uitleg hebben.",
+      "De vrouw weet hoe ze erheen moet gaan.",
+      "De baas legt uit waar het gebouw ligt."
+    ],
+    "correctIndex": 0,
+    "explanation": "The man explains the directions to the building, showing he knows exactly where it is."
+  },
+  {
+    "id": 49,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Het spijt me verschrikkelijk, maar de agenda van de directeur is echt erg vol. Ik heb nog maar een paar mogelijkheden. Een afspraak op maandag kan niet, want hij is er nooit op maandag. Woensdag is hij 's middags weg en de andere dagen zitten gewoon erg vol. En als we nu toch woensdag nemen, maar in de middag? Dat zou kunnen, als we er een korte afspraak van maken.",
+    "englishAudioTranslation": "I am terribly sorry, but the director's schedule is really very full. I only have a few options left. An appointment on Monday is not possible, because he is never there on Monday. Wednesday he is away in the afternoon and the other days are just very full. And if we take Wednesday after all, but in the afternoon? That could work, if we make it a short appointment.",
+    "options": [
+      "De directeur werkt nooit op maandag.",
+      "De directeur maakt enkel korte afspraken.",
+      "De directeur wil met niemand meer spreken."
+    ],
+    "correctIndex": 0,
+    "explanation": "The speaker explicitly states that an appointment on Monday is impossible because the director is never there on Mondays."
+  },
+  {
+    "id": 50,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Ik wil graag een bestelling doorgeven. Wat wilt u bestellen? Uw nieuwe printer die zo goed lijkt te zijn. Ik weet niet of hij zo goed is, maar in ieder geval is hij goedkoop.",
+    "englishAudioTranslation": "I would like to place an order. What would you like to order? Your new printer that seems to be so good. I don't know if it is that good, but at least it is cheap.",
+    "options": [
+      "De vrouw vindt het nieuwe product goed.",
+      "De man vindt het nieuwe product goed.",
+      "Men zegt dat het nieuwe product van de firma heel goed is."
+    ],
+    "correctIndex": 2,
+    "explanation": "The man says he doesn't know if the printer is good, but it is cheap, implying the general reputation is that it is good."
+  },
+  {
+    "id": 51,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Laten we vanavond pannenkoeken maken. Ik lust geen pannenkoeken. We hebben geen meel meer, maar er zijn eieren en spek en We kunnen een omelet maken.",
+    "englishAudioTranslation": "Let's make pancakes tonight. I don't like pancakes. We have no flour left, but there are eggs and bacon and We can make an omelet.",
+    "options": [
+      "De vrouw wil geen omelet maken.",
+      "De man wil een omelet maken.",
+      "De vrouw lust pannenkoeken.",
+      "De man lust pannenkoeken."
+    ],
+    "correctIndex": 1,
+    "explanation": "The man suggests making an omelet after the woman says she doesn't like pancakes."
+  },
+  {
+    "id": 52,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Hoe gaat het ermee? Alles goed en met jou? Ook alles goed. Maar zeg, heb jij het dossier van die nieuwe architect gezien? Je weet wel, die daar midden in de stad het hotel moet ombouwen tot een rusthuis. Ja, dat dossier is vanmorgen weer opgedoken. Iemand heeft het bij de collega's op de derde verdieping laten liggen.",
+    "englishAudioTranslation": "How are things? Everything good and with you? Everything is good too. But tell me, have you seen the file of that new architect? You know, the one who has to convert the hotel into a nursing home in the middle of the city. Yes, that file turned up again this morning. Someone left it with the colleagues on the third floor.",
+    "options": [
+      "De vrouw heeft het dossier naar de derde verdieping gebracht.",
+      "Het dossier ligt in het rusthuis.",
+      "De man vraagt of het dossier dat kwijtgeraakt was, weer is opgedoken."
+    ],
+    "correctIndex": 2,
+    "explanation": "The man asks if the file that was lost has turned up again, and the woman confirms it has."
+  },
+  {
+    "id": 53,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Er is geen enkele balpen die schrijft. Dat kan echt niet. Ik heb gisteren nog een heel pakje nieuwe pennen gekocht.",
+    "englishAudioTranslation": "There is not a single ballpoint pen that writes. That really cannot be. I bought a whole pack of new pens yesterday.",
+    "options": [
+      "De balpennen van de vrouw doen het niet.",
+      "De man heeft gisteren nog pas met een balpen geschreven.",
+      "De man is op zoek naar een balpen.",
+      "De vrouw heeft balpennen gekocht."
+    ],
+    "correctIndex": 3,
+    "explanation": "The woman states she bought a new pack of pens yesterday, which is why she is frustrated they don't work."
+  },
+  {
+    "id": 54,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Met dit appartement hebben we echt een goede keuze gemaakt. De kamers zijn allemaal groot en op het zuiden gericht. Maar het balkon ligt op het westen. De badkamer is groot. Maar er is geen groot bad, enkel een grote douche.",
+    "englishAudioTranslation": "We really made a good choice with this apartment. The rooms are all large and face south. But the balcony faces west. The bathroom is large. But there is no large bath, only a large shower.",
+    "options": [
+      "De vrouw wil geen bad in de badkamer.",
+      "De man vindt het appartement best wel in orde.",
+      "De vrouw wil een appartement met een balkon dat westelijk gericht is."
+    ],
+    "correctIndex": 1,
+    "explanation": "The man says they made a good choice, indicating he finds the apartment in order."
+  },
+  {
+    "id": 55,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Met deze koffiemachine heeft u een echt voordeel. Ze produceert niet alleen hele goede koffie, maar ook warme melk zonder dat de machine voortdurend hoeft te worden schoongemaakt.",
+    "englishAudioTranslation": "With this coffee machine you have a real advantage. It produces not only very good coffee, but also warm milk without the machine having to be cleaned constantly.",
+    "options": [
+      "Ze is goedkoop.",
+      "Zij maakt betere koffie.",
+      "Men hoeft ze niet zo vaak schoon te maken."
+    ],
+    "correctIndex": 2,
+    "explanation": "The speaker highlights that the machine does not need to be cleaned constantly."
+  },
+  {
+    "id": 56,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Uw vliegtickets heb ik in uw tas gestopt, maar de envelop met documenten voor het contract heeft u? Nee, ik heb mijn vliegticket bij mij, maar ik heb geen contract. Dat heeft de baas. Klopt, deze tas is voor u. Er zitten alle documenten in voor de afspraak met de nieuwe klant, dus ook de envelop met het contract.",
+    "englishAudioTranslation": "I put your flight tickets in your bag, but do you have the envelope with documents for the contract? No, I have my flight ticket with me, but I have no contract. The boss has that. Correct, this bag is for you. It contains all the documents for the appointment with the new customer, including the envelope with the contract.",
+    "options": [
+      "De baas krijgt een envelop met een contract.",
+      "De man krijgt een envelop met een contract.",
+      "De vrouw krijgt een envelop met een contract."
+    ],
+    "correctIndex": 1,
+    "explanation": "The woman gives the bag containing the contract to the man."
+  },
+  {
+    "id": 57,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Ik voel me niet lekker. Dan kun je beter naar huis gaan en rust je even uit. Maar ik moet dat nu eerst nog even afmaken, want het is dringend. Laat maar, ik doe dat wel.",
+    "englishAudioTranslation": "I don't feel well. Then you better go home and rest for a while. But I have to finish that now, because it is urgent. Never mind, I'll do it.",
+    "options": [
+      "De vrouw is ziek.",
+      "De man wil het werk van de vrouw niet doen.",
+      "De vrouw vraagt collega of hij al haar werk kan doen."
+    ],
+    "correctIndex": 0,
+    "explanation": "The woman says she doesn't feel well, which is a common way to say she is sick."
+  },
+  {
+    "id": 58,
+    "dutchQuestion": "Wat drinkt de huisgenoot?",
+    "englishQuestionTranslation": "What does the housemate drink?",
+    "audioTranscript": "Bij het ontbijt zegt een huisgenoot: Wie heeft de laatste koffie gebruikt? Er is geen koffie meer. Nu moet ik melk of thee gaan drinken. Ik verdraag geen melk, dan maar thee.",
+    "englishAudioTranslation": "At breakfast, a housemate says: Who used the last coffee? There is no more coffee. Now I have to drink milk or tea. I cannot tolerate milk, so I'll have tea.",
+    "options": [
+      "koffie",
+      "melk",
+      "thee"
+    ],
+    "correctIndex": 2,
+    "explanation": "The housemate says they cannot tolerate milk and chooses tea."
+  },
+  {
+    "id": 59,
+    "dutchQuestion": "Wat is de situatie?",
+    "englishQuestionTranslation": "What is the situation?",
+    "audioTranscript": "Goedendag mevrouw, u wenst de rekening? Komt zo. Oh nee, het spijt me. U komt vanwege de baan. Ik herken u van de foto's op uw CV.",
+    "englishAudioTranslation": "Good day madam, you want the bill? Coming soon. Oh no, I'm sorry. You are coming because of the job. I recognize you from the photos on your CV.",
+    "options": [
+      "Zij heeft de persoon nog lang laten wachten.",
+      "Zij heeft de brief met de foto niet bij de hand.",
+      "Zij begrijpt niet waarvoor de persoon kwam."
+    ],
+    "correctIndex": 2,
+    "explanation": "The person at the desk initially thinks the woman wants the bill, then realizes she is there for a job interview."
+  },
+  {
+    "id": 60,
+    "dutchQuestion": "Wat gebeurt er?",
+    "englishQuestionTranslation": "What is happening?",
+    "audioTranscript": "Oké meneer, u kunt uw wagen hier neerzetten. Zet u de motor uit alstublieft. Zet u even de richtingaanwijzer rechts aan. Oké, nu links. Oké, nu even de lichten. Oh, om door de keuring te komen, moet u uw rechterlicht laten repareren.",
+    "englishAudioTranslation": "Okay sir, you can park your car here. Turn off the engine please. Turn on the right turn signal for a moment. Okay, now left. Okay, now the lights for a moment. Oh, to pass the inspection, you have to have your right light repaired.",
+    "options": [
+      "De richtingaanwijzers van de auto doen het niet.",
+      "De man moet zijn kapotte lichten vervangen.",
+      "De wagen komt zonder problemen door de keuring."
+    ],
+    "correctIndex": 1,
+    "explanation": "The inspector tells the man he needs to repair his right light to pass the inspection."
+  }
+]
